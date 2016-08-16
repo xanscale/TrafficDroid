@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Tangenziale Nord Di Milano -->
+<resources>
+	<string-array name="z238Name">
+		<item>Allacciamento Tangenziale Est Di Milano</item>
+		<item>Sesto S.Giovanni Sud: Cologno M.</item>
+		<item>Sesto S.Giovanni (Diramazione Nord)</item>
+		<item>Barriera Di Sesto S.Giovanni</item>
+		<item>Allacciamento A4 Torino-Trieste</item>
+		<item>Monza-S.Alessandro</item>
+		<item>Monza Centro: 1 Maggio</item>
+		<item>Cinisello B.-Robecco</item>
+		<item>SS36 Del Lago Di Como: Lecco-Monza</item>
+		<item>SP151 Cinisello B.Nord: Zona Industriale</item>
+		<item>SP131 Nova Milanese</item>
+		<item>SP9 Vecchia Valsassina</item>
+		<item>SP44 Milano-Meda: Lentate-Bruzzano</item>
+	</string-array>
+	<integer-array name="z238Id">
+		<item>2592</item>
+		<item>2593</item>
+		<item>2594</item>
+		<item>2595</item>
+		<item>2596</item>
+		<item>2597</item>
+		<item>2598</item>
+		<item>2599</item>
+		<item>2600</item>
+		<item>2601</item>
+		<item>2602</item>
+		<item>14020</item>
+		<item>2603</item>
+	</integer-array>
+	<string-array name="z238Webcam">
+		<item>H2592</item>
+		<item>H2593</item>
+		<item>H2594</item>
+		<item>Ssesto</item>
+		<item>Smonza</item>
+		<item>H2597</item>
+		<item>H2598</item>
+		<item>H2599</item>
+		<item>H2600</item>
+		<item>H2601</item>
+		<item>H2602</item>
+		<item>Spaderno</item>
+		<item>H2603</item>
+	</string-array>
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Milano - Varese -->
+<resources>
+
+	<string-array name="z143Name">
+		<item>Fiorenza-Allacciamento A4 (Milano V.Le Certosa)</item>
+		<item>Fiera Milano</item>
+		<item>Barriera Di Milano Nord</item>
+		<item>Allacciamento Tangenziale Ovest Di Milano</item>
+		<item>Arese</item>
+		<item>Villoresi</item>
+		<item>Lainate</item>
+		<item>Allacciamento A9 Lainate-Como Chiasso</item>
+		<item>Origgio Ovest</item>
+		<item>Legnano</item>
+		<item>Castellanza</item>
+		<item>Busto Arsizio</item>
+		<item>Gallarate</item>
+		<item>Allacciamento Diramazione Gallarate-Gattico</item>
+		<item>Barriera Di Gallarate Nord</item>
+		<item>Cavaria</item>
+		<item>Solbiate Arno</item>
+		<item>Castronno</item>
+		<item>Brughiera</item>
+		<item>Gazzada-Lago Di Varese</item>
+		<item>Varese</item>
+	</string-array>
+
+	<integer-array name="z143Id">
+		<item>1468</item>
+		<item>14004</item>
+		<item>1469</item>
+		<item>1470</item>
+		<item>1471</item>
+		<item>1472</item>
+		<item>1474</item>
+		<item>1475</item>
+		<item>13490</item>
+		<item>1476</item>
+		<item>1477</item>
+		<item>1478</item>
+		<item>1479</item>
+		<item>1481</item>
+		<item>1482</item>
+		<item>1483</item>
+		<item>1484</item>
+		<item>1485</item>
+		<item>1486</item>
+		<item>1487</item>
+		<item>1488</item>
+	</integer-array>
+
+	<string-array name="z143Webcam">
+<item>A268</item> <!-- A04 km. 125,0 Bivio Fiorenza NEW -->
+		<item>A14862</item> <!-- A08 km. 2,2 Milano Fiera itinere nord -->
+<item>A42</item> <!-- A08 km. 5,6 Milano Nord itinere nord NEW -->
+		<item>A18861</item> <!-- A08 km. 7,0 Villoresi itinere sud -->
+		<item>H1471</item>
+<item>A35</item> <!-- A08 km. 7,6 Villoresi itinere sud NEW -->
+<item>A583</item> <!-- A08 km. 8,9 A08/A09 itinere nord NEW -->
+<item>A1248</item> <!-- A08 km. 11,0 A09/A08 itinere nord NEW -->
+		<item>A18817</item> <!-- A08 km. 12,2 Origgio itinere sud -->
+<item>A584</item> <!-- A08 km. 13,5 Legnano itinere nord NEW -->
+<item>A587</item> <!-- A08 km. 25,6 Busto Arsizio itinere sud NEW -->
+<item>A1238</item> <!-- A08 km. 24,5 Svincolo Busto Arsizio NEW -->
+<item>A1786</item> <!-- A08 km. 27,2 itinere nord NEW -->
+<item>A791</item> <!-- D08 km. 2,5 Gallarate Ovest entrata NEW -->
+		<item>A18888</item> <!-- A08 km. 30,2 A8/A26 itinere nord -->
+		<item>A18882</item> <!-- A08 km. 35,1 Cavaria itinere sud -->
+		<item>A11332</item> <!-- A08 km. 34,7 Solbiate itinere nord -->
+		<item>A11339</item> <!-- A08 km. 39,4 Castronno itinere nord -->
+		<item>-1</item>
+		<item>A17725</item> <!-- A08 km. 41,9 Gazzada itinere sud -->
+		<item>-1</item>
+	</string-array>
+
+</resources>

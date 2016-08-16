@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tangenziale Di Napoli -->
+<resources>
+
+	<string-array name="z242Name">
+		<item>Pozzuoli-SS7 Quater - Inizio Tangenziale</item>
+		<item>Strada Statale Domitiana</item>
+		<item>Uscita Arco Felice</item>
+		<item>Damiani</item>
+		<item>Pozzuoli Arco Felice</item>
+		<item>Cuma</item>
+		<item>Ingresso Arco Felice</item>
+		<item>Pozzuoli-Via Campana</item>
+		<item>Antica Campana</item>
+		<item>Barriera Napoli Ovest</item>
+		<item>Agnano</item>
+		<item>Astroni</item>
+		<item>Italia \'90 Comune Di Napoli</item>
+		<item>Fuorigrotta</item>
+		<item>Vomero</item>
+		<item>Camaldoli</item>
+		<item>Zona Ospedaliera</item>
+		<item>Arenella</item>
+		<item>Capodimonte</item>
+		<item>Scudillo</item>
+		<item>Corso Malta</item>
+		<item>Viale Maddalena</item>
+		<item>Barriera Napoli Est</item>
+		<item>Doganella Ovest</item>
+		<item>Doganella</item>
+		<item>Secondigliano-Raccordo Capodichino</item>
+	</string-array>
+
+	<integer-array name="z242Id">
+		<item>2667</item>
+		<item>14031</item>
+		<item>14032</item>
+		<item>14035</item>
+		<item>14034</item>
+		<item>14033</item>
+		<item>2668</item>
+		<item>2669</item>
+		<item>2670</item>
+		<item>2671</item>
+		<item>2672</item>
+		<item>2673</item>
+		<item>2674</item>
+		<item>2675</item>
+		<item>2676</item>
+		<item>2677</item>
+		<item>2678</item>
+		<item>14374</item>
+		<item>2679</item>
+		<item>2680</item>
+		<item>2681</item>
+		<item>14036</item>
+		<item>2682</item>
+		<item>2683</item>
+		<item>2684</item>
+		<item>2685</item>
+	</integer-array>
+
+	<string-array name="z242Webcam">
+<item>H2667</item>
+<item>A2568</item> <!-- T04 km. 0,0 TC0 Domitiana -->
+<item>A2576</item> <!-- T04 km. 0,7 TC1 Svincolo Arcofelice -->
+<item>H14035</item>
+<item>H14034</item>
+<item>H14033</item>
+<item>H2668</item>
+<item>H2669</item>
+<item>A2635</item> <!-- T04 km. 2,7 TC 3 Via Campana -->
+<item>H2671</item>
+<item>A1171</item> <!-- T04 km. 7,7 TC 7 Agnano (stazione) -->
+<item>A2556</item> <!-- T04 km. 005,4 TC 5 Astroni ( stazione) -->
+<item>A2575</item> <!-- T04 km 8,1 TC 9 Svincolo Italia 90 -->
+<item>A4529</item> <!-- T04 km. 9,8 TC 10 Fuorigrotta (stazione) -->
+<item>A2558</item> <!-- T04 km. 11,8 TC 13 Vomero -->
+<item>H2677</item>
+<item>H2678</item>
+<item>H14374</item>
+<item>H2679</item>
+<item>H2680</item>
+<item>H2681</item>
+<item>H14036</item>
+<item>H2682</item>
+<item>H2683</item>
+<item>H2684</item>
+<item>H2685</item>
+
+	</string-array>
+
+</resources>

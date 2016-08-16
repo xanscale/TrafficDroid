@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Ascoli P.-Porto D\'ascoli -->
+<resources>
+
+	<string-array name="z207Name">
+		<item>Ascoli Piceno - SS4 Via Salaria</item>
+		<item>Marino Del Tronto</item>
+		<item>Maltignano</item>
+		<item>Ancarano-Castel Di Lama</item>
+		<item>Spinetoli</item>
+		<item>Monsampolo</item>
+		<item>Monteprandone-A14 Bo-Ta</item>
+		<item>Porto D\'Ascoli - SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z207Id">
+		<item>2263</item>
+		<item>13517</item>
+		<item>2265</item>
+		<item>2266</item>
+		<item>2268</item>
+		<item>2269</item>
+		<item>2271</item>
+		<item>13521</item>
+	</integer-array>
+
+	<string-array name="z207Webcam">
+		<item>H2263</item>
+		<item>H13517</item>
+		<item>H2265</item>
+		<item>H2266</item>
+		<item>H2268</item>
+		<item>H2269</item>
+		<item>H2271</item>
+		<item>H13521</item>
+	</string-array>
+
+</resources>

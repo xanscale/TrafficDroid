@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<group android:checkableBehavior="single">
+		<item
+			android:id="@+id/menuMain"
+			android:title="@string/app_name"/>
+		<item
+			android:id="@+id/menuPedaggio"
+			android:title="@string/pedaggio"/>
+		<item
+			android:id="@+id/menuBollo"
+			android:title="@string/bollo"/>
+		<item
+			android:id="@+id/menuPatente"
+			android:title="@string/patente"/>
+		<item
+			android:id="@+id/menuAlcol"
+			android:title="@string/alcol"/>
+		<item
+			android:id="@+id/menuSettings"
+			android:title="@string/settings"/>
+	</group>
+</menu>

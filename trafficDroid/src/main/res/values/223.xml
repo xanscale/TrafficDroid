@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Torino-Aeroporto Caselle -->
+<resources>
+
+	<string-array name="z223Name">
+		<item>Torino - Corso Grosseto</item>
+		<item>Caselle - Allacciamento Tangenziale Nord Di Torino</item>
+		<item>Borgaro Torinese</item>
+		<item>Bivio Per S.Benigno-Innesto SS460</item>
+		<item>Caselle Torinese</item>
+		<item>Aeroporto Caselle</item>
+	</string-array>
+
+	<integer-array name="z223Id">
+		<item>2374</item>
+		<item>2375</item>
+		<item>14017</item>
+		<item>2376</item>
+		<item>2377</item>
+		<item>2378</item>
+	</integer-array>
+
+	<string-array name="z223Webcam">
+		<item>H2374</item>
+		<item>H2375</item>
+		<item>H14017</item>
+		<item>H2376</item>
+		<item>H2377</item>
+		<item>H2378</item>
+	</string-array>
+
+</resources>

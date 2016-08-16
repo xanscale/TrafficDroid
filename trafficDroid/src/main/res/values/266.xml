@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Flaminia -->
+<resources>
+
+	<string-array name="z266Name">
+		<item>Roma Citta\'</item>
+		<item>Corso Francia</item>
+		<item>Grottarossa</item>
+		<item>Saxa Rubra</item>
+		<item>Labaro</item>
+		<item>Grande Raccordo Anulare</item>
+		<item>Prima Porta</item>
+		<item>Sacrofanese-Malborghetto</item>
+		<item>Riano Flaminio</item>
+		<item>Castelnuovo Di Porto</item>
+		<item>Bivio Per Morlupo</item>
+		<item>Campagnese Per Magliano Romano</item>
+		<item>Rignano Flaminio</item>
+		<item>S.Oreste</item>
+		<item>Civita Castellana/Innesto SS311 Nepesina</item>
+		<item>Borghetto</item>
+		<item>Innesto SS315 Di Magliano S. Per Gallese</item>
+		<item>Ponte Felice/Innesto SS657 Sabina</item>
+		<item>Bivio Per Magliano Sabina</item>
+		<item>Casello Magliano Sabina A1 Milano-Napoli</item>
+		<item>Ponte Sanguinaro/Innesto SS3 Ter</item>
+		<item>Testaccio</item>
+		<item>Narni</item>
+		<item>Terni</item>
+		<item>Terni/Innesto SS313 Di Passo Corese</item>
+		<item>Terni/Innesto SS209 Valnerina E SS79</item>
+		<item>Terni/Raccordo Terni-Orte</item>
+		<item>Colle Licino/Innesto Raccordo Terni-Orte</item>
+		<item>Valico Della Somma</item>
+		<item>Variante Di Spoleto</item>
+		<item>Spoleto</item>
+		<item>Spoleto/Innesto SS395 Passo Cerro/SS418 Spoletina</item>
+		<item>Variante Di S.Giacomo</item>
+		<item>Bivio Campello Clitunno</item>
+		<item>Fonti Del Clitunno</item>
+		<item>Variante Di Pissignano</item>
+		<item>Variante Di Borgo Trevi</item>
+		<item>Variante S.Eraclio E Foligno</item>
+		<item>Bivio Foligno/Innesto SS77 Della Val Di Chienti</item>
+		<item>S. Giovanni Profiamma/Innesto SS75 Centrale Umbra</item>
+		<item>Valtopina</item>
+		<item>Nocera Scalo/Inizio Variante Di Nocera</item>
+		<item>Nocera Scalo</item>
+		<item>Nocera Umbra</item>
+		<item>Nocera Umbra/Innesto SS361 Septempedana</item>
+		<item>Campo D\'Arco/Fine Variante Di Nocera</item>
+		<item>Rigali</item>
+		<item>Gualdo Tadino</item>
+		<item>Gualdo Tadino/Innesto SS444 Del Subasio</item>
+		<item>Osteria Del Gatto</item>
+		<item>Osteria Del Gatto/Innesto SS219 Di Gubbio/Innesto SS76</item>
+		<item>Ponte S. Giovanni/Innesto SS76 Var Della Val D\'Esino</item>
+		<item>Purello</item>
+		<item>Villa Col De Canali</item>
+		<item>Scheggia/Innesto SS360 Arceviese</item>
+		<item>Scheggia/Innesto SS298 Eugubina</item>
+		<item>Valico Della Scheggia</item>
+		<item>Pontericcioli/Innesto SS452 Della Contessa</item>
+		<item>Pontedazzo</item>
+		<item>Cagli</item>
+		<item>Cagli/Innesto SS424 Della Val Cesano</item>
+		<item>Smirra</item>
+		<item>Acqualagna</item>
+		<item>Acqualagna/Innesto SS257 Apecchiese</item>
+		<item>Passo Del Furlo</item>
+		<item>Furlo Di Acqualagna</item>
+		<item>Calmazzo/Innesto SS73 Bis Di Bocca Trabaria</item>
+		<item>Fossombrone/Innesto Raccordo Fano-Fossombrone</item>
+		<item>Fossombrone</item>
+		<item>Tavarnelle</item>
+		<item>Borgaccio Di Calcinelli</item>
+		<item>Calcinelli</item>
+		<item>Lucrezia</item>
+		<item>Ponte Murello</item>
+		<item>Carrara/Cuccurano</item>
+		<item>Fano/Innesto SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z266Id">
+		<item>3079</item>
+		<item>3080</item>
+		<item>3081</item>
+		<item>3082</item>
+		<item>3083</item>
+		<item>3084</item>
+		<item>3085</item>
+		<item>3086</item>
+		<item>3087</item>
+		<item>3088</item>
+		<item>3089</item>
+		<item>3090</item>
+		<item>3091</item>
+		<item>3092</item>
+		<item>3093</item>
+		<item>3094</item>
+		<item>3095</item>
+		<item>3096</item>
+		<item>3097</item>
+		<item>3098</item>
+		<item>3099</item>
+		<item>3100</item>
+		<item>3101</item>
+		<item>3102</item>
+		<item>3103</item>
+		<item>3104</item>
+		<item>3105</item>
+		<item>3106</item>
+		<item>3107</item>
+		<item>3108</item>
+		<item>3109</item>
+		<item>3110</item>
+		<item>3111</item>
+		<item>3112</item>
+		<item>3113</item>
+		<item>3114</item>
+		<item>3115</item>
+		<item>3116</item>
+		<item>3117</item>
+		<item>3118</item>
+		<item>3119</item>
+		<item>13665</item>
+		<item>3120</item>
+		<item>3121</item>
+		<item>3122</item>
+		<item>13666</item>
+		<item>3123</item>
+		<item>3124</item>
+		<item>3125</item>
+		<item>3126</item>
+		<item>3127</item>
+		<item>3128</item>
+		<item>3129</item>
+		<item>3130</item>
+		<item>3131</item>
+		<item>3133</item>
+		<item>3134</item>
+		<item>3135</item>
+		<item>3136</item>
+		<item>3137</item>
+		<item>3138</item>
+		<item>3139</item>
+		<item>3140</item>
+		<item>3141</item>
+		<item>3142</item>
+		<item>3143</item>
+		<item>3144</item>
+		<item>3145</item>
+		<item>3146</item>
+		<item>3147</item>
+		<item>3148</item>
+		<item>3149</item>
+		<item>3150</item>
+		<item>3151</item>
+		<item>3152</item>
+		<item>3153</item>
+	</integer-array>
+
+	<string-array name="z266Webcam">
+		<item>H3079</item>
+		<item>H3080</item>
+		<item>H3081</item>
+		<item>H3082</item>
+		<item>H3083</item>
+		<item>H3084</item>
+		<item>H3085</item>
+		<item>H3086</item>
+		<item>H3087</item>
+		<item>H3088</item>
+		<item>H3089</item>
+		<item>H3090</item>
+		<item>H3091</item>
+		<item>H3092</item>
+		<item>H3093</item>
+		<item>H3094</item>
+		<item>H3095</item>
+		<item>H3096</item>
+		<item>H3097</item>
+		<item>H3098</item>
+		<item>H3099</item>
+		<item>H3100</item>
+		<item>H3101</item>
+		<item>H3102</item>
+		<item>H3103</item>
+		<item>H3104</item>
+		<item>H3105</item>
+		<item>H3106</item>
+		<item>H3107</item>
+		<item>H3108</item>
+		<item>H3109</item>
+		<item>H3110</item>
+		<item>H3111</item>
+		<item>H3112</item>
+		<item>H3113</item>
+		<item>H3114</item>
+		<item>H3115</item>
+		<item>H3116</item>
+		<item>H3117</item>
+		<item>H3118</item>
+		<item>H3119</item>
+		<item>H13665</item>
+		<item>H3120</item>
+		<item>H3121</item>
+		<item>H3122</item>
+		<item>H13666</item>
+		<item>H3123</item>
+		<item>H3124</item>
+		<item>H3125</item>
+		<item>H3126</item>
+		<item>H3127</item>
+		<item>H3128</item>
+		<item>H3129</item>
+		<item>H3130</item>
+		<item>H3131</item>
+		<item>H3133</item>
+		<item>H3134</item>
+		<item>H3135</item>
+		<item>H3136</item>
+		<item>H3137</item>
+		<item>H3138</item>
+		<item>H3139</item>
+		<item>H3140</item>
+		<item>H3141</item>
+		<item>H3142</item>
+		<item>H3143</item>
+		<item>H3144</item>
+		<item>H3145</item>
+		<item>H3146</item>
+		<item>H3147</item>
+		<item>H3148</item>
+		<item>H3149</item>
+		<item>H3150</item>
+		<item>H3151</item>
+		<item>H3152</item>
+		<item>H3153</item>
+	</string-array>
+
+</resources>

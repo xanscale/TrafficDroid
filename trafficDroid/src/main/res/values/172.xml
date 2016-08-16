@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Caserta - Salerno -->
+<resources>
+
+	<string-array name="z172Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Tre Ponti</item>
+		<item>Nola</item>
+		<item>Allacciamento A16 Napoli-Canosa</item>
+		<item>Palma Campania</item>
+		<item>Angioina</item>
+		<item>Sarno</item>
+		<item>Nocera Pagani</item>
+		<item>Castel S. Giorgio</item>
+		<item>Barriera Di Salerno M.S.Severino</item>
+		<item>Mercato S.Severino</item>
+		<item>Salerno - Raccordo Salerno-Avellino</item>
+	</string-array>
+
+	<integer-array name="z172Id">
+		<item>2014</item>
+		<item>2015</item>
+		<item>2016</item>
+		<item>2017</item>
+		<item>14075</item>
+		<item>2018</item>
+		<item>2019</item>
+		<item>2020</item>
+		<item>2021</item>
+		<item>2022</item>
+		<item>14076</item>
+		<item>2023</item>
+	</integer-array>
+
+	<string-array name="z172Webcam">
+<item>A530</item> <!-- A30 km. 1,3 All. A30-A01 itinere nord NEW -->
+		<item>H2015</item>
+<item>A532</item> <!-- A30 km. 17,2 Nola itinere sud NEW -->
+		<item>A19226</item> <!-- A30 km. 22,1 All. A30-A16 itinere nord -->
+		<item>A14341</item> <!-- A30 km. 29,3 Palma Campania itinere sud -->
+<item>A2628</item> <!-- A30 km. 32,08 Palma Campania itinere nord NEW -->
+<item>A2627</item> <!-- A30 km. 38,3 Sarno itinere nord NEW -->
+<item>A1511</item> <!-- A30 km. 41,0 Nocera Pagani itinere nord NEW -->
+<item>A2585</item> <!-- A30 km. 42,785 Castel S. Giorgio itinere sud NEW -->
+<item>A127</item> <!-- A30 km. 49,7 Barriera Salerno NEW -->
+<item>A533</item> <!-- A30 km. 53,7 Mercato S.Severino itinere nord NEW -->
+<item>A2136</item> <!-- A30 km. 55,0 itinere nord NEW -->
+	</string-array>
+
+</resources>

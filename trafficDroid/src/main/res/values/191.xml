@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Roma Sud -->
+<resources>
+
+	<string-array name="z191Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>San Cesareo</item>
+		<item>Monteporzio</item>
+		<item>Frascati</item>
+		<item>Barriera Di Roma Sud</item>
+		<item>Torrenova</item>
+		<item>Tuscolana</item>
+		<item>Allacciamento G.R.A.</item>
+	</string-array>
+
+	<integer-array name="z191Id">
+		<item>2155</item>
+		<item>2156</item>
+		<item>2157</item>
+		<item>2158</item>
+		<item>2159</item>
+		<item>2160</item>
+		<item>2161</item>
+		<item>2162</item>
+	</integer-array>
+
+	<string-array name="z191Webcam">
+<item>A1018</item> <!-- D19 km. 03,8 PMV S.Cesareo Sud NEW -->
+<item>A1019</item> <!-- D19 km. 03,8 PMV S.Cesareo itinere nord -->
+<item>A2007</item> <!-- D19 km. 10,2 Itinere.M.Porzio NEW -->
+		<item>H2158</item>
+<item>A121</item> <!-- D19 km. 15 Barriera Roma Sud NEW -->
+<item>A450</item> <!-- D19 km. 17,7 PMV Torrenova itinere Sud -->
+		<item>H2161</item>
+<item>A275</item> <!-- D19 km. 20,0 Gra Sud HD -->
+	</string-array>
+
+</resources>

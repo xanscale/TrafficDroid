@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Romea -->
+<resources>
+
+	<string-array name="z718Name">
+		<item>Ravenna/Innesto SS309 Romea</item>
+		<item>Ravenna/Allacciamento A14 Diramazione Per Ravenna E Innesto SS16</item>
+	</string-array>
+
+	<integer-array name="z718Id">
+		<item>9894</item>
+		<item>9895</item>
+	</integer-array>
+
+	<string-array name="z718Webcam">
+		<item>H9894</item>
+		<item>H9895</item>
+	</string-array>
+
+</resources>

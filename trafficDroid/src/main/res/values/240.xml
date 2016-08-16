@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Tangenziale Est Di Milano -->
+<resources>
+	<string-array name="z240Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>SS9 Via Emilia: Rogoredo-P.Le Corvetto</item>
+		<item>Via Rogoredo</item>
+		<item>Paullo: SS415 Paullese-SS10 Padana Inferiore</item>
+		<item>Via Mecenate: Ponte Lambro</item>
+		<item>C.A.M.M.: Monlue\'</item>
+		<item>Linate: V.Le Forlanini-SP14 Rivoltana</item>
+		<item>V. Rubattino: Segrate-Citta\' Studi</item>
+		<item>Lambrate: Melzo - Dogana Segrate</item>
+		<item>Cascina Gobba</item>
+		<item>Gobba: Treviglio-Vimodrone</item>
+		<item>Allacciamento Tangenziale Nord Milano</item>
+		<item>Cologno Monzese: SS Giovanni Sud</item>
+		<item>SP3 Brugherio: Cologno M. Nord</item>
+		<item>Cologno M. Est</item>
+		<item>SP113 Cernusco Sul Naviglio</item>
+		<item>SP208 Carugate: Brugherio Nord</item>
+		<item>Carugate</item>
+		<item>Barriera Di Agrate Brianza</item>
+		<item>Allacciamento A4 Torino-Trieste</item>
+		<item>Agrate B.: SP13 Melzo-Monza-Dogana</item>
+		<item>Concorezzo: Agrate Nord</item>
+		<item>SP41 Cascina Morosina: Burago</item>
+		<item>Vimercate Sud: Torri Bianche</item>
+		<item>Vimercate Sud: Bg-Trezzo-Arcore</item>
+		<item>Vimercate Centro: Oreno</item>
+		<item>Vimercate Nord: Frazione Velasca</item>
+		<item>Velasca Ovest</item>
+		<item>Usmate-Velate Sud: Carnate-Paderno</item>
+		<item>Usmate-Velate Nord: Merate-Leccotangenziale Est Di Milano</item>
+		<item>Lecco</item>
+	</string-array>
+	<integer-array name="z240Id">
+		<item>2622</item>
+		<item>2623</item>
+		<item>14358</item>
+		<item>2624</item>
+		<item>2625</item>
+		<item>2626</item>
+		<item>2627</item>
+		<item>2628</item>
+		<item>2629</item>
+		<item>2630</item>
+		<item>2631</item>
+		<item>2632</item>
+		<item>2633</item>
+		<item>2634</item>
+		<item>2635</item>
+		<item>2636</item>
+		<item>2637</item>
+		<item>2638</item>
+		<item>2639</item>
+		<item>2640</item>
+		<item>2641</item>
+		<item>2642</item>
+		<item>2643</item>
+		<item>14359</item>
+		<item>2644</item>
+		<item>2645</item>
+		<item>2646</item>
+		<item>2647</item>
+		<item>2648</item>
+		<item>2649</item>
+		<item>14360</item>
+	</integer-array>
+	<string-array name="z240Webcam">
+		<item>H2622</item>
+		<item>H2623</item>
+		<item>H14358</item>
+		<item>Spaullo</item>
+		<item>Smecenate</item>
+		<item>H2626</item>
+		<item>Sforlanini_1</item>
+		<item>H2628</item>
+		<item>H2629</item>
+		<item>H2630</item>
+		<item>H2631</item>
+		<item>H2632</item>
+		<item>Scologno_nord</item>
+		<item>Sbrugherio</item>
+		<item>H2635</item>
+		<item>H2636</item>
+		<item>H2637</item>
+		<item>H2638</item>
+		<item>Sagrate</item>
+		<item>H2640</item>
+		<item>H2641</item>
+		<item>H2642</item>
+		<item>H2643</item>
+		<item>H14359</item>
+		<item>H2644</item>
+		<item>H2645</item>
+		<item>H2646</item>
+		<item>H2647</item>
+		<item>H2648</item>
+		<item>H2649</item>
+		<item>H14360</item>
+	</string-array>
+</resources>

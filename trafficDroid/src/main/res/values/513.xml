@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Di Carlo Felice -->
+<resources>
+
+	<string-array name="z513Name">
+		<item>Cagliari</item>
+		<item>Cagliari/Innesto SS195 Sulcitana</item>
+		<item>Cagliari/Innesto SS130 Iglesiente</item>
+		<item>Cagliari Nord/Innesto SS554 Cagliaritana</item>
+		<item>Cagliari Nord/Innesto SS131 Diramazione Carlo Felice</item>
+		<item>Bivio Per Elmas</item>
+		<item>Bivio Per Sestu</item>
+		<item>Assemini</item>
+		<item>Variante Di Monastir</item>
+		<item>Monastir/Incrocio SS466 Di Sibiola</item>
+		<item>Monastir/Innesto SS128 Cent. Sarda E SS130</item>
+		<item>Variante Di Nuraminis</item>
+		<item>Variante Di Serrenti</item>
+		<item>Villasanta/Innesto SS293 Di Giba E SS197</item>
+		<item>Variante Di Sanluri/Innesto SS197 Di San Gavino</item>
+		<item>Villanouvaforru</item>
+		<item>Variane Di Sardara</item>
+		<item>Santa Maria Acquas</item>
+		<item>Ponte Cracaxia</item>
+		<item>Uras/Innesto SS442 Di Laconi E Di Uras</item>
+		<item>Variante Di Uras</item>
+		<item>Bivio Per Terralba</item>
+		<item>Casa Cantoniera Di Marrubiu/Innesto SS126 Sud Occ. Sarda</item>
+		<item>Sant\' Anna</item>
+		<item>S.Giusta/Innesto SS292 Nord Occ. Sarda</item>
+		<item>Oristano</item>
+		<item>La Maddalena/Innesto SS388 Del Tirso E Mandrolisai</item>
+		<item>Bivio Per Massama E Zeddiani</item>
+		<item>Tramatza</item>
+		<item>Bauladu</item>
+		<item>Bivio Per Paulilatino</item>
+		<item>Bivio Per Abbasanta/Innesto SS131 Dir/C. Nuorese</item>
+		<item>S.Lussorio</item>
+		<item>Bivio Per Macomer/Innesto SS129 Trasversale Sarda</item>
+		<item>Macomer/Innesto SS129 Bis Trasversale Sarda</item>
+		<item>Bivio Per Bonorva</item>
+		<item>Bivio Per Cossoine/Innesto SS292 Diramazione Nord Occ. Sarda</item>
+		<item>Cabu Abbas/Innesto SS131 Bis Di Carlo Felice</item>
+		<item>Bonnanaro/Innesto SS128 Bis Centrale Sarda</item>
+		<item>Bivio Per Florinas</item>
+		<item>Codrongianos/Innesto SS597 Di Logudoro</item>
+		<item>Bivio Per Cargeghe</item>
+		<item>Bivio Per Muros</item>
+		<item>Scala Di Giocca/Innesto SS127 Sett. Sarda</item>
+		<item>Sassari/Ippodromo</item>
+		<item>Sassari/Innesto SS127 Bis Settentrionale Sarda</item>
+		<item>Sassari Nord/Innesto SS291 Della Nurra</item>
+		<item>Bivio Per Stazione Di Rodda Quadda</item>
+		<item>Variante Di S.Giovanni</item>
+		<item>Bivio Per Platamona Lido</item>
+		<item>Porto Torres</item>
+	</string-array>
+
+	<integer-array name="z513Id">
+		<item>7798</item>
+		<item>7799</item>
+		<item>7800</item>
+		<item>7801</item>
+		<item>7802</item>
+		<item>14412</item>
+		<item>7803</item>
+		<item>14456</item>
+		<item>7804</item>
+		<item>7805</item>
+		<item>7806</item>
+		<item>7807</item>
+		<item>7808</item>
+		<item>7809</item>
+		<item>7810</item>
+		<item>14457</item>
+		<item>7811</item>
+		<item>14458</item>
+		<item>7812</item>
+		<item>7814</item>
+		<item>7813</item>
+		<item>7815</item>
+		<item>7816</item>
+		<item>14459</item>
+		<item>7817</item>
+		<item>14460</item>
+		<item>7818</item>
+		<item>7819</item>
+		<item>7820</item>
+		<item>7821</item>
+		<item>7822</item>
+		<item>7823</item>
+		<item>7824</item>
+		<item>7825</item>
+		<item>7826</item>
+		<item>7827</item>
+		<item>7828</item>
+		<item>7829</item>
+		<item>7830</item>
+		<item>7831</item>
+		<item>7832</item>
+		<item>7833</item>
+		<item>7834</item>
+		<item>7835</item>
+		<item>7836</item>
+		<item>7837</item>
+		<item>7838</item>
+		<item>7839</item>
+		<item>7840</item>
+		<item>7841</item>
+		<item>7842</item>
+	</integer-array>
+
+	<string-array name="z513Webcam">
+		<item>H7798</item>
+		<item>H7799</item>
+		<item>H7800</item>
+		<item>H7801</item>
+		<item>H7802</item>
+		<item>H14412</item>
+		<item>H7803</item>
+		<item>H14456</item>
+		<item>H7804</item>
+		<item>H7805</item>
+		<item>H7806</item>
+		<item>H7807</item>
+		<item>H7808</item>
+		<item>H7809</item>
+		<item>H7810</item>
+		<item>H14457</item>
+		<item>H7811</item>
+		<item>H14458</item>
+		<item>H7812</item>
+		<item>H7814</item>
+		<item>H7813</item>
+		<item>H7815</item>
+		<item>H7816</item>
+		<item>H14459</item>
+		<item>H7817</item>
+		<item>H14460</item>
+		<item>H7818</item>
+		<item>H7819</item>
+		<item>H7820</item>
+		<item>H7821</item>
+		<item>H7822</item>
+		<item>H7823</item>
+		<item>H7824</item>
+		<item>H7825</item>
+		<item>H7826</item>
+		<item>H7827</item>
+		<item>H7828</item>
+		<item>H7829</item>
+		<item>H7830</item>
+		<item>H7831</item>
+		<item>H7832</item>
+		<item>H7833</item>
+		<item>H7834</item>
+		<item>H7835</item>
+		<item>H7836</item>
+		<item>H7837</item>
+		<item>H7838</item>
+		<item>H7839</item>
+		<item>H7840</item>
+		<item>H7841</item>
+		<item>H7842</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Milano - Genova -->
+<resources>
+	<string-array name="z142Name">
+		<item>Milano</item>
+		<item>Cantalupa</item>
+		<item>Assago</item>
+		<item>Allacciamento Tangenziale Ovest Di Milano</item>
+		<item>Barriera Di Milano</item>
+		<item>Binasco</item>
+		<item>Bereguardo - Allacciamento Raccordo Bereguardo-Pv</item>
+		<item>Gropello Cairoli</item>
+		<item>Dorno</item>
+		<item>Casei Gerola</item>
+		<item>Castelnuovo Scrivia</item>
+		<item>Castelnuovo Scrivia</item>
+		<item>Allacciamento A21 Torino-Piacenza-Brescia</item>
+		<item>Tortona</item>
+		<item>Allacciamento Diramazione Predosa-Bettole</item>
+		<item>Bettole Di Novi Ligure</item>
+		<item>Serravalle Scrivia</item>
+		<item>Vignole Borbera</item>
+		<item>Valle Scrivia</item>
+		<item>Isola Del Cantone</item>
+		<item>Giovi</item>
+		<item>Ronco Scrivia</item>
+		<item>Busalla</item>
+		<item>Campora Est</item>
+		<item>Genova Bolzaneto</item>
+		<item>Allacciamento A12 Genova-Rosignano</item>
+		<item>Allacciamento A10 Genova-Ventimiglia</item>
+		<item>Barriera Di Genova Ovest</item>
+		<item>La Lanterna Est</item>
+		<item>Genova</item>
+	</string-array>
+	<integer-array name="z142Id">
+		<item>1439</item>
+		<item>1440</item>
+		<item>1441</item>
+		<item>1442</item>
+		<item>1443</item>
+		<item>1444</item>
+		<item>1445</item>
+		<item>1446</item>
+		<item>1447</item>
+		<item>1448</item>
+		<item>1449</item>
+		<item>13489</item>
+		<item>1450</item>
+		<item>1451</item>
+		<item>1452</item>
+		<item>1453</item>
+		<item>1454</item>
+		<item>1455</item>
+		<item>1456</item>
+		<item>1457</item>
+		<item>1458</item>
+		<item>1459</item>
+		<item>1460</item>
+		<item>1461</item>
+		<item>1462</item>
+		<item>1463</item>
+		<item>1464</item>
+		<item>1465</item>
+		<item>1466</item>
+		<item>1467</item>
+	</integer-array>
+	<string-array name="z142Webcam">
+		<item>Smaggi</item>
+		<item>H1440</item>
+		<item>H1441</item>
+		<item>H1442</item>
+		<item>H1443</item>
+		<item>H1444</item>
+		<item>H1445</item>
+		<item>H1446</item>
+		<item>H1447</item>
+		<item>H1448</item>
+		<item>H1449</item>
+		<item>H13489</item>
+		<item>H1450</item>
+		<item>Stortona</item>
+		<item>A19207</item> <!-- A07 km. 68,8 All.A7 A26 W itinere sud -->
+		<item>H1453</item>
+		<item>A482</item> <!-- A07 km. 87,7 Vignole Borbera itinere sud NEW -->
+		<item>A13</item> <!-- A07 km. 88,0 Vignole itinere nord NEW -->
+		<item>A483</item> <!-- A07 km. 89,9 Vignole Borbera itinere nord NEW -->
+		<item>A1054</item> <!-- A07 km. 99,2 Isola del Cantone itinere sud NEW -->
+		<item>A1055</item> <!-- A07 km. 104,8 Isola del Cantone itinere nord NEW -->
+		<item>A2835</item> <!-- A07 km. 111,0 Stazione Busalla itinere Sud NEW -->
+		<item>A481</item> <!-- A07 km. 114,1 Busalla itinere nord NEW -->
+		<item>A1991</item> <!-- A07 km. 120,8 Castagna itinere nord NEW -->
+		<item>A478</item> <!-- A07 km. 125,0 GE-Bolzaneto itinere sud NEW -->
+		<item>A2442</item> <!-- A07 km. 128,9 All. A7-A12 itinere sud NEW -->
+		<item>A1791</item> <!-- A07 km. 130,0 All.A7/A10 itinere sud NEW -->
+		<item>A7515</item> <!-- A07 km. 133,6 GE-Ovest itinere nord -->
+		<item>H1466</item>
+		<item>H1467</item>
+	</string-array>
+</resources>

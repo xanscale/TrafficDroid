@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Salaria -->
+<resources>
+
+	<string-array name="z270Name">
+		<item>Roma</item>
+		<item>Castel Giubileo G.R.A.</item>
+		<item>Bivio Per Settebagni</item>
+		<item>Incrocio Settebagni</item>
+		<item>Settebagni Diramazione Roma Nord A1 Mi-Na</item>
+		<item>Monterotondo Scalo</item>
+		<item>Monterotondo Nucleo Industriale</item>
+		<item>Innesto SP18/A Ponte Del Grillo</item>
+		<item>Innesto SP26/A Per Montelibretti</item>
+		<item>Passo Corese/Innesto SS313 Di Passo Corese</item>
+		<item>Santa Maria-Innesto SP26/A Per Montelibretti</item>
+		<item>Borgo Quinzio/Innesto SS636 Di Palombara</item>
+		<item>Bivio Per Fara In Sabina</item>
+		<item>Confine Province Di Roma E Rieti</item>
+		<item>Osteria Nuova</item>
+		<item>Ponte Buida/Innesto SS314 Licinese</item>
+		<item>Bivio Per Rocca Sinibalda</item>
+		<item>Maglianello</item>
+		<item>Rieti-Innesto Raccordo Rieti-Terni</item>
+		<item>Rieti/Innesto SS578 Salto Cicolana</item>
+		<item>Zona Industriale Di Rieti</item>
+		<item>Santa Rufina</item>
+		<item>Cittaducale</item>
+		<item>Vasche</item>
+		<item>Canetra Di Castel Sant\'Angelo</item>
+		<item>Antrodoco</item>
+		<item>Antrodoco/Innesto SS17 App. Abruz. Appulo Sann.</item>
+		<item>Sigillo</item>
+		<item>Posta/Innesto SS471 Di Leonessa</item>
+		<item>Picciame Di Posta</item>
+		<item>Santa Croce</item>
+		<item>Collicelle</item>
+		<item>Valico Di S.Giusta</item>
+		<item>Ponte Scandarello/Innesto SS260 Picente</item>
+		<item>Variante Di Accumoli</item>
+		<item>Grisciano</item>
+		<item>Confine Tra Le Province Di Rieti E Ascoli P.</item>
+		<item>Arquata Del Tronto</item>
+		<item>Acquasanta Terme</item>
+		<item>Santa Maria</item>
+		<item>Paggese</item>
+		<item>Taverna Piccinini/Innesto SS78 Picena</item>
+		<item>Innesto Raccordo Ascoli-P.To D\'Ascoli</item>
+		<item>Variante Di Ascoli Piceno</item>
+		<item>Ascoli Piceno</item>
+		<item>Ascoli Piceno-Innesto SS81 Piceno Aprutina</item>
+		<item>Villa Sant\'Antonio</item>
+		<item>Bivio Colli</item>
+		<item>Stella</item>
+		<item>Centobuchi</item>
+		<item>Casello S.Benedetto A14 Bo-Ta-Innesto Raccordo A14-Ap</item>
+		<item>Porto D\'Ascoli- Innesto SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z270Id">
+		<item>3217</item>
+		<item>3218</item>
+		<item>13667</item>
+		<item>13668</item>
+		<item>3220</item>
+		<item>3221</item>
+		<item>13670</item>
+		<item>13671</item>
+		<item>3222</item>
+		<item>3223</item>
+		<item>13672</item>
+		<item>3224</item>
+		<item>13673</item>
+		<item>3226</item>
+		<item>3227</item>
+		<item>3228</item>
+		<item>13674</item>
+		<item>3230</item>
+		<item>13675</item>
+		<item>13676</item>
+		<item>13677</item>
+		<item>13678</item>
+		<item>3235</item>
+		<item>3236</item>
+		<item>3237</item>
+		<item>3238</item>
+		<item>13679</item>
+		<item>3240</item>
+		<item>13680</item>
+		<item>3242</item>
+		<item>3243</item>
+		<item>3244</item>
+		<item>3245</item>
+		<item>3246</item>
+		<item>3248</item>
+		<item>3249</item>
+		<item>13681</item>
+		<item>3250</item>
+		<item>3251</item>
+		<item>3252</item>
+		<item>13682</item>
+		<item>13683</item>
+		<item>13684</item>
+		<item>3254</item>
+		<item>3255</item>
+		<item>3256</item>
+		<item>3257</item>
+		<item>3258</item>
+		<item>3259</item>
+		<item>3260</item>
+		<item>3261</item>
+		<item>3262</item>
+	</integer-array>
+
+	<string-array name="z270Webcam">
+		<item>H3217</item>
+		<item>H3218</item>
+		<item>H13667</item>
+		<item>H13668</item>
+		<item>H3220</item>
+		<item>H3221</item>
+		<item>H13670</item>
+		<item>H13671</item>
+		<item>H3222</item>
+		<item>H3223</item>
+		<item>H13672</item>
+		<item>H3224</item>
+		<item>H13673</item>
+		<item>H3226</item>
+		<item>H3227</item>
+		<item>H3228</item>
+		<item>H13674</item>
+		<item>H3230</item>
+		<item>H13675</item>
+		<item>H13676</item>
+		<item>H13677</item>
+		<item>H13678</item>
+		<item>H3235</item>
+		<item>H3236</item>
+		<item>H3237</item>
+		<item>H3238</item>
+		<item>H13679</item>
+		<item>H3240</item>
+		<item>H13680</item>
+		<item>H3242</item>
+		<item>H3243</item>
+		<item>H3244</item>
+		<item>H3245</item>
+		<item>H3246</item>
+		<item>H3248</item>
+		<item>H3249</item>
+		<item>H13681</item>
+		<item>H3250</item>
+		<item>H3251</item>
+		<item>H3252</item>
+		<item>H13682</item>
+		<item>H13683</item>
+		<item>H13684</item>
+		<item>H3254</item>
+		<item>H3255</item>
+		<item>H3256</item>
+		<item>H3257</item>
+		<item>H3258</item>
+		<item>H3259</item>
+		<item>H3260</item>
+		<item>H3261</item>
+		<item>H3262</item>
+	</string-array>
+
+</resources>

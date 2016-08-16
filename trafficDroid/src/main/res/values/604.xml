@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nettunense -->
+<resources>
+
+	<string-array name="z604Name">
+		<item>Frattocchie/Innesto SS7 Appia</item>
+		<item>Pavona</item>
+		<item>Cecchina</item>
+		<item>Fontana Di Papa</item>
+		<item>Bivio Per Campoleone</item>
+		<item>Aprilia</item>
+		<item>Aprilia/Incrocio SS148 Pontina</item>
+		<item>Campodicarne</item>
+		<item>Falasche</item>
+		<item>Anzio/Innesto SS601 Ostia Anzio</item>
+	</string-array>
+
+	<integer-array name="z604Id">
+		<item>8642</item>
+		<item>8643</item>
+		<item>8644</item>
+		<item>8645</item>
+		<item>8646</item>
+		<item>8647</item>
+		<item>8648</item>
+		<item>8649</item>
+		<item>8650</item>
+		<item>8651</item>
+	</integer-array>
+
+	<string-array name="z604Webcam">
+		<item>H8642</item>
+		<item>H8643</item>
+		<item>H8644</item>
+		<item>H8645</item>
+		<item>H8646</item>
+		<item>H8647</item>
+		<item>H8648</item>
+		<item>H8649</item>
+		<item>H8650</item>
+		<item>H8651</item>
+	</string-array>
+
+</resources>

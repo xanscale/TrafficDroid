@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Lucca-Viareggio -->
+<resources>
+
+	<string-array name="z184Name">
+		<item>Allacciamento A11 Firenze-Pisa Nord</item>
+		<item>Lucca S.Donato</item>
+		<item>Monte Di Quiesa Nord</item>
+		<item>Massarosa</item>
+		<item>Allacciamento A12 Genova-Rosignano</item>
+	</string-array>
+
+	<integer-array name="z184Id">
+		<item>2117</item>
+		<item>2119</item>
+		<item>2120</item>
+		<item>2121</item>
+		<item>2122</item>
+	</integer-array>
+
+	<string-array name="z184Webcam">
+		<item>H2117</item>
+		<item>H2119</item>
+		<item>H2120</item>
+		<item>H2121</item>
+		<item>H2122</item>
+	</string-array>
+
+</resources>

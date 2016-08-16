@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Aeroporto Di Birgi -->
+<resources>
+
+	<string-array name="z197Name">
+		<item>Allacciamento Diramazione Per Trapani</item>
+		<item>Marsala</item>
+		<item>Marsala-Fontana Salsa</item>
+		<item>Marausa</item>
+		<item>Aeroporto Di Birgi</item>
+	</string-array>
+
+	<integer-array name="z197Id">
+		<item>2185</item>
+		<item>2186</item>
+		<item>13510</item>
+		<item>2187</item>
+		<item>2188</item>
+	</integer-array>
+
+	<string-array name="z197Webcam">
+		<item>H2185</item>
+		<item>H2186</item>
+		<item>H13510</item>
+		<item>H2187</item>
+		<item>H2188</item>
+	</string-array>
+
+</resources>

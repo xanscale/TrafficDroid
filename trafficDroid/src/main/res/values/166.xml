@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roma - Teramo -->
+<resources>
+
+	<string-array name="z166Name">
+		<item>Allacciamento G.R.A.</item>
+		<item>Settecamini (C.A.R.)</item>
+		<item>Ponte Di Nona</item>
+		<item>Lunghezza</item>
+		<item>Barriera Di Roma Est</item>
+		<item>Colle Tasso</item>
+		<item>Allacciamento A1 Milano Napoli</item>
+		<item>Tivoli</item>
+		<item>Castel Madama</item>
+		<item>Vicovaro-Mandela</item>
+		<item>Civita</item>
+		<item>Carsoli-Oricola</item>
+		<item>Tagliacozzo</item>
+		<item>Allacciamento A25 Torano-Pescara</item>
+		<item>Valle Del Salto</item>
+		<item>Tornimparte</item>
+		<item>Valle Aterno</item>
+		<item>L\'Aquila Ovest</item>
+		<item>L\'Aquila Est</item>
+		<item>Assergi</item>
+		<item>Colledara-San Gabriele</item>
+		<item>Barriera Di Teramo</item>
+		<item>Basciano-Villa Vomano</item>
+		<item>Val Vomano</item>
+		<item>Cartecchio</item>
+		<item>Teramo</item>
+	</string-array>
+
+	<integer-array name="z166Id">
+		<item>1896</item>
+		<item>14002</item>
+		<item>14189</item>
+		<item>1897</item>
+		<item>1899</item>
+		<item>1900</item>
+		<item>1901</item>
+		<item>1902</item>
+		<item>1903</item>
+		<item>1904</item>
+		<item>1905</item>
+		<item>1906</item>
+		<item>1907</item>
+		<item>1908</item>
+		<item>1909</item>
+		<item>1910</item>
+		<item>1911</item>
+		<item>1912</item>
+		<item>1913</item>
+		<item>1914</item>
+		<item>1915</item>
+		<item>1916</item>
+		<item>1917</item>
+		<item>1918</item>
+		<item>14190</item>
+		<item>1919</item>
+	</integer-array>
+
+	<string-array name="z166Webcam">
+		<item>H1896</item>
+		<item>H14002</item>
+		<item>H14189</item>
+		<item>H1897</item>
+		<item>H1899</item>
+		<item>H1900</item>
+		<item>H1901</item>
+		<item>H1902</item>
+		<item>H1903</item>
+		<item>H1904</item>
+		<item>H1905</item>
+		<item>H1906</item>
+		<item>A6037</item> <!-- A24 km. 065,9 Gall. S. Angelo Dx -->
+		<item>H1908</item>
+<item>A2642</item> <!-- A24 km. 075,7 Valle del Salto Sx -->
+<item>A2294</item> <!-- A24 km. 79,7 San Rocco Dx -->
+		<item>H1911</item>
+		<item>H1912</item>
+		<item>H1913</item>
+		<item>H1914</item>
+		<item>A6297</item> <!-- A24 km. 127,5 Gran Sasso lato TE -->
+		<item>H1913</item>
+		<item>H1914</item>
+		<item>H1915</item>
+		<item>H1916</item>
+		<item>H1917</item>
+	</string-array>
+
+</resources>

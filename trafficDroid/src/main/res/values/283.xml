@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Appia -->
+<resources>
+
+	<string-array name="z283Name">
+		<item>Roma</item>
+		<item>Allacciamento Grande Raccordo Anulare</item>
+		<item>Bivio Per Ciampino/Innesto SS7 Dir/A Via Appia</item>
+		<item>Bivio Per Ciampino/Innesto SS217 Via Dei Laghi</item>
+		<item>Bivio Per Cava Dei Selci</item>
+		<item>Frattocchie/Innesto SS207 Nettunense</item>
+		<item>Bivio Frattocchie/Innesto SS140 Del Lago Di Albano</item>
+		<item>Albano Laziale</item>
+		<item>Albano Laziale/Innesto SS216 Maremmana Iii</item>
+		<item>Ariccia</item>
+		<item>Ariccia/Innesto SS218 Via Rocca Di Papa</item>
+		<item>Genzano</item>
+		<item>Velletri/Innesto SS217 Via Dei Laghi</item>
+		<item>Velletri</item>
+		<item>Velletri/Innesto SS600 Ariana</item>
+		<item>Innesto Strada Provinciale Velletri-Nettuno</item>
+		<item>Bivio Per Le Castella</item>
+		<item>Cisterna Di Latina</item>
+		<item>Borgo Faiti/Incrocio SS156 Dei Monti Lepini</item>
+		<item>Bivio Per Pontinia</item>
+		<item>Bivio Per Sabaudia</item>
+		<item>Bivio Per Terracina/Innesto SS148 Pontina</item>
+		<item>Terracina</item>
+		<item>Terracina/Innesto SS213 Via Flacca</item>
+		<item>Fondi/Innesto SS637 Di Frosinone E Di Gaeta</item>
+		<item>Fondi</item>
+		<item>Itri</item>
+		<item>Itri/Innesto SS82 Della Valle Del Liri</item>
+		<item>Formia/Innesto SS213 Via Flacca</item>
+		<item>Formia</item>
+		<item>Innesto Variante Formia-Gariglano</item>
+		<item>Bivio Per S.Croce/Innesto SS630 Ausonia</item>
+		<item>Scauri</item>
+		<item>Bivio Per Marina Di Minturno</item>
+		<item>Ponte Sul Garigliano/Innesto SS7 Quater Domiziana</item>
+		<item>Bivio Fasani/Innesto SS430 Valle Del Garigliano</item>
+		<item>Bivio Per Cellole/Innesto SS430 Valle Del Garigliano</item>
+		<item>Bivio Per Sessa Aurunca</item>
+		<item>Cascano</item>
+		<item>Maiorisi/Innesto SS608 Di Teano</item>
+		<item>Bivio Per Francolise</item>
+		<item>Bivio Per Sparanise</item>
+		<item>Casello Capua A1 Milano-Napoli</item>
+		<item>Capua</item>
+		<item>Capua/Innesto SS7 Bis Di Terra Di Lavoro</item>
+		<item>S.Maria Capua Vetere</item>
+		<item>Casapulla</item>
+		<item>Casello Caserta Nord A1 Milano-Napoli</item>
+		<item>Casagiove</item>
+		<item>Caserta</item>
+		<item>Caserta/Incrocio SS87 Sannitica</item>
+		<item>Variante Di S.Clemente</item>
+		<item>Maddaloni</item>
+		<item>Maddaloni/Incrocio SS265 Dei Ponti Della Valle</item>
+		<item>S.Maria A Vico</item>
+		<item>Arienzo/Innesto SS162 Della Valle Caudina</item>
+		<item>Arpaia</item>
+		<item>Innesto SS374 Di Summonte E Montevergine</item>
+		<item>Montesarchio</item>
+		<item>Tufara</item>
+		<item>Variante Di Benevento</item>
+		<item>Benevento/Incrocio SS88 Dei Due Principati</item>
+		<item>Galleria</item>
+		<item>Benevento/Innesto SS90 Bis Delle Puglie</item>
+		<item>Benevento/Innesto Raccordo Autos. Di Benevento</item>
+		<item>Casello Di S.Giorgio Raccordo Per Benevento</item>
+		<item>S. Giorgio Del Sannio</item>
+		<item>Bivio Per A16 E Per Raccordo Di Benevento</item>
+		<item>Castello Del Lago</item>
+		<item>Ponte Sul Fiume Calore/Innesto SS90 Delle Puglie</item>
+		<item>Variante Di Venticano</item>
+		<item>Passo Serra</item>
+		<item>Pratola Serra/Innesto SS371 Valle Del Sabato</item>
+		<item>Casello Avellino Est A16 Napoli-Canosa</item>
+		<item>Manocalzati/Innesto SS Ofantina</item>
+		<item>Pianodardine/Innesto SS7 Bis Di Terra Di Lavoro</item>
+		<item>Atripalda</item>
+		<item>Bivio Per Atripalda Nord</item>
+		<item>Parolise/Innesto SS400 Di Castelvetere</item>
+		<item>Salza Irpina</item>
+		<item>Bivio Per Volturara Irpina</item>
+		<item>Montemarano/Innesto SS400 Diramazione Di Castelvetere</item>
+		<item>Montemarano</item>
+		<item>Ponteromito/Innesto SS164 Delle Croci Di Acerno</item>
+		<item>Cassano Irpino</item>
+		<item>Bivio Per Montella/Innesto SS164 Delle Croci Di Acerno</item>
+		<item>Bivio Per Bagnoli Irpino</item>
+		<item>Staz. Di Nusco</item>
+		<item>Bivio Per Lioni/Innesto SS400 Di Castelvetere</item>
+		<item>Bivio Per Lioni/Innesto SS7 Dir/C Via Appia</item>
+		<item>Teora/Innesto SS165 Di Mater Domini</item>
+		<item>Teora</item>
+		<item>Sella Di Conza/Incrocio SS91 Della Valle Del Sele</item>
+		<item>Valico Sella Di Conza</item>
+		<item>S. Andrea Di Conza/Innesto SS401</item>
+		<item>Pescopagano</item>
+		<item>Passo Granito</item>
+		<item>Castelgrande</item>
+		<item>Castelgrande/Incrocio SS381</item>
+		<item>Muro Lucano</item>
+		<item>Ponte Di Bella/Innesto SS94 Dir</item>
+		<item>Staz. Di Bella/Muro</item>
+		<item>Staz. Di Baragiano</item>
+		<item>Ruoti</item>
+		<item>Bivio Per Avigliano</item>
+		<item>Valico Di Montocchio</item>
+		<item>Potenza Nord - SS93 Appulo Lucana</item>
+		<item>Potenza Est/Innesto Tangenziale Potenza</item>
+		<item>Staz. Di Vaglio Basilicata/Innesto SS407/Innesto SS658</item>
+		<item>Bivio Per Vaglio Basilicata</item>
+		<item>Bivio Di Tricarico/Innesto SS96 Barese</item>
+		<item>Bivio Per Albano Di Lucania</item>
+		<item>Valico Di Tre Cancelli</item>
+		<item>Tricarico</item>
+		<item>Bivio Per Grassano/Incrocio SS277 Di Calle</item>
+		<item>Grassano</item>
+		<item>Grottole</item>
+		<item>Bivio Per Miglionico/Innesto SS7 Racc Via Appia</item>
+		<item>Lago Di S.Giuliano/Innesto SS380 Dei Tre Confini</item>
+		<item>Matera</item>
+		<item>Matera/Innesto SS99 Di Matera/SS175 Valle Del Brada</item>
+		<item>Ponte Della Palomba/Innesto SS271 Di Cassano</item>
+		<item>Confine Province Di Matera E Taranto</item>
+		<item>Laterza</item>
+		<item>Laterza/Innesto SS580 Di Ginosa</item>
+		<item>Castellaneta</item>
+		<item>Palagiano/Innesto SS106Diramazione Jonica</item>
+		<item>Bivio Per Palagiano/Innesto SS106 Diramazione Jonica</item>
+		<item>Staz. Palagiano/Innesto SS100 Di Gioia Del Colle</item>
+		<item>Taranto A14 Bologna-Taranto</item>
+		<item>Massafra/Innesto SS581 Di Massafra</item>
+		<item>Taranto/Innesto SS106 Jonica/Innestoraccordo Ta-Grottaglie</item>
+		<item>Taranto Centro</item>
+		<item>Bivio Per Taranto/Innesto SS172 Dei Trulli</item>
+		<item>Taranto/Punta Penna</item>
+		<item>Taranto/Masseria S.Paolo</item>
+		<item>S.Giorgio Jonico</item>
+		<item>S.Giorgio Jonico/Innesto SS7 Ter Salentina</item>
+		<item>Grottaglie/Innesto Raccordo Taranto-Grottaglie</item>
+		<item>Francavilla Fontana</item>
+		<item>Francavilla Fontana/Innesto SS603 S.Giorgio Jonico</item>
+		<item>Latiano</item>
+		<item>Mesagne</item>
+		<item>Mesagne/Incrocio SS605 Di Mesagne</item>
+		<item>Bivio Per Brindisi/Innesto SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z283Id">
+		<item>3401</item>
+		<item>3402</item>
+		<item>3403</item>
+		<item>3404</item>
+		<item>14448</item>
+		<item>3405</item>
+		<item>3406</item>
+		<item>3407</item>
+		<item>3408</item>
+		<item>3409</item>
+		<item>3410</item>
+		<item>3411</item>
+		<item>3412</item>
+		<item>3413</item>
+		<item>3414</item>
+		<item>14449</item>
+		<item>3415</item>
+		<item>3416</item>
+		<item>3417</item>
+		<item>3418</item>
+		<item>3419</item>
+		<item>3420</item>
+		<item>3421</item>
+		<item>3422</item>
+		<item>3423</item>
+		<item>3424</item>
+		<item>3425</item>
+		<item>3426</item>
+		<item>3427</item>
+		<item>3428</item>
+		<item>13685</item>
+		<item>3429</item>
+		<item>3430</item>
+		<item>3431</item>
+		<item>3432</item>
+		<item>3433</item>
+		<item>3434</item>
+		<item>3435</item>
+		<item>3436</item>
+		<item>3437</item>
+		<item>3438</item>
+		<item>3439</item>
+		<item>3441</item>
+		<item>3442</item>
+		<item>3443</item>
+		<item>3444</item>
+		<item>3446</item>
+		<item>3445</item>
+		<item>3447</item>
+		<item>3448</item>
+		<item>3449</item>
+		<item>3450</item>
+		<item>3451</item>
+		<item>3452</item>
+		<item>3453</item>
+		<item>3454</item>
+		<item>3455</item>
+		<item>3456</item>
+		<item>3457</item>
+		<item>3458</item>
+		<item>3459</item>
+		<item>3460</item>
+		<item>3461</item>
+		<item>3462</item>
+		<item>3463</item>
+		<item>3464</item>
+		<item>3465</item>
+		<item>3467</item>
+		<item>3466</item>
+		<item>3468</item>
+		<item>3469</item>
+		<item>3470</item>
+		<item>3471</item>
+		<item>3472</item>
+		<item>13686</item>
+		<item>3473</item>
+		<item>3474</item>
+		<item>3475</item>
+		<item>3476</item>
+		<item>3477</item>
+		<item>3478</item>
+		<item>3479</item>
+		<item>3480</item>
+		<item>3481</item>
+		<item>3482</item>
+		<item>3483</item>
+		<item>3484</item>
+		<item>3485</item>
+		<item>3486</item>
+		<item>3487</item>
+		<item>3488</item>
+		<item>3489</item>
+		<item>3490</item>
+		<item>3491</item>
+		<item>13687</item>
+		<item>3493</item>
+		<item>3494</item>
+		<item>3495</item>
+		<item>3496</item>
+		<item>3497</item>
+		<item>13688</item>
+		<item>3498</item>
+		<item>3499</item>
+		<item>3500</item>
+		<item>3501</item>
+		<item>3502</item>
+		<item>3503</item>
+		<item>3505</item>
+		<item>3506</item>
+		<item>3507</item>
+		<item>3508</item>
+		<item>3509</item>
+		<item>3510</item>
+		<item>3511</item>
+		<item>3512</item>
+		<item>3513</item>
+		<item>3514</item>
+		<item>3515</item>
+		<item>3516</item>
+		<item>3517</item>
+		<item>3518</item>
+		<item>3519</item>
+		<item>3520</item>
+		<item>3521</item>
+		<item>3522</item>
+		<item>3523</item>
+		<item>3524</item>
+		<item>3525</item>
+		<item>3526</item>
+		<item>3527</item>
+		<item>3528</item>
+		<item>3529</item>
+		<item>3530</item>
+		<item>3531</item>
+		<item>3532</item>
+		<item>3533</item>
+		<item>3534</item>
+		<item>3535</item>
+		<item>3536</item>
+		<item>3537</item>
+		<item>3538</item>
+		<item>3539</item>
+		<item>3540</item>
+		<item>3541</item>
+		<item>3542</item>
+	</integer-array>
+
+	<string-array name="z283Webcam">
+		<item>H3401</item>
+		<item>H3402</item>
+		<item>H3403</item>
+		<item>H3404</item>
+		<item>H14448</item>
+		<item>H3405</item>
+		<item>H3406</item>
+		<item>H3407</item>
+		<item>H3408</item>
+		<item>H3409</item>
+		<item>H3410</item>
+		<item>H3411</item>
+		<item>H3412</item>
+		<item>H3413</item>
+		<item>H3414</item>
+		<item>H14449</item>
+		<item>H3415</item>
+		<item>H3416</item>
+		<item>H3417</item>
+		<item>H3418</item>
+		<item>H3419</item>
+		<item>H3420</item>
+		<item>H3421</item>
+		<item>H3422</item>
+		<item>H3423</item>
+		<item>H3424</item>
+		<item>H3425</item>
+		<item>H3426</item>
+		<item>H3427</item>
+		<item>H3428</item>
+		<item>H13685</item>
+		<item>H3429</item>
+		<item>H3430</item>
+		<item>H3431</item>
+		<item>H3432</item>
+		<item>H3433</item>
+		<item>H3434</item>
+		<item>H3435</item>
+		<item>H3436</item>
+		<item>H3437</item>
+		<item>H3438</item>
+		<item>H3439</item>
+		<item>H3441</item>
+		<item>H3442</item>
+		<item>H3443</item>
+		<item>H3444</item>
+		<item>H3446</item>
+		<item>H3445</item>
+		<item>H3447</item>
+		<item>H3448</item>
+		<item>H3449</item>
+		<item>H3450</item>
+		<item>H3451</item>
+		<item>H3452</item>
+		<item>H3453</item>
+		<item>H3454</item>
+		<item>H3455</item>
+		<item>H3456</item>
+		<item>H3457</item>
+		<item>H3458</item>
+		<item>H3459</item>
+		<item>H3460</item>
+		<item>H3461</item>
+		<item>H3462</item>
+		<item>H3463</item>
+		<item>H3464</item>
+		<item>H3465</item>
+		<item>H3467</item>
+		<item>H3466</item>
+		<item>H3468</item>
+		<item>H3469</item>
+		<item>H3470</item>
+		<item>H3471</item>
+		<item>H3472</item>
+		<item>H13686</item>
+		<item>H3473</item>
+		<item>H3474</item>
+		<item>H3475</item>
+		<item>H3476</item>
+		<item>H3477</item>
+		<item>H3478</item>
+		<item>H3479</item>
+		<item>H3480</item>
+		<item>H3481</item>
+		<item>H3482</item>
+		<item>H3483</item>
+		<item>H3484</item>
+		<item>H3485</item>
+		<item>H3486</item>
+		<item>H3487</item>
+		<item>H3488</item>
+		<item>H3489</item>
+		<item>H3490</item>
+		<item>H3491</item>
+		<item>H13687</item>
+		<item>H3493</item>
+		<item>H3494</item>
+		<item>H3495</item>
+		<item>H3496</item>
+		<item>H3497</item>
+		<item>H13688</item>
+		<item>H3498</item>
+		<item>H3499</item>
+		<item>H3500</item>
+		<item>H3501</item>
+		<item>H3502</item>
+		<item>H3503</item>
+		<item>H3505</item>
+		<item>H3506</item>
+		<item>H3507</item>
+		<item>H3508</item>
+		<item>H3509</item>
+		<item>H3510</item>
+		<item>H3511</item>
+		<item>H3512</item>
+		<item>H3513</item>
+		<item>H3514</item>
+		<item>H3515</item>
+		<item>H3516</item>
+		<item>H3517</item>
+		<item>H3518</item>
+		<item>H3519</item>
+		<item>H3520</item>
+		<item>H3521</item>
+		<item>H3522</item>
+		<item>H3523</item>
+		<item>H3524</item>
+		<item>H3525</item>
+		<item>H3526</item>
+		<item>H3527</item>
+		<item>H3528</item>
+		<item>H3529</item>
+		<item>H3530</item>
+		<item>H3531</item>
+		<item>H3532</item>
+		<item>H3533</item>
+		<item>H3534</item>
+		<item>H3535</item>
+		<item>H3536</item>
+		<item>H3537</item>
+		<item>H3538</item>
+		<item>H3539</item>
+		<item>H3540</item>
+		<item>H3541</item>
+		<item>H3542</item>
+	</string-array>
+
+</resources>

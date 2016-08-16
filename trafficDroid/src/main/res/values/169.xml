@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mestre - Belluno -->
+<resources>
+
+	<string-array name="z169Name">
+		<item>Allacciamento A57 Torino-Trieste/Raccordo Per Tessera</item>
+		<item>Mogliano Veneto</item>
+		<item>Barriera Di Venezia</item>
+		<item>Allacciamento A4 Padova - Venezia</item>
+		<item>Treviso Sud</item>
+		<item>Treviso Nord</item>
+		<item>Piave</item>
+		<item>Conegliano Veneto</item>
+		<item>Cervada Est</item>
+		<item>Vittorio Veneto Sud</item>
+		<item>Vittorio Veneto Nord</item>
+		<item>Fadalto-Lago Di S.Croce</item>
+		<item>Barriera Di Belluno</item>
+		<item>Cadola-Belluno</item>
+		<item>Pian Di Vedoia Ovest</item>
+		<item>Ponte Delle Alpi Est</item>
+		<item>Pian Di Vedoia-SS51 Di Alemagna</item>
+	</string-array>
+
+	<integer-array name="z169Id">
+		<item>14261</item>
+		<item>14262</item>
+		<item>14263</item>
+		<item>14264</item>
+		<item>1965</item>
+		<item>1966</item>
+		<item>1967</item>
+		<item>1968</item>
+		<item>1969</item>
+		<item>1970</item>
+		<item>1971</item>
+		<item>1972</item>
+		<item>1973</item>
+		<item>1974</item>
+		<item>1975</item>
+		<item>13504</item>
+		<item>1976</item>
+	</integer-array>
+
+	<string-array name="z169Webcam">
+<item>A327</item> <!-- A27 km. 0,1 Inizio Competenza itinere sud -->
+<item>A322</item> <!-- A27 km. 2,5 Mogliano Veneto itinere nord NEW -->
+		<item>A17555</item> <!-- A27 km. 5,1 st. Venezia Nord uscite -->
+		<item>H14264</item>
+<item>A538</item> <!-- A27 km. 10,2 Treviso Sud itinere nord NEW -->
+<item>A2593</item> <!-- A27 km. 21,5 Treviso Nord itinere nord NEW -->
+		<item>H1967</item>
+<item>A1896</item> <!-- A27 km. 40,0 Conegliano itinere nord NEW -->
+<item>A817</item> <!-- A27 km. 41,2 Svinc. Conegliano lato VE NEW -->
+<item>A1899</item> <!-- A27 km. 51,0 Vittorio V. Sud itinere nord NEW -->
+<item>A1273</item> <!-- A27 km. 58,4 Vittorio V. Nord itinere nord NEW -->
+<item>A1898</item> <!-- A27 km. 62,0 Fadalto itinere nord NEW -->
+		<item>H1973</item>
+		<item>H1974</item>
+		<item>H1975</item>
+		<item>H13504</item>
+		<item>H1976</item>
+	</string-array>
+
+</resources>

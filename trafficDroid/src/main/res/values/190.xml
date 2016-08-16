@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Roma Nord -->
+<resources>
+
+	<string-array name="z190Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Barriera Di Roma Nord</item>
+		<item>Fiano Romano</item>
+		<item>Feronia</item>
+		<item>Settebagni</item>
+		<item>Salaria</item>
+		<item>Allacciamento Grande Raccordo Anulare</item>
+	</string-array>
+
+	<integer-array name="z190Id">
+		<item>2147</item>
+		<item>2148</item>
+		<item>2151</item>
+		<item>2150</item>
+		<item>2152</item>
+		<item>2153</item>
+		<item>2154</item>
+	</integer-array>
+
+	<string-array name="z190Webcam">
+<item>A117</item> <!-- D18 km. 4,0 Roma Nord D.T. -->
+<item>A99</item> <!-- D18 km. 5,0 Feronia itinere sud NEW -->
+		<item>H2151</item>
+<item>A2298</item> <!-- D18 Km. 09,9 Castelnuovo di Porto itinere sud -->
+<item>A119</item> <!-- D18 km. 17,8 Settebagni itinere sud HD -->
+<item>A458</item> <!-- D18 km. 22,5 Settebagni itinere nord HD -->
+<item>A120</item> <!-- D18 km. 23,0 GRA Nord NEW -->
+	</string-array>
+
+</resources>

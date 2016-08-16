@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Sistiana-Trieste -->
+<resources>
+
+	<string-array name="z13442Name">
+		<item>Sistiana-A4 To-Ts</item>
+		<item>Sistiana</item>
+		<item>Sgonico</item>
+		<item>Sgonico</item>
+		<item>Prosecco</item>
+		<item>Diramazione Opicina-Fernetti</item>
+		<item>Trebiciano</item>
+		<item>Padriciano-Innesto SS202</item>
+	</string-array>
+
+	<integer-array name="z13442Id">
+		<item>13532</item>
+		<item>13533</item>
+		<item>13534</item>
+		<item>13535</item>
+		<item>13536</item>
+		<item>13537</item>
+		<item>13538</item>
+		<item>13539</item>
+	</integer-array>
+
+	<string-array name="z13442Webcam">
+		<item>H13532</item>
+		<item>H13533</item>
+		<item>H13534</item>
+		<item>H13535</item>
+		<item>H13536</item>
+		<item>H13537</item>
+		<item>H13538</item>
+		<item>H13539</item>
+	</string-array>
+
+</resources>

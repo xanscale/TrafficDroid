@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Salerno-Avellino -->
+<resources>
+
+	<string-array name="z228Name">
+		<item>Allacciamento A3 Salerno-Reggio Calabria</item>
+		<item>Baronissi</item>
+		<item>Lancusi</item>
+		<item>Allacciamento A30 Caserta-Salerno</item>
+		<item>Fisciano-Mercato S.Severino</item>
+		<item>Montoro</item>
+		<item>Torchiati</item>
+		<item>Solofra</item>
+		<item>Serino</item>
+		<item>Avellino-SS7Bis Terra Di Lavoro</item>
+	</string-array>
+
+	<integer-array name="z228Id">
+		<item>2392</item>
+		<item>2393</item>
+		<item>2394</item>
+		<item>2395</item>
+		<item>2396</item>
+		<item>2397</item>
+		<item>2398</item>
+		<item>2399</item>
+		<item>2400</item>
+		<item>2401</item>
+	</integer-array>
+
+	<string-array name="z228Webcam">
+		<item>H2392</item>
+		<item>H2393</item>
+		<item>H2394</item>
+		<item>H2395</item>
+		<item>H2396</item>
+		<item>H2397</item>
+		<item>H2398</item>
+		<item>H2399</item>
+		<item>H2400</item>
+		<item>H2401</item>
+	</string-array>
+
+</resources>

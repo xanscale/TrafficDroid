@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo SS106 Ter -->
+<resources>
+
+	<string-array name="z231Name">
+		<item>A3 Salerno - R.Calabria</item>
+		<item>Via Lia</item>
+		<item>Cardinale Porta Nova</item>
+		<item>Spirito Santo</item>
+		<item>Calopinace</item>
+		<item>Modena</item>
+		<item>Reggio Arangea</item>
+		<item>Innesto SS106 E SS106 Ter</item>
+	</string-array>
+
+	<integer-array name="z231Id">
+		<item>2424</item>
+		<item>2425</item>
+		<item>2426</item>
+		<item>2427</item>
+		<item>2428</item>
+		<item>2429</item>
+		<item>2430</item>
+		<item>2431</item>
+	</integer-array>
+
+	<string-array name="z231Webcam">
+		<item>H2424</item>
+		<item>H2425</item>
+		<item>H2426</item>
+		<item>H2427</item>
+		<item>H2428</item>
+		<item>H2429</item>
+		<item>H2430</item>
+		<item>H2431</item>
+	</string-array>
+
+</resources>

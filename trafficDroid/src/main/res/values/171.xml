@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Palermo - Mazara Del Vallo -->
+<resources>
+
+	<string-array name="z171Name">
+		<item>Palermo</item>
+		<item>Zona Industriale Nord</item>
+		<item>Palermo Mondello</item>
+		<item>Capaci-Isola Delle Femmine</item>
+		<item>Carini</item>
+		<item>Punta Raisi/Diramazione Aeroporto Falcone E Borsellino</item>
+		<item>Villa Grazia Di Carini</item>
+		<item>Cinisi</item>
+		<item>Terrasini</item>
+		<item>Zucco</item>
+		<item>Montelepre</item>
+		<item>Partinico</item>
+		<item>Balestrate</item>
+		<item>Alcamo</item>
+		<item>Castellammare Del Golfo</item>
+		<item>Alcamo Ovest</item>
+		<item>Allacciamento Diramazione Per Trapani</item>
+		<item>Gallitello</item>
+		<item>Salemi</item>
+		<item>S. Ninfa</item>
+		<item>Castelvetrano</item>
+		<item>Campobello Di Mazara</item>
+		<item>Mazara Del Vallo</item>
+	</string-array>
+
+	<integer-array name="z171Id">
+		<item>1994</item>
+		<item>14394</item>
+		<item>14395</item>
+		<item>1995</item>
+		<item>1996</item>
+		<item>1997</item>
+		<item>1998</item>
+		<item>1999</item>
+		<item>2000</item>
+		<item>2001</item>
+		<item>13505</item>
+		<item>2002</item>
+		<item>2003</item>
+		<item>2004</item>
+		<item>2005</item>
+		<item>14396</item>
+		<item>13506</item>
+		<item>2007</item>
+		<item>2008</item>
+		<item>2009</item>
+		<item>2010</item>
+		<item>2011</item>
+		<item>2012</item>
+	</integer-array>
+
+	<string-array name="z171Webcam">
+		<item>H1994</item>
+		<item>H14394</item>
+		<item>H14395</item>
+		<item>H1995</item>
+		<item>H1996</item>
+		<item>H1997</item>
+		<item>H1998</item>
+		<item>H1999</item>
+		<item>H2000</item>
+		<item>H2001</item>
+		<item>H13505</item>
+		<item>H2002</item>
+		<item>H2003</item>
+		<item>H2004</item>
+		<item>H2005</item>
+		<item>H14396</item>
+		<item>H13506</item>
+		<item>H2007</item>
+		<item>H2008</item>
+		<item>H2009</item>
+		<item>H2010</item>
+		<item>H2011</item>
+		<item>H2012</item>
+	</string-array>
+
+</resources>

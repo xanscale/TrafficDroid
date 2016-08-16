@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Siena-Bettolle -->
+<resources>
+
+	<string-array name="z221Name">
+		<item>Siena Est - Due Ponti</item>
+		<item>Ruffolo</item>
+		<item>Bivio Taverne D\'Arbia-SS438 Lauretana</item>
+		<item>Casetta Per Taverne D\'A.-Pianelle</item>
+		<item>Bivio Castelnuovo Berardenga Scalo</item>
+		<item>Bivio Castelnuovo B. S. E Pianella</item>
+		<item>Bivio Castelnuovo Berardenga</item>
+		<item>Bivio Torre A Castello</item>
+		<item>Colonna Del Grillo-SS73 Senese Aretina</item>
+		<item>Bivio Armaiolo E Rapolano Terme</item>
+		<item>Bivio Rapolano Terme</item>
+		<item>Bivio Serre Di Rapolano</item>
+		<item>S.Gimignanello-SS438 Lauretana</item>
+		<item>Bivio Rigomagno E Sinalunga</item>
+		<item>Sinalunga-Bivio SS326 Di Rapolano</item>
+		<item>Bivio Sinalunga-Foiano Della Chiana</item>
+		<item>Bettolle-A1-Raccordo Bettolle-Pg-SS327</item>
+	</string-array>
+
+	<integer-array name="z221Id">
+		<item>2348</item>
+		<item>2349</item>
+		<item>2350</item>
+		<item>2351</item>
+		<item>2352</item>
+		<item>2353</item>
+		<item>2354</item>
+		<item>2355</item>
+		<item>2356</item>
+		<item>2357</item>
+		<item>2358</item>
+		<item>2359</item>
+		<item>2360</item>
+		<item>2361</item>
+		<item>2362</item>
+		<item>2363</item>
+		<item>2364</item>
+	</integer-array>
+
+	<string-array name="z221Webcam">
+		<item>H2348</item>
+		<item>H2349</item>
+		<item>H2350</item>
+		<item>H2351</item>
+		<item>H2352</item>
+		<item>H2353</item>
+		<item>H2354</item>
+		<item>H2355</item>
+		<item>H2356</item>
+		<item>H2357</item>
+		<item>H2358</item>
+		<item>H2359</item>
+		<item>H2360</item>
+		<item>H2361</item>
+		<item>H2362</item>
+		<item>H2363</item>
+		<item>H2364</item>
+	</string-array>
+
+</resources>

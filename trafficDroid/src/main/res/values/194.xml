@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tratto Urbano -->
+<resources>
+
+	<string-array name="z194Name">
+		<item>Allacciamento G.R.A.</item>
+		<item>La Rustica Nord</item>
+		<item>Tor Cervara</item>
+		<item>Via Togliatti</item>
+		<item>Ponte Di Nona</item>
+		<item>Via Fiorentini</item>
+		<item>Tiburtina Sud</item>
+		<item>Portonaccio - Galla Placidia</item>
+		<item>Tangenziale Est</item>
+	</string-array>
+
+	<integer-array name="z194Id">
+		<item>2168</item>
+		<item>2169</item>
+		<item>14357</item>
+		<item>2170</item>
+		<item>14171</item>
+		<item>2171</item>
+		<item>13509</item>
+		<item>2173</item>
+		<item>2174</item>
+	</integer-array>
+
+	<string-array name="z194Webcam">
+		<item>H2168</item>
+		<item>H2169</item>
+		<item>H14357</item>
+		<item>H2170</item>
+		<item>H14171</item>
+		<item>H2171</item>
+		<item>H13509</item>
+		<item>H2173</item>
+		<item>H2174</item>
+	</string-array>
+
+</resources>

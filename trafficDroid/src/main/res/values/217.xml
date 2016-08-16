@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Per Benevento -->
+<resources>
+
+	<string-array name="z217Name">
+		<item>Benevento-A16 Napoli-Canosa</item>
+		<item>Castello Del Lago</item>
+		<item>S.Giorgio Del Sannio-Innesto SS7 Appia</item>
+		<item>Benevento Sud- Innesto SS7 Appia</item>
+		<item>Benevento Centro-Innesto SS90 Bis Delle Puglie</item>
+		<item>Benevento Ovest-Petrelcina</item>
+		<item>Benevento Nord-Innesto SS212 E SS88</item>
+		<item>Benevento-Stazione</item>
+	</string-array>
+
+	<integer-array name="z217Id">
+		<item>2318</item>
+		<item>2319</item>
+		<item>2320</item>
+		<item>2321</item>
+		<item>2322</item>
+		<item>13522</item>
+		<item>2323</item>
+		<item>13523</item>
+	</integer-array>
+
+	<string-array name="z217Webcam">
+		<item>H2318</item>
+		<item>H2319</item>
+		<item>H2320</item>
+		<item>H2321</item>
+		<item>H2322</item>
+		<item>H13522</item>
+		<item>H2323</item>
+		<item>H13523</item>
+	</string-array>
+
+</resources>

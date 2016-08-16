@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Palermo - Catania -->
+<resources>
+
+	<string-array name="z159Name">
+		<item>Palermo</item>
+		<item>Villabate</item>
+		<item>Bagheria</item>
+		<item>Casteldaccia</item>
+		<item>Altavilla Milicia</item>
+		<item>Trabia</item>
+		<item>Termini Imerese</item>
+		<item>Caracoli</item>
+		<item>Zona Industriale</item>
+		<item>Allacciamento A20 Messina-Palermo</item>
+		<item>Buonfornello</item>
+		<item>Scillato Sud</item>
+		<item>Scillato</item>
+		<item>Tre Monzelli</item>
+		<item>Resuttano</item>
+		<item>Ponte 5 Archi</item>
+		<item>Caltanissetta-Imera</item>
+		<item>Enna</item>
+		<item>Sacchitello</item>
+		<item>Mulinello</item>
+		<item>Dittano</item>
+		<item>Agira</item>
+		<item>Catenanuova</item>
+		<item>Gerbini</item>
+		<item>Motta S.Anastasia</item>
+		<item>Gelso Bianco</item>
+		<item>Allacciamento Tangenziale Di Catania</item>
+		<item>Catania Sud</item>
+	</string-array>
+
+	<integer-array name="z159Id">
+		<item>1756</item>
+		<item>14393</item>
+		<item>1757</item>
+		<item>1758</item>
+		<item>1759</item>
+		<item>1760</item>
+		<item>1761</item>
+		<item>1762</item>
+		<item>1763</item>
+		<item>1764</item>
+		<item>1765</item>
+		<item>1766</item>
+		<item>1767</item>
+		<item>1768</item>
+		<item>1769</item>
+		<item>1770</item>
+		<item>1771</item>
+		<item>1772</item>
+		<item>1773</item>
+		<item>1774</item>
+		<item>14362</item>
+		<item>1775</item>
+		<item>1776</item>
+		<item>1777</item>
+		<item>1778</item>
+		<item>1779</item>
+		<item>1780</item>
+		<item>1781</item>
+	</integer-array>
+
+	<string-array name="z159Webcam">
+		<item>H1756</item>
+		<item>H14393</item>
+		<item>H1757</item>
+		<item>H1758</item>
+		<item>H1759</item>
+		<item>H1760</item>
+		<item>H1761</item>
+		<item>H1762</item>
+		<item>H1763</item>
+		<item>H1764</item>
+		<item>H1765</item>
+		<item>H1766</item>
+		<item>H1767</item>
+		<item>H1768</item>
+		<item>H1769</item>
+		<item>H1770</item>
+		<item>H1771</item>
+		<item>H1772</item>
+		<item>H1773</item>
+		<item>H1774</item>
+		<item>H14362</item>
+		<item>H1775</item>
+		<item>H1776</item>
+		<item>H1777</item>
+		<item>H1778</item>
+		<item>H1779</item>
+		<item>H1780</item>
+		<item>H1781</item>
+	</string-array>
+
+</resources>

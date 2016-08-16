@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string-array name="notificationSpeedValue">
+		<item>1</item>
+		<item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+	</string-array>
+	<string-array name="notificationSpeedLabel">
+		<item>10 Km/h</item>
+		<item>30 Km/h</item>
+		<item>50 Km/h</item>
+		<item>70 Km/h</item>
+		<item>90 Km/h</item>
+	</string-array>
+	<string-array name="chiaroveggenzaTimeValue">
+		<item>900000</item>
+		<item>1800000</item>
+		<item>3600000</item>
+		<item>7200000</item>
+		<item>14400000</item>
+	</string-array>
+	<string-array name="chiaroveggenzaTimeLabel">
+		<item>15 minuti</item>
+		<item>30 minuti</item>
+		<item>1 ora</item>
+		<item>2 ore</item>
+		<item>4 ore</item>
+	</string-array>
+	<string-array name="trendSpeedLabel">
+		<item>1 Km/h</item>
+		<item>2 Km/h</item>
+		<item>4 Km/h</item>
+		<item>8 Km/h</item>
+		<item>16 Km/h</item>
+		<item>32 Km/h</item>
+	</string-array>
+	<string-array name="trendSpeedValue">
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+		<item>8</item>
+		<item>16</item>
+		<item>32</item>
+	</string-array>
+	<string-array name="tipoVeicoloKey">
+		<item>1</item>
+		<item>2</item>
+		<item>4</item>
+	</string-array>
+	<string-array name="tipoVeicoloValues">
+		<item>Autoveicoli</item>
+		<item>Rimorchi</item>
+		<item>Motoveicoli</item>
+	</string-array>
+	<string-array name="regioneResidenzaKey">
+		<item>1</item>
+		<item>2</item>
+		<item>5</item>
+		<item>6</item>
+		<item>12</item>
+		<item>13</item>
+		<item>14</item>
+		<item>16</item>
+		<item>19</item>
+		<item>20</item>
+	</string-array>
+	<string-array name="regioneResidenzaValues">
+		<item>Abruzzo</item>
+		<item>Basilicata</item>
+		<item>Emilia Romagna</item>
+		<item>Lazio</item>
+		<item>Puglia</item>
+		<item>Toscana</item>
+		<item>Umbria</item>
+		<item>Valle d\'Aosta</item>
+		<item>Bolzano</item>
+		<item>Trento</item>
+	</string-array>
+
+</resources>

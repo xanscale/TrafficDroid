@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Anagnina -->
+<resources>
+
+	<string-array name="z936Name">
+		<item>Via Tor Di Mezza/Innesto SS215 Tuscolana</item>
+		<item>Anagnina G.R.A.</item>
+		<item>Grottaferrata/Incrocio SS216 Maremmana Iii</item>
+		<item>Bivio Pedica/Innesto SS215 E SS218 Di Rocca Di Papa</item>
+	</string-array>
+
+	<integer-array name="z936Id">
+		<item>11936</item>
+		<item>11937</item>
+		<item>11938</item>
+		<item>11939</item>
+	</integer-array>
+
+	<string-array name="z936Webcam">
+		<item>H11936</item>
+		<item>H11937</item>
+		<item>H11938</item>
+		<item>H11939</item>
+	</string-array>
+
+</resources>

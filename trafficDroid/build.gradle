@@ -1,0 +1,27 @@
+apply plugin: 'com.android.application'
+
+android {
+	compileSdkVersion 23
+	buildToolsVersion "24.0.1"
+
+	defaultConfig {
+		applicationId "it.localhost.trafficdroid"
+		minSdkVersion 17
+		targetSdkVersion 22
+		versionCode 20151126
+		versionName "3.2.0 Phoenix"
+	}
+
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+		}
+	}
+}
+
+dependencies {
+	compile 'com.github.xanscale:LocalhostToolkit:-SNAPSHOT'
+	compile 'com.google.android.gms:play-services-analytics:9.4.0'
+	compile 'com.google.android.gms:play-services-ads:9.4.0'
+}

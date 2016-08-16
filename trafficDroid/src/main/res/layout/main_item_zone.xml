@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<TextView
+		android:id="@+id/zoneName"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:ellipsize="marquee"
+		android:gravity="center"
+		android:singleLine="true"
+		android:textAppearance="?android:attr/textAppearanceListItem"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:weightSum="7">
+
+		<ImageView
+			android:id="@+id/trendLeft"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:contentDescription="@string/trendLeft"/>
+
+		<TextView
+			android:id="@+id/zoneSpeedLeft"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceListItemSmall"
+			android:typeface="monospace"/>
+
+		<ImageView
+			android:id="@+id/zoneAutoveloxLeft"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:contentDescription="@string/autoveloxLeft"
+			android:gravity="center"
+			android:src="@drawable/autovelox"/>
+
+		<ImageView
+			android:id="@+id/zoneCam"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:contentDescription="@string/webcam"
+			android:gravity="center"/>
+
+		<ImageView
+			android:id="@+id/zoneAutoveloxRight"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:contentDescription="@string/autoveloxRight"
+			android:gravity="center"
+			android:src="@drawable/autovelox"/>
+
+		<TextView
+			android:id="@+id/zoneSpeedRight"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:gravity="center"
+			android:textAppearance="?android:attr/textAppearanceListItemSmall"
+			android:typeface="monospace"/>
+
+		<ImageView
+			android:id="@+id/trendRight"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center"
+			android:layout_weight="1"
+			android:contentDescription="@string/trendRight"/>
+	</LinearLayout>
+</LinearLayout>

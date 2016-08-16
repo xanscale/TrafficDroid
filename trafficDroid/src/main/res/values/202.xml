@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Autostrada Aeroporto Di Fiumicino -->
+<resources>
+
+	<string-array name="z202Name">
+		<item>V.Della Magliana-SS8 Via Ostiense</item>
+		<item>Via Isacco Newton</item>
+		<item>Parco Dei Medici</item>
+		<item>Via Magliana Vecchia</item>
+		<item>Magliana</item>
+		<item>Allacciamento G.R.A.</item>
+		<item>Allacciamento A12 Roma-Civitavecchia</item>
+		<item>Aeroporto Di Fiumicino</item>
+	</string-array>
+
+	<integer-array name="z202Id">
+		<item>2221</item>
+		<item>13514</item>
+		<item>13515</item>
+		<item>13516</item>
+		<item>2223</item>
+		<item>2224</item>
+		<item>2225</item>
+		<item>2226</item>
+	</integer-array>
+
+	<string-array name="z202Webcam">
+		<item>H2221</item>
+		<item>H13514</item>
+		<item>H13515</item>
+		<item>H13516</item>
+		<item>H2223</item>
+		<item>H2224</item>
+		<item>H2225</item>
+		<item>H2226</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Torano - Pescara -->
+<resources>
+
+	<string-array name="z167Name">
+		<item>Allacciamento A24 Roma-Teramo</item>
+		<item>Monte Velino</item>
+		<item>Magliano De\' Marsi</item>
+		<item>Avezzano</item>
+		<item>Celano</item>
+		<item>Pescina</item>
+		<item>Cocullo</item>
+		<item>Sulmona-Pratola Peligna</item>
+		<item>Bussi-Popoli</item>
+		<item>Casauria-Torre De\' Passeri</item>
+		<item>Scafa-Alanno</item>
+		<item>Brecciarola</item>
+		<item>Chieti-Pescara-Raccordo Ch-Pe</item>
+		<item>Pescara-Villanova</item>
+		<item>Allacciamento A14 Bologna-Taranto</item>
+	</string-array>
+
+	<integer-array name="z167Id">
+		<item>1920</item>
+		<item>1921</item>
+		<item>1922</item>
+		<item>1923</item>
+		<item>1924</item>
+		<item>1925</item>
+		<item>1926</item>
+		<item>1927</item>
+		<item>1928</item>
+		<item>1929</item>
+		<item>1930</item>
+		<item>1931</item>
+		<item>1932</item>
+		<item>1933</item>
+		<item>1934</item>
+	</integer-array>
+
+	<string-array name="z167Webcam">
+		<item>H1920</item>
+		<item>H1921</item>
+<item>A2638</item> <!-- A25 km. 087,1 Avezzano Dx -->
+<item>A2636</item> <!-- A25 km. 89,1 AVEZZANO Sx -->
+		<item>H1924</item>
+		<item>H1925</item>
+		<item>H1926</item>
+		<item>H1927</item>
+		<item>H1928</item>
+		<item>H1929</item>
+		<item>H1930</item>
+		<item>H1931</item>
+		<item>H1932</item>
+		<item>H1933</item>
+		<item>H1934</item>
+	</string-array>
+
+</resources>

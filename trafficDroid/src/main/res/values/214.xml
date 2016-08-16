@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ramo Casalecchio -->
+<resources>
+
+	<string-array name="z214Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Bologna Casalecchio</item>
+		<item>Allacciamento A14 Bologna-Taranto</item>
+	</string-array>
+
+	<integer-array name="z214Id">
+		<item>2306</item>
+		<item>2307</item>
+		<item>2308</item>
+	</integer-array>
+
+	<string-array name="z214Webcam">
+		<item>H2306</item>
+		<item>H2307</item>
+		<item>H2308</item>
+	</string-array>
+
+</resources>

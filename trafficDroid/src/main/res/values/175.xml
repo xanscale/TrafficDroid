@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Grande Raccordo Anulare Di Roma -->
+<resources>
+
+	<string-array name="z175Name">
+		<item>1: SS1 Via Aurelia</item>
+		<item>1A: Montespaccato</item>
+		<item>2: Via Di Boccea</item>
+		<item>2A: Casal Del Marmo</item>
+		<item>Selva Candida</item>
+		<item>2A: Trionfale</item>
+		<item>3: SS2 Via Cassia</item>
+		<item>4: Ospedale S.Andrea</item>
+		<item>5: SS2Bis Cassia Veientana</item>
+		<item>6: SS3 Via Flaminia</item>
+		<item>7: Castel Giubileo</item>
+		<item>8: SS4 Via Salaria</item>
+		<item>9: Via Di Settebagni-Bel Poggio</item>
+		<item>10: Allacciamento Diramazione Roma Nord</item>
+		<item>Settebagni</item>
+		<item>Della Bufalotta</item>
+		<item>11: Via Nomentana</item>
+		<item>12: Via S.Alessandro-C.Le Latte</item>
+		<item>13: SS5 Via Tiburtina</item>
+		<item>14: Allacciamento A24 Roma-Teramo</item>
+		<item>15: La Rustica</item>
+		<item>16: Via Prenestina</item>
+		<item>17: Tor Bella Monaca</item>
+		<item>Casilina</item>
+		<item>18: SS6 Via Casilina</item>
+		<item>19: Allacciamento Diramazione Roma Sud</item>
+		<item>20: La Romanina</item>
+		<item>21: SS215 Via Tuscolana</item>
+		<item>22: SS511 Via Anagnina</item>
+		<item>Di Ciampino</item>
+		<item>23: SS7 Via Appia</item>
+		<item>24: Via Ardeatina</item>
+		<item>Ardeatina</item>
+		<item>25: Via Laurentina</item>
+		<item>26: SS148 Via Pontina</item>
+		<item>27: Via C.Colombo</item>
+		<item>28: SS8 Via Del Mare-V.Ostiense</item>
+		<item>29: Parco Dei Medici</item>
+		<item>30: Allacciamento Autos. Per Aeroporto Fiumicino</item>
+		<item>31: Via Della Magliana</item>
+		<item>32: Via Della Pisana</item>
+		<item>Pisana</item>
+		<item>33: Via Del Pescaccio</item>
+		<item>Gra-Aurelia</item>
+	</string-array>
+
+	<integer-array name="z175Id">
+		<item>2048</item>
+		<item>14375</item>
+		<item>2049</item>
+		<item>14376</item>
+		<item>2050</item>
+		<item>14377</item>
+		<item>2051</item>
+		<item>14378</item>
+		<item>2052</item>
+		<item>2053</item>
+		<item>2054</item>
+		<item>2055</item>
+		<item>2056</item>
+		<item>2057</item>
+		<item>2058</item>
+		<item>41863</item>
+		<item>2059</item>
+		<item>2060</item>
+		<item>2061</item>
+		<item>2063</item>
+		<item>2064</item>
+		<item>2065</item>
+		<item>2066</item>
+		<item>2067</item>
+		<item>2068</item>
+		<item>2069</item>
+		<item>2070</item>
+		<item>2071</item>
+		<item>2072</item>
+		<item>13507</item>
+		<item>2073</item>
+		<item>2074</item>
+		<item>2075</item>
+		<item>2076</item>
+		<item>2077</item>
+		<item>2078</item>
+		<item>2079</item>
+		<item>14379</item>
+		<item>2080</item>
+		<item>2081</item>
+		<item>2082</item>
+		<item>2083</item>
+		<item>2084</item>
+		<item>2085</item>
+	</integer-array>
+
+	<string-array name="z175Webcam">
+		<item>H2048</item>
+		<item>H14375</item>
+		<item>H2049</item>
+		<item>H14376</item>
+		<item>H2050</item>
+		<item>H14377</item>
+		<item>H2051</item>
+		<item>H14378</item>
+		<item>H2052</item>
+		<item>H2053</item>
+		<item>H2054</item>
+		<item>H2055</item>
+		<item>H2056</item>
+		<item>H2057</item>
+		<item>H2058</item>
+		<item>H41863</item>
+		<item>H2059</item>
+		<item>H2060</item>
+		<item>H2061</item>
+		<item>H2063</item>
+		<item>H2064</item>
+		<item>H2065</item>
+		<item>H2066</item>
+		<item>H2067</item>
+		<item>H2068</item>
+		<item>H2069</item>
+		<item>H2070</item>
+		<item>H2071</item>
+		<item>E27</item>
+		<item>H13507</item>
+		<item>H2073</item>
+		<item>H2074</item>
+		<item>H2075</item>
+		<item>H2076</item>
+		<item>H2077</item>
+		<item>H2078</item>
+		<item>H2079</item>
+		<item>H14379</item>
+		<item>E29</item>
+		<item>H2081</item>
+		<item>H2082</item>
+		<item>H2083</item>
+		<item>H2084</item>
+		<item>H2085</item>
+	</string-array>
+
+</resources>

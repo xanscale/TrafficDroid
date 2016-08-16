@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Firenze - Pisa -->
+<resources>
+
+	<string-array name="z146Name">
+		<item>Firenze-Peretola</item>
+		<item>Sesto Fiorentino</item>
+		<item>Peretola</item>
+		<item>Allacciamento Raccordo Di Firenze Nord</item>
+		<item>Barriera Di Firenze Ovest</item>
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Prato Est</item>
+		<item>Prato Ovest</item>
+		<item>Pistoia</item>
+		<item>Serravalle</item>
+		<item>Montecatini</item>
+		<item>Chiesina Uzzanese</item>
+		<item>Altopascio</item>
+		<item>Capannori</item>
+		<item>Lucca</item>
+		<item>Allacciamento A12 - Lucca</item>
+		<item>Migliarino</item>
+		<item>Allacciamento A12 - Pisa</item>
+		<item>Barriera Di Pisa Nord</item>
+		<item>Pisa</item>
+	</string-array>
+
+	<integer-array name="z146Id">
+		<item>1537</item>
+		<item>1538</item>
+		<item>1539</item>
+		<item>1540</item>
+		<item>1541</item>
+		<item>1542</item>
+		<item>1543</item>
+		<item>1544</item>
+		<item>1545</item>
+		<item>1546</item>
+		<item>1547</item>
+		<item>1548</item>
+		<item>1549</item>
+		<item>1550</item>
+		<item>1552</item>
+		<item>14186</item>
+		<item>1553</item>
+		<item>1554</item>
+		<item>1555</item>
+		<item>1556</item>
+	</integer-array>
+
+	<string-array name="z146Webcam">
+		<item>H1537</item>
+		<item>H1538</item>
+<item>A1810</item> <!-- A11 km. 00,0 Peretola itinere ovest NEW -->
+		<item>H1540</item>
+		<item>H1541</item>
+<item>A85</item> <!-- A11 km. 02,0 Osmannoro itinere ovest NEW -->
+<item>A90</item> <!-- A11 km. 07,0 Prato Est itinere est NEW -->
+<item>A392</item> <!-- A11 km. 15,0 Prato Ovest itinere ovest -->
+<item>A394</item> <!-- A11 km. 26,1 Pistoia itinere ovest -->
+<item>A2031</item> <!-- A11 km. 33,0 Serravalle itinere ovest -->
+<item>A396</item> <!-- A11 km. 36,5 Montecatini itinere ovest -->
+		<item>A22014</item> <!-- A11 km. 46,0 Chiesina U. itinere ovest -->
+		<item>A21982</item> <!-- A11 km. 51,0 Altopascio itinere est -->
+		<item>A22090</item> <!-- A11 km. 62,4 Capannori itinere est -->
+		<item>A20042</item> <!-- A11 km. 64,8 Lucca itinere ovest -->
+		<item>A10421</item> <!-- A11 km. 65,0 Lucca itinere ovest -->
+		<item>H1553</item>
+		<item>H1554</item>
+		<item>H1555</item>
+		<item>H1556</item>
+	</string-array>
+
+</resources>

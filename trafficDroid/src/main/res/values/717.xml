@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Romea -->
+<resources>
+
+	<string-array name="z717Name">
+		<item>Ravenna/Innesto SS309Diramazione Romea</item>
+		<item>Bivio Per Marina Romea</item>
+		<item>Bivio Per Casal Borsetti</item>
+		<item>Bellocchio</item>
+		<item>Bivio Per Lido Di Spina</item>
+		<item>Bivio Per Lido Degli Estensi</item>
+		<item>Bivio Per Comacchio</item>
+		<item>Bivio Strada Provinciale Ferrara Mare</item>
+		<item>Porto Garibaldi/Allacciamento Raccordo Fe-P.To Garibaldi</item>
+		<item>S.Giuseppe</item>
+		<item>Bivio Per Lagosanto</item>
+		<item>Pomposa</item>
+		<item>Bivio Per Italba</item>
+		<item>Mesola</item>
+		<item>Bivio Per Porto Tolle</item>
+		<item>Bivio Per Sagrati</item>
+		<item>Bivio Per Taglio Di Po</item>
+		<item>Contarina</item>
+		<item>Bivio Per Donada</item>
+		<item>Bivio Per Adria</item>
+		<item>Rosolina</item>
+		<item>Bivio Per Portesine</item>
+		<item>Chioggia</item>
+		<item>Bivio Per Conche</item>
+		<item>Bivio Per Codevigo</item>
+		<item>Confine Province Di Padova E Venezia</item>
+		<item>Lova</item>
+		<item>Marghera/Incrocio SS11 Padana Superiore</item>
+		<item>Mestre Ovest/Rotatoria Marghera A57</item>
+	</string-array>
+
+	<integer-array name="z717Id">
+		<item>9868</item>
+		<item>9869</item>
+		<item>9870</item>
+		<item>9871</item>
+		<item>9872</item>
+		<item>9873</item>
+		<item>9874</item>
+		<item>14413</item>
+		<item>9875</item>
+		<item>9876</item>
+		<item>9877</item>
+		<item>9878</item>
+		<item>9879</item>
+		<item>9880</item>
+		<item>9881</item>
+		<item>14414</item>
+		<item>9882</item>
+		<item>9883</item>
+		<item>9884</item>
+		<item>14415</item>
+		<item>9885</item>
+		<item>9886</item>
+		<item>9887</item>
+		<item>9888</item>
+		<item>9889</item>
+		<item>9890</item>
+		<item>9891</item>
+		<item>9892</item>
+		<item>9893</item>
+	</integer-array>
+
+	<string-array name="z717Webcam">
+		<item>H9868</item>
+		<item>H9869</item>
+		<item>H9870</item>
+		<item>H9871</item>
+		<item>H9872</item>
+		<item>H9873</item>
+		<item>H9874</item>
+		<item>H14413</item>
+		<item>H9875</item>
+		<item>H9876</item>
+		<item>H9877</item>
+		<item>H9878</item>
+		<item>H9879</item>
+		<item>H9880</item>
+		<item>H9881</item>
+		<item>H14414</item>
+		<item>H9882</item>
+		<item>H9883</item>
+		<item>H9884</item>
+		<item>H14415</item>
+		<item>H9885</item>
+		<item>H9886</item>
+		<item>H9887</item>
+		<item>H9888</item>
+		<item>H9889</item>
+		<item>H9890</item>
+		<item>H9891</item>
+		<item>H9892</item>
+		<item>H9893</item>
+	</string-array>
+
+</resources>

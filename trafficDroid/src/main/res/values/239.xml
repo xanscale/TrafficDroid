@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Tangenziale Ovest Di Milano -->
+<resources>
+	<string-array name="z239Name">
+		<item>Allacciamento A8 Milano-Varese</item>
+		<item>Barriera Di Terrazzano</item>
+		<item>Rho Ovest</item>
+		<item>SS33 Del Sempione: Rho-Pero</item>
+		<item>Rho Area Industriale</item>
+		<item>Allacciamento A4 Torino-Trieste: V.Le Certosa</item>
+		<item>Cascina Ghisolfa</item>
+		<item>SS11 Padana Superiore E SS33: Molino Dorino</item>
+		<item>Settimo Milanese-SS11: S.Siro-Fiera</item>
+		<item>Baggio-Cusago: Via Zurigo-Zona Ind.</item>
+		<item>Muggiano</item>
+		<item>SS494 Vigevanese Nuova: Lorenteggio</item>
+		<item>SP59 Vigevanese Vecchia: Trezzano</item>
+		<item>Assago Ovest</item>
+		<item>Allacciamento A7 Milano-Genova</item>
+		<item>SS35 Dei Giovi: Pavia-Rozzano-Assago</item>
+		<item>Rozzano Est</item>
+		<item>SS412 Della Val Tidone: Pavia-Opera</item>
+		<item>S. Giuliano</item>
+		<item>San Donato</item>
+		<item>Allacciamento A1 Milano-Napoli</item>
+	</string-array>
+	<integer-array name="z239Id">
+		<item>2604</item>
+		<item>2605</item>
+		<item>2606</item>
+		<item>2607</item>
+		<item>14021</item>
+		<item>2608</item>
+		<item>14193</item>
+		<item>2609</item>
+		<item>2610</item>
+		<item>2611</item>
+		<item>2612</item>
+		<item>2613</item>
+		<item>2614</item>
+		<item>2615</item>
+		<item>2616</item>
+		<item>2617</item>
+		<item>2618</item>
+		<item>2619</item>
+		<item>2620</item>
+		<item>14194</item>
+		<item>2621</item>
+	</integer-array>
+	<string-array name="z239Webcam">
+		<item>H2604</item>
+		<item>Sterrazzano</item>
+		<item>H2606</item>
+		<item>H2607</item>
+		<item>H14021</item>
+		<item>H2608</item>
+		<item>Sghisolfa</item>
+		<item>Smolino_dorino</item>
+		<item>H2610</item>
+		<item>H2611</item>
+		<item>Smuggiano</item>
+		<item>Svigevanese</item>
+		<item>H2614</item>
+		<item>H2615</item>
+		<item>Smilano_ovest</item>
+		<item>Srozzano</item>
+		<item>H2618</item>
+		<item>Svaltidone</item>
+		<item>H2620</item>
+		<item>H14194</item>
+		<item>H2621</item>
+	</string-array>
+</resources>

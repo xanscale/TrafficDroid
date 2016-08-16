@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bologna - Padova -->
+<resources>
+
+	<string-array name="z150Name">
+		<item>Allacciamento A14 Bologna-Taranto</item>
+		<item>Bologna Arcoveggio-Raccordo Per La Tangenziale</item>
+		<item>Bologna Interporto</item>
+		<item>Castel Bentivoglio</item>
+		<item>Altedo</item>
+		<item>Ferrara Sud</item>
+		<item>Ferrara Nord</item>
+		<item>Po</item>
+		<item>Occhiobello</item>
+		<item>Rovigo Sud - Villa Marzana</item>
+		<item>Adige</item>
+		<item>Rovigo</item>
+		<item>Boara</item>
+		<item>Monselice</item>
+		<item>Terme Euganee</item>
+		<item>San Pelagio</item>
+		<item>Allacciamento Diramazione Padova Sud</item>
+		<item>Padova Zona Industriale-Interporto</item>
+		<item>Allacciamento A4 Torino-Trieste</item>
+	</string-array>
+
+	<integer-array name="z150Id">
+		<item>1602</item>
+		<item>1603</item>
+		<item>1604</item>
+		<item>1605</item>
+		<item>1606</item>
+		<item>1607</item>
+		<item>1608</item>
+		<item>1609</item>
+		<item>1610</item>
+		<item>14187</item>
+		<item>1611</item>
+		<item>1612</item>
+		<item>1613</item>
+		<item>1614</item>
+		<item>1615</item>
+		<item>1616</item>
+		<item>1617</item>
+		<item>1618</item>
+		<item>1619</item>
+	</integer-array>
+
+	<string-array name="z150Webcam">
+<item>A350</item> <!-- A13 km. 0,5 Arcoveggio itinere nord NEW -->
+<item>A351</item> <!-- A13 km. 1,5 Arcoveggio itinere sud NEW -->
+<item>A1011</item> <!-- A13 km. 9,4 Interporto itinere sud NEW -->
+<item>A2756</item> <!-- A13 km. 11,5 Bentivoglio Ovest itinere sud NEW -->
+<item>A352</item> <!-- A13 km. 20,0 Altedo itinere nord NEW -->
+<item>A1012</item> <!-- A13 km. 34,6 Ferrara Sud itinere sud NEW -->
+<item>A356</item> <!-- A13 km. 42,0 Ferrara Nord itinere sud NEW -->
+<item>A1016</item> <!-- A13 km. 45,6 Occhiobello itinere nord NEW -->
+<item>A357</item> <!-- A13 km. 50,0 Occhiobello itinere sud NEW -->
+		<item>A20313</item> <!-- A13 km. 69,0 Rovigo itinere nord -->
+		<item>A11319</item> <!-- A13 km. 71,0 Rovigo itinere sud -->
+		<item>A20307</item> <!-- A13 km. 73,0 Boara itinere nord -->
+		<item>A5950</item> <!-- A13 km. 76,0 Boara itinere sud -->
+		<item>A20294</item> <!-- A13 km. 89,0 Monselice itinere sud -->
+		<item>A16194</item> <!-- A13 km. 96,0 Terme Euganee itinere sud -->
+		<item>A20280</item> <!-- A13 km. 99,5 Padova Sud itinere nord -->
+		<item>A22198</item> <!-- A13 km. 101 Padova Sud itinere sud -->
+		<item>A16187</item> <!-- A13 km. 111,3 Padova Zona Industriale itinere nord -->
+		<item>A22184</item> <!-- A13 km. 116,7 Svincolo A04 itinere nord -->
+	</string-array>
+
+</resources>

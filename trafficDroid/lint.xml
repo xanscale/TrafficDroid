@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="IconMissingDensityFolder" severity="ignore" />
+    <issue id="SetJavaScriptEnabled" severity="ignore" />
+    <issue id="TypographyDashes" severity="ignore" />
+    <issue id="ViewTag" severity="ignore" />
+</lint>

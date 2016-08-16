@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Chieti-Pescara -->
+<resources>
+
+	<string-array name="z219Name">
+		<item>Chieti</item>
+		<item>Villareia-Innesto SS5 Tiburtina</item>
+		<item>Via Erasmo Piaggio</item>
+		<item>SS81 Piceno Aprutina</item>
+		<item>Salvaiessi</item>
+		<item>A14 Bologna-Taranto</item>
+		<item>Dragonara</item>
+		<item>Zona Industriale Sambuceto</item>
+		<item>Zona Industriale Di Pescara</item>
+		<item>Innesto SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z219Id">
+		<item>2330</item>
+		<item>13524</item>
+		<item>13525</item>
+		<item>13526</item>
+		<item>2335</item>
+		<item>13527</item>
+		<item>2337</item>
+		<item>13528</item>
+		<item>13529</item>
+		<item>13530</item>
+	</integer-array>
+
+	<string-array name="z219Webcam">
+		<item>H2330</item>
+		<item>H13524</item>
+		<item>H13525</item>
+		<item>H13526</item>
+		<item>H2335</item>
+		<item>H13527</item>
+		<item>H2337</item>
+		<item>H13528</item>
+		<item>H13529</item>
+		<item>H13530</item>
+	</string-array>
+
+</resources>

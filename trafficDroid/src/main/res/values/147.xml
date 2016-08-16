@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Genova - Rosignano -->
+<resources>
+
+	<string-array name="z147Name">
+		<item>Allacciamento A7 Milano-Genova</item>
+		<item>Genova Est</item>
+		<item>Genova Nervi</item>
+		<item>Sant\' Ilario</item>
+		<item>Recco</item>
+		<item>Rapallo</item>
+		<item>Chiavari</item>
+		<item>Lavagna</item>
+		<item>Sestri Levante</item>
+		<item>Riviera</item>
+		<item>Deiva Marina</item>
+		<item>Carrodano</item>
+		<item>Brugnato-Borghetto Vara</item>
+		<item>Brugnato</item>
+		<item>S.Stefano Di Magra-La Spezia-Allacciamento A15 Pr-Sp</item>
+		<item>Magra</item>
+		<item>Sarzana</item>
+		<item>Carrara</item>
+		<item>Massa</item>
+		<item>Versilia</item>
+		<item>Versilia</item>
+		<item>Allacciamento Diramazione Lucca-Viareggio</item>
+		<item>Allacciamento A11 Firenze-Pisa Nord</item>
+		<item>Pisa Centro</item>
+		<item>Castagnolo</item>
+		<item>Livorno - Raccordo Per Livorno</item>
+		<item>Collesalvetti/Sgc Fi-Pi-Li</item>
+		<item>Savalano Ovest</item>
+		<item>Fine Est</item>
+		<item>Barriera Di Rosignano Marittimo</item>
+		<item>Rosignano</item>
+	</string-array>
+
+	<integer-array name="z147Id">
+		<item>1557</item>
+		<item>1558</item>
+		<item>1559</item>
+		<item>1560</item>
+		<item>1561</item>
+		<item>1562</item>
+		<item>1563</item>
+		<item>1564</item>
+		<item>1565</item>
+		<item>1566</item>
+		<item>1567</item>
+		<item>1568</item>
+		<item>1569</item>
+		<item>1570</item>
+		<item>1571</item>
+		<item>1572</item>
+		<item>1573</item>
+		<item>1574</item>
+		<item>1575</item>
+		<item>1576</item>
+		<item>13491</item>
+		<item>1578</item>
+		<item>1579</item>
+		<item>1580</item>
+		<item>1581</item>
+		<item>1582</item>
+		<item>1583</item>
+		<item>1584</item>
+		<item>1585</item>
+		<item>1586</item>
+		<item>1588</item>
+	</integer-array>
+
+	<string-array name="z147Webcam">
+<item>A492</item> <!-- A12 km. 1,9 A12/A7 itinere ovest NEW -->
+<item>A2382</item> <!-- A12 km. 4,2 Genova Est itinere est NEW -->
+<item>A468</item> <!-- A12 km. 11,2 GE-Nervi itinere est NEW -->
+<item>A11</item> <!-- A12 km. 23,0 Recco itinere ovest NEW -->
+<item>A14</item> <!-- A12 km. 28,0 Rapallo itinere ovest NEW -->
+<item>A480</item> <!-- A12 km. 39,0 Chiavari itinere Est -->
+<item>A1051</item> <!-- A12 km. 39,9 Lavagna itinere est NEW -->
+<item>A496</item> <!-- A12 km. 52,1 Sestri TR1/Salt itinere ovest NEW -->
+		<item>H1565</item>
+		<item>H1566</item>
+		<item>H1567</item>
+		<item>H1568</item>
+		<item>H1569</item>
+		<item>H1570</item>
+		<item>H1571</item>
+		<item>H1572</item>
+		<item>H1573</item>
+		<item>H1574</item>
+		<item>H1575</item>
+		<item>H1576</item>
+		<item>H13491</item>
+		<item>H1578</item>
+		<item>H1579</item>
+		<item>H1580</item>
+		<item>H1581</item>
+<item>A209</item> <!-- A12 km. 170,1 Livorno -->
+<item>A208</item> <!-- A12 km. 177,8 Collesalvetti NEW -->
+<item>A205</item> <!-- A12 km. 188,1 Rimazzano Nord -->
+<item>A251</item> <!-- A12 km. 200,1 A.D.S. Fine -->
+<item>A1900</item> <!-- A12 km. 206,0 Rosignano entrate -->
+<item>A1901</item> <!-- A12 km. 206,0 Rosignano uscite -->
+	</string-array>
+
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<item name="zoneType" type="id"/>
+	<item name="itemKey" type="id"/>
+	<item name="itemName" type="id"/>
+	<item name="text1" type="id"/>
+	<item name="text2" type="id"/>
+
+</resources>

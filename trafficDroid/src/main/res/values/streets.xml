@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="streetName">
+		<item>Milano - Napoli</item>
+		<item>Diramazione Roma Nord</item>
+		<item>Diramazione Roma Sud</item>
+		<item>Napoli - Reggio Calabria</item>
+		<item>Raccordo SS106 Ter</item>
+		<item>Torino - Trieste</item>
+		<item>Raccordo Sistiana-Trieste</item>
+		<item>Torino - Courmayeur</item>
+		<item>Raccordo A4</item>
+		<item>Torino - Savona</item>
+		<item>Milano - Genova</item>
+		<item>Raccordo Bereguardo-Pavia</item>
+		<item>Milano - Varese</item>
+		<item>Diramazione Per Gallarate-Gattico</item>
+		<item>Lainate - Chiasso</item>
+		<item>Genova - Ventimiglia</item>
+		<item>Firenze - Pisa</item>
+		<item>Diramazione Lucca-Viareggio</item>
+		<item>Genova - Rosignano</item>
+		<item>Roma - Civitavecchia</item>
+		<item>Bologna - Padova</item>
+		<item>Raccordo Porto Garibaldi</item>
+		<item>Bologna - Taranto</item>
+		<item>Diramazione Per Ravenna</item>
+		<item>Ramo Casalecchio</item>
+		<item>Parma - La Spezia</item>
+		<item>Napoli - Canosa</item>
+		<item>Messina - Catania</item>
+		<item>Diramazione per Catania</item>
+		<item>Palermo - Catania</item>
+		<item>Messina - Palermo</item>
+		<item>Torino - Brescia</item>
+		<item>Diramazione Per Fiorenzuola</item>
+		<item>Autostrada Del Brennero</item>
+		<item>Palmanova - Tarvisio</item>
+		<item>Roma - Teramo</item>
+		<item>Tratto Urbano</item>
+		<item>Torano - Pescara</item>
+		<item>Genova - Gravellona Toce</item>
+		<item>Diramazione Predosa-Bettole</item>
+		<item>Diramazione Stroppiana-Santhia</item>
+		<item>Mestre - Belluno</item>
+		<item>Portogruaro - Sacile</item>
+		<item>Palermo - Mazara Del Vallo</item>
+		<item>Diramazione Aeroporto Falcone E Borsellino</item>
+		<item>Diramazione Alcamo-Trapani</item>
+		<item>Caserta - Salerno</item>
+		<item>Vicenza - Piovene R.</item>
+		<item>Torino - Bardonecchia</item>
+		<item>Tangenziale Ovest Di Milano</item>
+		<item>Tangenziale Est Di Milano</item>
+		<item>Tangenziale Nord Di Milano</item>
+		<item>Tangenziale Nord Di Torino</item>
+		<item>Tangenziale Sud Di Torino</item>
+		<item>Tangenziale Di Napoli</item>
+		<item>Raccordo Tangenziale Di Mestre-Aeroporto Marco Polo</item>
+		<item>Tangenziale di Mestre</item>
+		<item>Grande Raccordo Anulare Di Roma</item>
+		<item>Autostrada Aeroporto Di Fiumicino</item>
+		<item>Diramazione Per Pinerolo</item>
+		<item>Diramazione Aeroporto Di Birgi</item>
+		<item>Raccordo Siena-Firenze</item>
+		<item>Raccordo Sicignano-Potenza</item>
+		<item>Raccordo Bettolle-Perugia</item>
+		<item>Raccordo Ascoli P.-Porto D\'ascoli</item>
+		<item>Raccordo Per Benevento</item>
+		<item>Raccordo Chieti-Pescara</item>
+		<item>Raccordo Siena-Bettolle</item>
+		<item>Raccordo Torino-Aeroporto Caselle</item>
+		<item>Raccordo Salerno-Avellino</item>
+		<item>Via Aurelia</item>
+		<item>Di Carlo Felice</item>
+		<item>Dir/Centr. Nuorese</item>
+		<item>Pontina</item>
+		<item>Bis Via Cassia Veientana</item>
+		<item>Via Cassia</item>
+		<item>Nettunense</item>
+		<item>Tuscolana</item>
+		<item>Di Paganico</item>
+		<item>Della Scafa</item>
+		<item>Bis tiberina (e45)</item>
+		<item>Via Flaminia</item>
+		<item>Diramazione Romea</item>
+		<item>Romea</item>
+		<item>Via Salaria</item>
+		<item>Via Claudia Braccianese</item>
+		<item>Via Tiburtina Valeria</item>
+		<item>Anagnina</item>
+		<item>Via Casilina</item>
+		<item>Via Appia</item>
+		<item>Via Del Mare</item>
+		<item>Tangenziale Di Catania</item>
+	</string-array>
+	<string-array name="streetDir">
+		<item>S</item>
+		<item>S</item>
+		<item>N</item>
+		<item>S</item>
+		<item>S</item>
+		<item>E</item>
+		<item>E</item>
+		<item>N</item>
+		<item>E</item>
+		<item>S</item>
+		<item>S</item>
+		<item>S</item>
+		<item>N</item>
+		<item>O</item>
+		<item>N</item>
+		<item>O</item>
+		<item>O</item>
+		<item>O</item>
+		<item>S</item>
+		<item>O</item>
+		<item>N</item>
+		<item>E</item>
+		<item>S</item>
+		<item>E</item>
+		<item>N</item>
+		<item>S</item>
+		<item>E</item>
+		<item>S</item>
+		<item>N</item>
+		<item>E</item>
+		<item>O</item>
+		<item>E</item>
+		<item>S</item>
+		<item>S</item>
+		<item>N</item>
+		<item>E</item>
+		<item>O</item>
+		<item>E</item>
+		<item>N</item>
+		<item>E</item>
+		<item>O</item>
+		<item>N</item>
+		<item>N</item>
+		<item>S</item>
+		<item>O</item>
+		<item>O</item>
+		<item>S</item>
+		<item>N</item>
+		<item>O</item>
+		<item>S</item>
+		<item>N</item>
+		<item>O</item>
+		<item>E</item>
+		<item>N</item>
+		<item>E</item>
+		<item>S</item>
+		<item>N</item>
+		<item>I</item>
+		<item>O</item>
+		<item>S</item>
+		<item>N</item>
+		<item>N</item>
+		<item>E</item>
+		<item>E</item>
+		<item>E</item>
+		<item>N</item>
+		<item>N</item>
+		<item>E</item>
+		<item>N</item>
+		<item>N</item>
+		<item>N</item>
+		<item>N</item>
+		<item>N</item>
+		<item>S</item>
+		<item>N</item>
+		<item>N</item>
+		<item>S</item>
+		<item>S</item>
+		<item>N</item>
+		<item>S</item>
+		<item>N</item>
+		<item>N</item>
+		<item>O</item>
+		<item>N</item>
+		<item>E</item>
+		<item>N</item>
+		<item>E</item>
+		<item>S</item>
+		<item>S</item>
+		<item>S</item>
+		<item>O</item>
+		<item>S</item>
+	</string-array>
+	<string-array name="streetTag">
+		<item>A1</item>
+		<item>A1</item>
+		<item>A1</item>
+		<item>A3</item>
+		<item>A3</item>
+		<item>A4</item>
+		<item>A4</item>
+		<item>A5</item>
+		<item>A5</item>
+		<item>A6</item>
+		<item>A7</item>
+		<item>A7</item>
+		<item>A8</item>
+		<item>A8</item>
+		<item>A9</item>
+		<item>A10</item>
+		<item>A11</item>
+		<item>A11</item>
+		<item>A12</item>
+		<item>A12</item>
+		<item>A13</item>
+		<item>A13</item>
+		<item>A14</item>
+		<item>A14</item>
+		<item>A14</item>
+		<item>A15</item>
+		<item>A16</item>
+		<item>A18</item>
+		<item>A18</item>
+		<item>A19</item>
+		<item>A20</item>
+		<item>A21</item>
+		<item>A21</item>
+		<item>A22</item>
+		<item>A23</item>
+		<item>A24</item>
+		<item>A24</item>
+		<item>A25</item>
+		<item>A26</item>
+		<item>A26</item>
+		<item>A26</item>
+		<item>A27</item>
+		<item>A28</item>
+		<item>A29</item>
+		<item>A29</item>
+		<item>A29</item>
+		<item>A30</item>
+		<item>A31</item>
+		<item>A32</item>
+		<item>A50</item>
+		<item>A51</item>
+		<item>A52</item>
+		<item>A55</item>
+		<item>A55</item>
+		<item>A56</item>
+		<item>A57</item>
+		<item>A57</item>
+		<item>A90-GRA</item>
+		<item>A91</item>
+		<item>D16</item>
+		<item>D30</item>
+		<item>R00</item>
+		<item>R03</item>
+		<item>R06</item>
+		<item>R07</item>
+		<item>R18</item>
+		<item>R20</item>
+		<item>R22</item>
+		<item>R24</item>
+		<item>R30</item>
+		<item>SS1</item>
+		<item>SS131</item>
+		<item>SS131</item>
+		<item>SS148</item>
+		<item>SS2</item>
+		<item>SS2</item>
+		<item>SS207</item>
+		<item>SS215</item>
+		<item>SS223</item>
+		<item>SS296</item>
+		<item>SS3</item>
+		<item>SS3</item>
+		<item>SS309</item>
+		<item>SS309</item>
+		<item>SS4</item>
+		<item>SS493</item>
+		<item>SS5</item>
+		<item>SS511</item>
+		<item>SS6</item>
+		<item>SS7</item>
+		<item>SS8</item>
+		<item>TG-CT</item>
+	</string-array>
+	<integer-array name="streetId">
+		<item>126</item>
+		<item>190</item>
+		<item>191</item>
+		<item>131</item>
+		<item>231</item>
+		<item>134</item>
+		<item>13442</item>
+		<item>140</item>
+		<item>204</item>
+		<item>141</item>
+		<item>142</item>
+		<item>222</item>
+		<item>143</item>
+		<item>181</item>
+		<item>144</item>
+		<item>145</item>
+		<item>146</item>
+		<item>184</item>
+		<item>147</item>
+		<item>13978</item>
+		<item>150</item>
+		<item>213</item>
+		<item>151</item>
+		<item>187</item>
+		<item>214</item>
+		<item>156</item>
+		<item>157</item>
+		<item>158</item>
+		<item>193</item>
+		<item>159</item>
+		<item>160</item>
+		<item>163</item>
+		<item>192</item>
+		<item>164</item>
+		<item>165</item>
+		<item>166</item>
+		<item>194</item>
+		<item>167</item>
+		<item>168</item>
+		<item>195</item>
+		<item>198</item>
+		<item>169</item>
+		<item>170</item>
+		<item>171</item>
+		<item>183</item>
+		<item>196</item>
+		<item>172</item>
+		<item>173</item>
+		<item>174</item>
+		<item>239</item>
+		<item>240</item>
+		<item>238</item>
+		<item>241</item>
+		<item>243</item>
+		<item>242</item>
+		<item>211</item>
+		<item>14230</item>
+		<item>175</item>
+		<item>202</item>
+		<item>189</item>
+		<item>197</item>
+		<item>200</item>
+		<item>203</item>
+		<item>206</item>
+		<item>207</item>
+		<item>217</item>
+		<item>219</item>
+		<item>221</item>
+		<item>223</item>
+		<item>228</item>
+		<item>260</item>
+		<item>513</item>
+		<item>516</item>
+		<item>533</item>
+		<item>264</item>
+		<item>263</item>
+		<item>604</item>
+		<item>613</item>
+		<item>621</item>
+		<item>703</item>
+		<item>236</item>
+		<item>266</item>
+		<item>718</item>
+		<item>717</item>
+		<item>270</item>
+		<item>922</item>
+		<item>273</item>
+		<item>936</item>
+		<item>281</item>
+		<item>283</item>
+		<item>292</item>
+		<item>247</item>
+	</integer-array>
+	<integer-array name="streetFather">
+		<item>0</item>
+		<item>126</item>
+		<item>126</item>
+		<item>0</item>
+		<item>131</item>
+		<item>0</item>
+		<item>134</item>
+		<item>0</item>
+		<item>140</item>
+		<item>0</item>
+		<item>0</item>
+		<item>142</item>
+		<item>0</item>
+		<item>143</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>146</item>
+		<item>0</item>
+		<item>147</item>
+		<item>0</item>
+		<item>150</item>
+		<item>0</item>
+		<item>151</item>
+		<item>187</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>158</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>163</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>166</item>
+		<item>0</item>
+		<item>0</item>
+		<item>168</item>
+		<item>195</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>171</item>
+		<item>183</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>241</item>
+		<item>0</item>
+		<item>0</item>
+		<item>211</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>513</item>
+		<item>0</item>
+		<item>0</item>
+		<item>264</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>236</item>
+		<item>0</item>
+		<item>718</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+		<item>0</item>
+	</integer-array>
+</resources>

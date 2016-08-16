@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Palmanova - Tarvisio -->
+<resources>
+
+	<string-array name="z165Name">
+		<item>Allacciamento A4 Torino-Trieste</item>
+		<item>Udine Sud-Tangenziale</item>
+		<item>Zugliano</item>
+		<item>Udine Nord</item>
+		<item>Ledra</item>
+		<item>Gemona-Osoppo</item>
+		<item>Carnia</item>
+		<item>Campiolo Ovest</item>
+		<item>Pontebba</item>
+		<item>Fella Est</item>
+		<item>Barriera Di Ugovizza-Tarvisio</item>
+		<item>Malborghetto-Valbruna</item>
+		<item>Tarvisio Sud</item>
+		<item>Tarvisio Nord</item>
+		<item>Dogana Di Coccau-Confine Di Stato</item>
+	</string-array>
+
+	<integer-array name="z165Id">
+		<item>1881</item>
+		<item>1882</item>
+		<item>1883</item>
+		<item>1884</item>
+		<item>1885</item>
+		<item>1886</item>
+		<item>1887</item>
+		<item>1888</item>
+		<item>1889</item>
+		<item>1890</item>
+		<item>1891</item>
+		<item>1892</item>
+		<item>1893</item>
+		<item>1894</item>
+		<item>1895</item>
+	</integer-array>
+
+	<string-array name="z165Webcam">
+		<item>H1881</item>
+		<item>H1882</item>
+<item>A1551</item> <!-- A23 km. 22,0 itinere sud NEW -->
+<item>A543</item> <!-- A23 km. 31,0 Udine Nord itinere sud NEW -->
+<item>A1845</item> <!-- A23 km. 37,0 Ledra Ovest itinere sud NEW -->
+<item>A1876</item> <!-- A23 km. 47,0 Gemona itinere sud NEW -->
+<item>A545</item> <!-- A23 km. 61,0 Carnia itinere sud NEW -->
+<item>A546</item> <!-- A23 km. 89,6 Pontebba itinere nord NEW -->
+<item>A819</item> <!-- A23 km. 92,1 Viad. Pontebba itinere sud -->
+		<item>A17418</item> <!-- A23 km. 92,1 Viad. Pontebba itinere sud -->
+		<item>A19126</item> <!-- A23 km. 97,0 Pontebba itinere sud -->
+		<item>A20513</item> <!-- A23 km. 101,2 itinere nord -->
+		<item>A19121</item> <!-- A23 km. 105,5 Camporosso itinere nord -->
+		<item>A17317</item> <!-- A23 km. 108,5 Viadotto Fella X itinere sud -->
+		<item>A20519</item> <!-- A23 km. 114,6 Svincoli Tarvisio Nord itinere nord -->
+	</string-array>
+
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tangenziale di Mestre -->
+<resources>
+
+	<string-array name="z14230Name">
+		<item>Allacciamento A57 Ovest/A4 Venezia-Belluno</item>
+		<item>Mirano Dolo</item>
+		<item>Mira-Oriago</item>
+		<item>Barriera Di Venezia-Mestre</item>
+		<item>Allacciamento SS309 Statale Romea</item>
+		<item>Marghera</item>
+		<item>Venezia</item>
+		<item>Rotatoria Miranese</item>
+		<item>Rotatoria Castellana</item>
+		<item>Terraglio</item>
+		<item>Bazzera</item>
+		<item>Allacciamento A27 Mestre-Belluno</item>
+		<item>Marcon</item>
+		<item>Quarto D\'Altino</item>
+		<item>Barriera Di Venezia Est</item>
+		<item>Allacciamento A57 Est/A4 Venezia-Trieste</item>
+	</string-array>
+
+	<integer-array name="z14230Id">
+		<item>14234</item>
+		<item>14238</item>
+		<item>14224</item>
+		<item>14239</item>
+		<item>14240</item>
+		<item>14241</item>
+		<item>14242</item>
+		<item>14243</item>
+		<item>14244</item>
+		<item>14245</item>
+		<item>14246</item>
+		<item>14247</item>
+		<item>14249</item>
+		<item>14236</item>
+		<item>14237</item>
+		<item>14235</item>
+	</integer-array>
+
+	<string-array name="z14230Webcam">
+		<item>H14234</item>
+		<item>H14238</item>
+		<item>H14224</item>
+		<item>H14239</item>
+		<item>H14240</item>
+		<item>H14241</item>
+		<item>H14242</item>
+		<item>H14243</item>
+		<item>H14244</item>
+		<item>H14245</item>
+		<item>A18373</item> <!-- A57 km. 19,6 Tang. Mestre -->
+		<item>H14247</item>
+		<item>H14249</item>
+		<item>H14236</item>
+		<item>H14237</item>
+		<item>H14235</item>
+	</string-array>
+
+</resources>

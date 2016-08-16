@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Roma - Civitavecchia -->
+<resources>
+
+	<string-array name="z13978Name">
+		<item>Allacciamento Autostrada Roma-Fiumicino</item>
+		<item>Arrone</item>
+		<item>Maccarese-Fregene</item>
+		<item>Barriera Di Roma Ovest</item>
+		<item>Torrimpietra</item>
+		<item>Cerveteri-Ladispoli</item>
+		<item>Tirreno</item>
+		<item>S.Severa-S.Marinella</item>
+		<item>Civitavecchia Sud</item>
+		<item>Barriera Aurelia</item>
+		<item>Civitavecchia Nord</item>
+		<item>Tolfa</item>
+		<item>SS1 Aurelia</item>
+	</string-array>
+
+	<integer-array name="z13978Id">
+		<item>1589</item>
+		<item>1590</item>
+		<item>1591</item>
+		<item>1592</item>
+		<item>1593</item>
+		<item>1594</item>
+		<item>1595</item>
+		<item>1596</item>
+		<item>1597</item>
+		<item>1598</item>
+		<item>1599</item>
+		<item>1600</item>
+		<item>1601</item>
+	</integer-array>
+
+	<string-array name="z13978Webcam">
+<item>A2110</item> <!-- A12 km. 0,0 itinere nord NEW -->
+		<item>H1590</item>
+<item>A465</item> <!-- A12 km. 09,9 Maccarese itinere nord NEW -->
+		<item>H1592</item>
+<item>A2008</item> <!-- A12 km. 15,0 Torrimpietra Tower itinere nord -->
+<item>A462</item> <!-- A12 km. 30,0 Cerveteri itinere sud NEW -->
+		<item>H1595</item>
+<item>A2081</item> <!-- A12 km. 39,5 Tirreno Est itinere nord NEW -->
+<item>A464</item> <!-- A12 km. 50,2 Aurelia itinere nord NEW -->
+		<item>H1598</item>
+<item>A463</item> <!-- A12 km. 53,0 Aurelia itinere sud NEW -->
+		<item>H1600</item>
+<item>A2000</item> <!-- A12 km. 65,0 Svincolo Tarquinia itinere sud NEW -->
+	</string-array>
+
+</resources>

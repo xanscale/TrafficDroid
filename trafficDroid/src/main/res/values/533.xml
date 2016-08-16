@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pontina -->
+<resources>
+
+	<string-array name="z533Name">
+		<item>Roma Centro</item>
+		<item>Roma Eur/V.Le Oceano Pacifico</item>
+		<item>Via Di Decima/Ospedale S.Raffaele</item>
+		<item>Grande Raccordo Anulare</item>
+		<item>Mostacciano</item>
+		<item>Tor De\' Cenci</item>
+		<item>Via Di Decima/Castel Porziano (Direzione Lt)</item>
+		<item>Via Decima-Castel Porziano (Direzione Rm)</item>
+		<item>Pratica Di Mare/Torvajanica</item>
+		<item>Castel Romano/Trigoria</item>
+		<item>Monte D\'Oro</item>
+		<item>Uscita Pomezia Nord</item>
+		<item>Uscita Pomezia Centro/Castelli Romani</item>
+		<item>Uscita Pomezia Sud/Maggiona</item>
+		<item>Pontina Vecchia</item>
+		<item>Strampelli</item>
+		<item>Ardeatina</item>
+		<item>Apriliana</item>
+		<item>Sottopasso Via Del Tufetto</item>
+		<item>Fossignano/Valle Lata</item>
+		<item>Riserva Nuova/Via Delle Valli</item>
+		<item>Aprilia/Innesto SS207 Nettunense</item>
+		<item>Via Del Commercio/Via Mascagni</item>
+		<item>Viale Europa</item>
+		<item>Via Guardapasso</item>
+		<item>Via Genio Civile/Via Selciatella</item>
+		<item>Campo Verde</item>
+		<item>Bivio Per Nettuno</item>
+		<item>Borgo Montello</item>
+		<item>Via Del Valloncello / Via Conca</item>
+		<item>Via Cesarino Prato</item>
+		<item>Borgo Piave</item>
+		<item>Latina</item>
+		<item>Bivio Per Latina</item>
+		<item>Bivio Per Sezze</item>
+		<item>Bivio Per Pontinia</item>
+		<item>Bivio Per Sabaudia</item>
+		<item>Bivio Per S.Felice Circeo</item>
+		<item>Terracina/Innesto SS7 Appia</item>
+	</string-array>
+
+	<integer-array name="z533Id">
+		<item>7996</item>
+		<item>13854</item>
+		<item>7998</item>
+		<item>7999</item>
+		<item>13856</item>
+		<item>13857</item>
+		<item>13858</item>
+		<item>13859</item>
+		<item>13860</item>
+		<item>13861</item>
+		<item>13862</item>
+		<item>13863</item>
+		<item>8001</item>
+		<item>13864</item>
+		<item>13865</item>
+		<item>13866</item>
+		<item>8002</item>
+		<item>13867</item>
+		<item>13868</item>
+		<item>13869</item>
+		<item>13870</item>
+		<item>8003</item>
+		<item>14450</item>
+		<item>14451</item>
+		<item>14452</item>
+		<item>14453</item>
+		<item>8004</item>
+		<item>8005</item>
+		<item>13149</item>
+		<item>14454</item>
+		<item>14455</item>
+		<item>8006</item>
+		<item>8007</item>
+		<item>8008</item>
+		<item>8009</item>
+		<item>8010</item>
+		<item>8011</item>
+		<item>8012</item>
+		<item>8013</item>
+	</integer-array>
+
+	<string-array name="z533Webcam">
+		<item>H7996</item>
+		<item>H13854</item>
+		<item>H7998</item>
+		<item>H7999</item>
+		<item>H13856</item>
+		<item>H13857</item>
+		<item>H13858</item>
+		<item>H13859</item>
+		<item>H13860</item>
+		<item>H13861</item>
+		<item>H13862</item>
+		<item>H13863</item>
+		<item>H8001</item>
+		<item>H13864</item>
+		<item>H13865</item>
+		<item>H13866</item>
+		<item>H8002</item>
+		<item>H13867</item>
+		<item>H13868</item>
+		<item>H13869</item>
+		<item>H13870</item>
+		<item>H8003</item>
+		<item>H14450</item>
+		<item>H14451</item>
+		<item>H14452</item>
+		<item>H14453</item>
+		<item>H8004</item>
+		<item>H8005</item>
+		<item>H13149</item>
+		<item>H14454</item>
+		<item>H14455</item>
+		<item>H8006</item>
+		<item>H8007</item>
+		<item>H8008</item>
+		<item>H8009</item>
+		<item>H8010</item>
+		<item>H8011</item>
+		<item>H8012</item>
+		<item>H8013</item>
+	</string-array>
+
+</resources>

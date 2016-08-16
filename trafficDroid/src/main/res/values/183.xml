@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Aeroporto Falcone E Borsellino -->
+<resources>
+
+	<string-array name="z183Name">
+		<item>Allacciamento A29 Palerno-Mazara Del Vallo</item>
+		<item>Villagrazia Di Carini</item>
+		<item>Aeroporto Falcone E Borsellino</item>
+	</string-array>
+
+	<integer-array name="z183Id">
+		<item>2114</item>
+		<item>2115</item>
+		<item>2116</item>
+	</integer-array>
+
+	<string-array name="z183Webcam">
+		<item>H2114</item>
+		<item>H2115</item>
+		<item>H2116</item>
+	</string-array>
+
+</resources>

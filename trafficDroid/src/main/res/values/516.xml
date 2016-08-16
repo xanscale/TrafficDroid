@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Dir/Centr. Nuorese -->
+<resources>
+
+	<string-array name="z516Name">
+		<item>Innesto SS131 Di C. Felice</item>
+		<item>Bivio Abbasanta</item>
+		<item>Bivio Per Ghilarza</item>
+		<item>Bivio Per Aidomaggiore</item>
+		<item>Bivio Per Sedilo</item>
+		<item>Sedilo Nord</item>
+		<item>Bivio Per Olzai E Sedilo</item>
+		<item>Bivio Per Ottana</item>
+		<item>Bivio Per Ottana/Innesto SS537 Di Ghilarza</item>
+		<item>P.Te Molinos/Innesto SS128 Centrale Sarda</item>
+		<item>Bivio Staz. Oniferi/Incrocio SS129 Trasvincolo Sarda</item>
+		<item>Bivio Per Nuoro/Incrocio SS389 Del Correboi</item>
+		<item>Ponte Marreri</item>
+		<item>Bivio Per Lula/Innesto SP38</item>
+		<item>Siniscola Sud</item>
+		<item>Siniscola Nord/Innesto SS125 Orientale Sarda</item>
+		<item>Bivio Per Posada E Torpe\'</item>
+		<item>Posada N SS125/131Dir-C</item>
+		<item>Limpiddu/Innesto SS125 Orientale Sarda</item>
+		<item>Budoni/Innesto SS125 Orientale Sarda</item>
+		<item>Bivio Per S.Teodoro/Innesto SS125 Orientale Sarda</item>
+		<item>Bivio Per Ovilo\'</item>
+		<item>Bivio Per Santa Giusta</item>
+		<item>Bivio Per Loiri-Porto San Paolo</item>
+		<item>Olbia/Innesto SS199</item>
+	</string-array>
+
+	<integer-array name="z516Id">
+		<item>7853</item>
+		<item>14406</item>
+		<item>7854</item>
+		<item>7855</item>
+		<item>7856</item>
+		<item>14407</item>
+		<item>7857</item>
+		<item>7858</item>
+		<item>7859</item>
+		<item>7860</item>
+		<item>7861</item>
+		<item>7862</item>
+		<item>7863</item>
+		<item>7864</item>
+		<item>7865</item>
+		<item>7866</item>
+		<item>7867</item>
+		<item>7868</item>
+		<item>7869</item>
+		<item>7871</item>
+		<item>7872</item>
+		<item>14408</item>
+		<item>14409</item>
+		<item>14410</item>
+		<item>14411</item>
+	</integer-array>
+
+	<string-array name="z516Webcam">
+		<item>H7853</item>
+		<item>H14406</item>
+		<item>H7854</item>
+		<item>H7855</item>
+		<item>H7856</item>
+		<item>H14407</item>
+		<item>H7857</item>
+		<item>H7858</item>
+		<item>H7859</item>
+		<item>H7860</item>
+		<item>H7861</item>
+		<item>H7862</item>
+		<item>H7863</item>
+		<item>H7864</item>
+		<item>H7865</item>
+		<item>H7866</item>
+		<item>H7867</item>
+		<item>H7868</item>
+		<item>H7869</item>
+		<item>H7871</item>
+		<item>H7872</item>
+		<item>H14408</item>
+		<item>H14409</item>
+		<item>H14410</item>
+		<item>H14411</item>
+	</string-array>
+
+</resources>

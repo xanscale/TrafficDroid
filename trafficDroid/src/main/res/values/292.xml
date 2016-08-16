@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Del Mare -->
+<resources>
+
+	<string-array name="z292Name">
+		<item>Roma</item>
+		<item>Via Della Magliana/Innesto Autostrada Per Aeroporto Fiumicino</item>
+		<item>Allacciamento G.R.A./Innesto SS8 Bis Via Ostiense</item>
+		<item>Bivio Per C.Colombo</item>
+		<item>Acilia</item>
+		<item>Ostia Scavi/Innesto SS296 Della Scafa</item>
+		<item>Ostia Antica</item>
+		<item>Lido Di Ostia/Innesto SS8Bis E SS601</item>
+	</string-array>
+
+	<integer-array name="z292Id">
+		<item>3612</item>
+		<item>3613</item>
+		<item>3614</item>
+		<item>13695</item>
+		<item>13696</item>
+		<item>3615</item>
+		<item>3616</item>
+		<item>3617</item>
+	</integer-array>
+
+	<string-array name="z292Webcam">
+		<item>H3612</item>
+		<item>H3613</item>
+		<item>H3614</item>
+		<item>H13695</item>
+		<item>H13696</item>
+		<item>H3615</item>
+		<item>H3616</item>
+		<item>H3617</item>
+	</string-array>
+
+</resources>

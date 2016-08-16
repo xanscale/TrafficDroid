@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Stroppiana-Santhia -->
+<resources>
+
+	<string-array name="z198Name">
+		<item>Allacciamento A26 Ge Voltri-Gravellona T.</item>
+		<item>Le Risaie Ovest</item>
+		<item>Vercelli Ovest</item>
+		<item>Cavour Ovest</item>
+		<item>Allacciamento A4 Torino-Trieste/Raccordo A4-A5</item>
+	</string-array>
+
+	<integer-array name="z198Id">
+		<item>2189</item>
+		<item>2190</item>
+		<item>2191</item>
+		<item>2192</item>
+		<item>2193</item>
+	</integer-array>
+
+	<string-array name="z198Webcam">
+		<item>H2189</item>
+		<item>H2190</item>
+<item>A505</item> <!-- D36 km. 8,6 Vercelli Ovest itinere Est -->
+		<item>H2192</item>
+		<item>H2193</item>
+	</string-array>
+
+</resources>

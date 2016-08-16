@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Porto Garibaldi -->
+<resources>
+
+	<string-array name="z213Name">
+		<item>Allacciamento A13 Bologna-Padova</item>
+		<item>SS64 Porrettana</item>
+		<item>Ferrara-SS16 Adriatica</item>
+		<item>Cona</item>
+		<item>Gualdo</item>
+		<item>Masi Torello (Direzione Ferrara)</item>
+		<item>Masi S.Giacomo</item>
+		<item>Rovereto-Portomaggiore</item>
+		<item>Migliarino</item>
+		<item>Ostellato</item>
+		<item>Corte Centrale</item>
+		<item>Comacchio</item>
+		<item>Porto Garibaldi</item>
+	</string-array>
+
+	<integer-array name="z213Id">
+		<item>2293</item>
+		<item>2295</item>
+		<item>13993</item>
+		<item>2297</item>
+		<item>2298</item>
+		<item>13992</item>
+		<item>2299</item>
+		<item>2300</item>
+		<item>2301</item>
+		<item>2302</item>
+		<item>2303</item>
+		<item>2304</item>
+		<item>2305</item>
+	</integer-array>
+
+	<string-array name="z213Webcam">
+		<item>H2293</item>
+		<item>H2295</item>
+		<item>H13993</item>
+		<item>H2297</item>
+		<item>H2298</item>
+		<item>H13992</item>
+		<item>H2299</item>
+		<item>H2300</item>
+		<item>H2301</item>
+		<item>H2302</item>
+		<item>H2303</item>
+		<item>H2304</item>
+		<item>H2305</item>
+	</string-array>
+
+</resources>

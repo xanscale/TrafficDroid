@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Aurelia -->
+<resources>
+
+	<string-array name="z260Name">
+		<item>Roma</item>
+		<item>Monte Spaccato</item>
+		<item>Grande Raccordo Anulare</item>
+		<item>Pio Spezi</item>
+		<item>Monachina-Casalombroso</item>
+		<item>Massimina</item>
+		<item>Malagrotta</item>
+		<item>Castel Di Guido Sud</item>
+		<item>Castel Di Guido</item>
+		<item>Castel Di Guido Nord</item>
+		<item>Fregene Sud</item>
+		<item>Aranova</item>
+		<item>Torrimpietra A12 Roma-Civitavecchia</item>
+		<item>Fregene Nord</item>
+		<item>Bracciano</item>
+		<item>Palidoro</item>
+		<item>Ceri</item>
+		<item>Monteroni</item>
+		<item>Palo</item>
+		<item>Cerveteri Ladispoli A12 Roma-Civitavecchia</item>
+		<item>Santa Severa A12 Roma-Civitavecchia</item>
+		<item>Santa Marinella</item>
+		<item>Civitavecchia Sud A12 Roma-Civitavecchia</item>
+		<item>Villaggio Del Fanciullo</item>
+		<item>Civitavecchia</item>
+		<item>Aurelia</item>
+		<item>Innesto Raccordo Civitavecchia-Tarquinia(E45)</item>
+		<item>Aurelia A12 Roma - Civitavecchia</item>
+		<item>Taccone Di Mezzo/Innesto SS1 Bis Via Aurelia</item>
+		<item>Tarquinia Sud/Innesto SP102 Aurelia Vecchia</item>
+		<item>Tarquinia</item>
+		<item>Tarquinia Nord/Innesto SP102 Aurelia Vecchia</item>
+		<item>Riva Dei Tarquini</item>
+		<item>Bivio Per Montalto Di Castro</item>
+		<item>Montalto Di Castro/Innesto SS312 Castrense</item>
+		<item>Pescia Romana</item>
+		<item>Bivio Per Garavicchio</item>
+		<item>Bivio Per Ansedonia Sud</item>
+		<item>Bivio Per Ansedonia Nord</item>
+		<item>Orbetello Scalo/Innesto SS440 Di Porto S.Stefano</item>
+		<item>Staz. Di Albinia/Innesto SS74 Maremmana</item>
+		<item>Bivio Per Magliano In Toscana</item>
+		<item>Fonteblanda</item>
+		<item>Alberese</item>
+		<item>Santa Maria Di Rispescia</item>
+		<item>Montiano</item>
+		<item>Grosseto Sud</item>
+		<item>Grosseto Est/Incrocio SS322 Delle Collacchie</item>
+		<item>Grosseto/Innesto SS223 Di Paganico</item>
+		<item>Grosseto Nord</item>
+		<item>Braccagni</item>
+		<item>Bivio Per Montepescali/Innesto SS73 Senese Aretina</item>
+		<item>Giuncarico</item>
+		<item>Staz. Di Gavorrano</item>
+		<item>Gavorrano</item>
+		<item>Scarlino Scalo</item>
+		<item>Bivio Per Follonica Est/Innesto SS439 Sarzanese Valdera</item>
+		<item>Follonica Nord</item>
+		<item>Bivio Per Riotorto</item>
+		<item>Bivio Per Venturina/Innesto SS398 Via Val Di Cornia</item>
+		<item>Bivio Per S.Vincenzo Sud</item>
+		<item>Bivio Per S.Vincenzo</item>
+		<item>Donoratico</item>
+		<item>Cecina Sud/Innesto SS1 Var</item>
+		<item>Cecina Centro</item>
+		<item>Cecina Nord</item>
+		<item>Vada</item>
+		<item>Allacciamento A12</item>
+		<item>Rosignano Marittimo</item>
+		<item>Rosignano Solvay</item>
+		<item>Castiglioncello</item>
+		<item>Quercianella/Innesto SS1 Var</item>
+		<item>Variante Di Quercianella</item>
+		<item>Ingresso Del Maroccone</item>
+		<item>Montenero</item>
+		<item>Livorno Sud</item>
+		<item>Livorno Centro</item>
+		<item>Collesalvetti</item>
+		<item>Livorno Zona Industriale</item>
+		<item>Innesto S.G.C. Firenze-Pisa-Livorno</item>
+		<item>Stagno/Innesto SS555 Delle Colline</item>
+		<item>Stagno/Innesto SS67 Bis Tosco Romagnola</item>
+		<item>Pisa/Innesto SS224 Di Marina Di Pisa</item>
+		<item>Pisa/Innesto S.G.C. Firenze-Pisa-Livorno</item>
+		<item>Pisa/Innesto SS12 Dell\'Abetone E Del Brennero</item>
+		<item>Pisa Nord A11 Firenze-Pisa Nord</item>
+		<item>Variante Di Viareggio</item>
+		<item>Viareggio Diramazione Lucca-Viareggio</item>
+		<item>Pietrasanta/Innesto SS439 Sarzanese Valdera</item>
+		<item>Querceta</item>
+		<item>Massa</item>
+		<item>Massa A12 Genova-Rosignano</item>
+		<item>Massa/Innesto SS446 Diramazione Di Fosdinovo</item>
+		<item>Avenza A12 Genova-Rosignano</item>
+		<item>Bivio Per Carrara</item>
+		<item>Carrara A12 Genova-Rosignano</item>
+		<item>Bivio Per Ortonovo</item>
+		<item>Sarzana/Innesto SS446 Di Fosdinovo</item>
+		<item>Sarzana/Innesto SS62 Della Cisa</item>
+		<item>Sarzana A12 Genova-Rosignano</item>
+		<item>Ponte Sul Magra/Innesto SS331 Di Lerici</item>
+		<item>Ressora</item>
+		<item>Bivio Per Arcola</item>
+		<item>Vezzano A15 Parma-La Spezia</item>
+		<item>Bivio Per Vezzano Ligure</item>
+		<item>Termo</item>
+		<item>La Spezia</item>
+		<item>Migliarina/Innesto SS330 Di Buonviaggio</item>
+		<item>La Spezia/Innesto SS331 Di Lerici</item>
+		<item>La Spezia/Innesto SS370 Litoranea Delle 5 Terre</item>
+		<item>Foce</item>
+		<item>S.Benedetto</item>
+		<item>Ricco\' Del Golfo Di La Spezia</item>
+		<item>Pian Di Barca</item>
+		<item>Padivarma</item>
+		<item>Borghetto Di Vara</item>
+		<item>Borghetto Di Vara/Innesto SS566 Di Val Di Vara</item>
+		<item>Termine Di Roverano</item>
+		<item>Carrodano A12 Genova-Rosignano</item>
+		<item>Ponte Carrodano/Innesto SS566 Diramazione Di Val Di Vara</item>
+		<item>Mattarana</item>
+		<item>La Baracca</item>
+		<item>Passo Del Bracco</item>
+		<item>Deiva Marina A12 Genova-Rosignano</item>
+		<item>Bracco/Innesto SP35 Moneglia</item>
+		<item>Inizio Abitato Sestri Levante</item>
+		<item>Bivio Per Sestri Levante - Innesto SS370</item>
+		<item>Sestri Levante-Innesto SS523 Colle Di Cento Croci</item>
+		<item>Sestri Levante/Via Tino Paggi</item>
+		<item>Sestri Levante A12/Innesto SS523</item>
+		<item>Sestri Levante</item>
+		<item>Termine Abitato Di Sestri Levante</item>
+		<item>Lavagna</item>
+		<item>Chiavari</item>
+		<item>Chiavari/Innesto SS225 Della Fontanabuona</item>
+		<item>Zoagli</item>
+		<item>Rapallo</item>
+		<item>Rapallo/Innesto SS227 Di Portofino</item>
+		<item>Recco</item>
+		<item>Recco/Innesto SS333 Di Uscio</item>
+		<item>Sori</item>
+		<item>Pieve Ligure</item>
+		<item>Bogliasco</item>
+		<item>Genova Nervi</item>
+		<item>Genova/Innesto SS45 Di Val Trebbia</item>
+		<item>Genova</item>
+		<item>Genova Staglieno</item>
+		<item>Genova Sampierdarena A7 Milano-Genova</item>
+		<item>Genova/Innesto SS35 Dei Giovi</item>
+		<item>Casello Genova Pegli A10 Genova-Ventimiglia</item>
+		<item>Genova Voltri A10 Genova-Ventimiglia</item>
+		<item>Genova Voltri/Innesto SS456 Del Turchino</item>
+		<item>Arenzano</item>
+		<item>Arenzano A10 Genova-Ventimiglia</item>
+		<item>Cogoleto</item>
+		<item>Casello Varazze A10 Genova-Ventimiglia</item>
+		<item>Varazze</item>
+		<item>Varazze/Innesto SS542 Di Pontinvrea</item>
+		<item>Casello Celle Ligure A10 Genova-Ventimiglia</item>
+		<item>Celle Ligure</item>
+		<item>Albisola Superiore</item>
+		<item>Albisola Marina/Innesto SS334 Del Sassello</item>
+		<item>Albisola Marina</item>
+		<item>Savona</item>
+		<item>Savona/Innesto SS29 Del Colle Di Cadibona</item>
+		<item>Casello Savona Vado A6 Torino-Savona</item>
+		<item>Vado Ligure</item>
+		<item>Bivio Per Bergeggi</item>
+		<item>Torre Del Mare</item>
+		<item>Spotorno</item>
+		<item>Noli</item>
+		<item>Varigotti</item>
+		<item>Finale Ligure</item>
+		<item>Finale Ligure/Innesto SS490 Del Colle Del Melogno</item>
+		<item>Borgio Verezzi</item>
+		<item>Pietra Ligure</item>
+		<item>Casello Pietra Ligure A10 Ge-Ventimiglia</item>
+		<item>Loano</item>
+		<item>Borghetto S.Spirito</item>
+		<item>Ceriale</item>
+		<item>Albenga</item>
+		<item>Cavallo Di Albenga/Innesto SS582 Colle S. Bernardo</item>
+		<item>Alassio</item>
+		<item>Laigueglia</item>
+		<item>Andora</item>
+		<item>Cervo</item>
+		<item>S.Bartolomeo Al Mare</item>
+		<item>Diano Marina</item>
+		<item>Diano Marina/Innesto SS449 Di Diano Marina</item>
+		<item>Imperia</item>
+		<item>Oneglia/Innesto SS449 Di Diano Marina</item>
+		<item>Imperia/Innesto SS28 Del Colle Di Nava</item>
+		<item>S.Lorenzo Al Mare</item>
+		<item>S.Stefano Al Mare</item>
+		<item>Riva Ligure</item>
+		<item>Arma Di Taggia</item>
+		<item>Arma Di Taggia/Innesto SS548 Della Valle Argentina</item>
+		<item>San Remo</item>
+		<item>Ospedaletti</item>
+		<item>Bordighera</item>
+		<item>Vallecrosia</item>
+		<item>Camporosso</item>
+		<item>Ventimiglia</item>
+		<item>Ventimiglia/Innesto SS20 Del Colle Di Tenda</item>
+		<item>Variante Di Ventimiglia</item>
+		<item>Latte</item>
+		<item>Latte/Innesto SS1 Diramazione Dei Balzi Rossi</item>
+		<item>Mortola</item>
+		<item>Grimaldi</item>
+		<item>Ponte S.Luigi/Allacciamento A10 Genova-Ventimiglia</item>
+	</string-array>
+
+	<integer-array name="z260Id">
+		<item>2816</item>
+		<item>14429</item>
+		<item>2817</item>
+		<item>13653</item>
+		<item>13654</item>
+		<item>13655</item>
+		<item>13656</item>
+		<item>13657</item>
+		<item>13658</item>
+		<item>14430</item>
+		<item>13659</item>
+		<item>13660</item>
+		<item>13661</item>
+		<item>14431</item>
+		<item>14437</item>
+		<item>14438</item>
+		<item>14439</item>
+		<item>14440</item>
+		<item>2819</item>
+		<item>2820</item>
+		<item>2822</item>
+		<item>2823</item>
+		<item>2824</item>
+		<item>2825</item>
+		<item>2826</item>
+		<item>2827</item>
+		<item>13662</item>
+		<item>2828</item>
+		<item>2829</item>
+		<item>14432</item>
+		<item>2830</item>
+		<item>14433</item>
+		<item>14434</item>
+		<item>2831</item>
+		<item>2832</item>
+		<item>14435</item>
+		<item>2833</item>
+		<item>2834</item>
+		<item>14436</item>
+		<item>2835</item>
+		<item>2836</item>
+		<item>2837</item>
+		<item>2838</item>
+		<item>14441</item>
+		<item>14442</item>
+		<item>14443</item>
+		<item>14444</item>
+		<item>2840</item>
+		<item>2841</item>
+		<item>14445</item>
+		<item>2842</item>
+		<item>2843</item>
+		<item>2844</item>
+		<item>2845</item>
+		<item>14446</item>
+		<item>2846</item>
+		<item>2847</item>
+		<item>14447</item>
+		<item>2849</item>
+		<item>2850</item>
+		<item>2851</item>
+		<item>14419</item>
+		<item>2852</item>
+		<item>2856</item>
+		<item>2857</item>
+		<item>2858</item>
+		<item>2860</item>
+		<item>14420</item>
+		<item>14421</item>
+		<item>2861</item>
+		<item>2862</item>
+		<item>2863</item>
+		<item>2864</item>
+		<item>14422</item>
+		<item>14423</item>
+		<item>14424</item>
+		<item>14425</item>
+		<item>14426</item>
+		<item>14427</item>
+		<item>14428</item>
+		<item>2871</item>
+		<item>2872</item>
+		<item>2873</item>
+		<item>2874</item>
+		<item>2875</item>
+		<item>2876</item>
+		<item>2877</item>
+		<item>2878</item>
+		<item>2879</item>
+		<item>2880</item>
+		<item>2881</item>
+		<item>2883</item>
+		<item>2882</item>
+		<item>2884</item>
+		<item>2885</item>
+		<item>2886</item>
+		<item>2887</item>
+		<item>2888</item>
+		<item>2889</item>
+		<item>2890</item>
+		<item>2891</item>
+		<item>2892</item>
+		<item>2893</item>
+		<item>2894</item>
+		<item>2895</item>
+		<item>2896</item>
+		<item>2897</item>
+		<item>2898</item>
+		<item>2899</item>
+		<item>2900</item>
+		<item>2901</item>
+		<item>2902</item>
+		<item>2903</item>
+		<item>2904</item>
+		<item>2905</item>
+		<item>2906</item>
+		<item>2907</item>
+		<item>2908</item>
+		<item>2909</item>
+		<item>2910</item>
+		<item>2911</item>
+		<item>2912</item>
+		<item>2913</item>
+		<item>2914</item>
+		<item>2915</item>
+		<item>2916</item>
+		<item>2917</item>
+		<item>2918</item>
+		<item>2919</item>
+		<item>2920</item>
+		<item>2921</item>
+		<item>13663</item>
+		<item>2922</item>
+		<item>2923</item>
+		<item>2924</item>
+		<item>2925</item>
+		<item>2926</item>
+		<item>2927</item>
+		<item>2928</item>
+		<item>2929</item>
+		<item>2930</item>
+		<item>2931</item>
+		<item>2932</item>
+		<item>2933</item>
+		<item>2934</item>
+		<item>2935</item>
+		<item>2936</item>
+		<item>2937</item>
+		<item>2938</item>
+		<item>2939</item>
+		<item>2940</item>
+		<item>2941</item>
+		<item>2942</item>
+		<item>2943</item>
+		<item>2944</item>
+		<item>2945</item>
+		<item>2946</item>
+		<item>2947</item>
+		<item>2948</item>
+		<item>2949</item>
+		<item>2950</item>
+		<item>2951</item>
+		<item>2952</item>
+		<item>2953</item>
+		<item>2954</item>
+		<item>2955</item>
+		<item>2956</item>
+		<item>2957</item>
+		<item>2958</item>
+		<item>2959</item>
+		<item>2960</item>
+		<item>2961</item>
+		<item>2962</item>
+		<item>2963</item>
+		<item>2964</item>
+		<item>2965</item>
+		<item>2966</item>
+		<item>2967</item>
+		<item>2968</item>
+		<item>2969</item>
+		<item>2970</item>
+		<item>2971</item>
+		<item>2972</item>
+		<item>2973</item>
+		<item>2974</item>
+		<item>2975</item>
+		<item>2976</item>
+		<item>2977</item>
+		<item>2978</item>
+		<item>2979</item>
+		<item>2980</item>
+		<item>2981</item>
+		<item>2982</item>
+		<item>2983</item>
+		<item>2984</item>
+		<item>2985</item>
+		<item>2986</item>
+		<item>2987</item>
+		<item>2988</item>
+		<item>2989</item>
+		<item>2990</item>
+		<item>2991</item>
+		<item>2992</item>
+		<item>2993</item>
+		<item>2994</item>
+		<item>2995</item>
+		<item>2996</item>
+		<item>2997</item>
+		<item>2998</item>
+		<item>2999</item>
+	</integer-array>
+
+	<string-array name="z260Webcam">
+		<item>H2816</item>
+		<item>H14429</item>
+		<item>H2817</item>
+		<item>H13653</item>
+		<item>H13654</item>
+		<item>H13655</item>
+		<item>H13656</item>
+		<item>H13657</item>
+		<item>H13658</item>
+		<item>H14430</item>
+		<item>H13659</item>
+		<item>H13660</item>
+		<item>H13661</item>
+		<item>H14431</item>
+		<item>H14437</item>
+		<item>H14438</item>
+		<item>H14439</item>
+		<item>H14440</item>
+		<item>H2819</item>
+		<item>H2820</item>
+		<item>H2822</item>
+		<item>H2823</item>
+		<item>H2824</item>
+		<item>H2825</item>
+		<item>H2826</item>
+		<item>H2827</item>
+		<item>H13662</item>
+		<item>H2828</item>
+		<item>H2829</item>
+		<item>H14432</item>
+		<item>H2830</item>
+		<item>H14433</item>
+		<item>H14434</item>
+		<item>H2831</item>
+		<item>H2832</item>
+		<item>H14435</item>
+		<item>H2833</item>
+		<item>H2834</item>
+		<item>H14436</item>
+		<item>H2835</item>
+		<item>H2836</item>
+		<item>H2837</item>
+		<item>H2838</item>
+		<item>H14441</item>
+		<item>H14442</item>
+		<item>H14443</item>
+		<item>H14444</item>
+		<item>H2840</item>
+		<item>H2841</item>
+		<item>H14445</item>
+		<item>H2842</item>
+		<item>H2843</item>
+		<item>H2844</item>
+		<item>H2845</item>
+		<item>H14446</item>
+		<item>H2846</item>
+		<item>H2847</item>
+		<item>H14447</item>
+		<item>H2849</item>
+		<item>H2850</item>
+		<item>H2851</item>
+		<item>H14419</item>
+		<item>H2852</item>
+		<item>H2856</item>
+		<item>H2857</item>
+		<item>H2858</item>
+		<item>H2860</item>
+		<item>H14420</item>
+		<item>H14421</item>
+		<item>H2861</item>
+		<item>H2862</item>
+		<item>H2863</item>
+		<item>H2864</item>
+		<item>H14422</item>
+		<item>H14423</item>
+		<item>H14424</item>
+		<item>H14425</item>
+		<item>H14426</item>
+		<item>H14427</item>
+		<item>H14428</item>
+		<item>H2871</item>
+		<item>H2872</item>
+		<item>H2873</item>
+		<item>H2874</item>
+		<item>H2875</item>
+		<item>H2876</item>
+		<item>H2877</item>
+		<item>H2878</item>
+		<item>H2879</item>
+		<item>H2880</item>
+		<item>H2881</item>
+		<item>H2883</item>
+		<item>H2882</item>
+		<item>H2884</item>
+		<item>H2885</item>
+		<item>H2886</item>
+		<item>H2887</item>
+		<item>H2888</item>
+		<item>H2889</item>
+		<item>H2890</item>
+		<item>H2891</item>
+		<item>H2892</item>
+		<item>H2893</item>
+		<item>H2894</item>
+		<item>H2895</item>
+		<item>H2896</item>
+		<item>H2897</item>
+		<item>H2898</item>
+		<item>H2899</item>
+		<item>H2900</item>
+		<item>H2901</item>
+		<item>H2902</item>
+		<item>H2903</item>
+		<item>H2904</item>
+		<item>H2905</item>
+		<item>H2906</item>
+		<item>H2907</item>
+		<item>H2908</item>
+		<item>H2909</item>
+		<item>H2910</item>
+		<item>H2911</item>
+		<item>H2912</item>
+		<item>H2913</item>
+		<item>H2914</item>
+		<item>H2915</item>
+		<item>H2916</item>
+		<item>H2917</item>
+		<item>H2918</item>
+		<item>H2919</item>
+		<item>H2920</item>
+		<item>H2921</item>
+		<item>H13663</item>
+		<item>H2922</item>
+		<item>H2923</item>
+		<item>H2924</item>
+		<item>H2925</item>
+		<item>H2926</item>
+		<item>H2927</item>
+		<item>H2928</item>
+		<item>H2929</item>
+		<item>H2930</item>
+		<item>H2931</item>
+		<item>H2932</item>
+		<item>H2933</item>
+		<item>H2934</item>
+		<item>H2935</item>
+		<item>H2936</item>
+		<item>H2937</item>
+		<item>H2938</item>
+		<item>H2939</item>
+		<item>H2940</item>
+		<item>H2941</item>
+		<item>H2942</item>
+		<item>H2943</item>
+		<item>H2944</item>
+		<item>H2945</item>
+		<item>H2946</item>
+		<item>H2947</item>
+		<item>H2948</item>
+		<item>H2949</item>
+		<item>H2950</item>
+		<item>H2951</item>
+		<item>H2952</item>
+		<item>H2953</item>
+		<item>H2954</item>
+		<item>H2955</item>
+		<item>H2956</item>
+		<item>H2957</item>
+		<item>H2958</item>
+		<item>H2959</item>
+		<item>H2960</item>
+		<item>H2961</item>
+		<item>H2962</item>
+		<item>H2963</item>
+		<item>H2964</item>
+		<item>H2965</item>
+		<item>H2966</item>
+		<item>H2967</item>
+		<item>H2968</item>
+		<item>H2969</item>
+		<item>H2970</item>
+		<item>H2971</item>
+		<item>H2972</item>
+		<item>H2973</item>
+		<item>H2974</item>
+		<item>H2975</item>
+		<item>H2976</item>
+		<item>H2977</item>
+		<item>H2978</item>
+		<item>H2979</item>
+		<item>H2980</item>
+		<item>H2981</item>
+		<item>H2982</item>
+		<item>H2983</item>
+		<item>H2984</item>
+		<item>H2985</item>
+		<item>H2986</item>
+		<item>H2987</item>
+		<item>H2988</item>
+		<item>H2989</item>
+		<item>H2990</item>
+		<item>H2991</item>
+		<item>H2992</item>
+		<item>H2993</item>
+		<item>H2994</item>
+		<item>H2995</item>
+		<item>H2996</item>
+		<item>H2997</item>
+		<item>H2998</item>
+		<item>H2999</item>
+	</string-array>
+
+</resources>

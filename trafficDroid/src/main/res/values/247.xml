@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tangenziale Di Catania -->
+<resources>
+
+	<string-array name="z247Name">
+		<item>Catania Centro-S.Gregorio-A18 Diramazione</item>
+		<item>Gravina</item>
+		<item>S.Giovanni Galermo</item>
+		<item>Misterbianco-Innesto SS121 Catanese</item>
+		<item>S.Giorgio</item>
+		<item>Catania Sud-Allacciamento A19 Palermo-Catania</item>
+		<item>Bicocca-Asse Servizi Per Porto-Aeroporto</item>
+		<item>Zona Industriale Nord</item>
+		<item>Passo Martino-Zona Industriale Sud</item>
+		<item>Simeto-Innesto SS114</item>
+	</string-array>
+
+	<integer-array name="z247Id">
+		<item>2736</item>
+		<item>2737</item>
+		<item>2738</item>
+		<item>2739</item>
+		<item>2740</item>
+		<item>2741</item>
+		<item>2742</item>
+		<item>2743</item>
+		<item>2744</item>
+		<item>2745</item>
+	</integer-array>
+
+	<string-array name="z247Webcam">
+		<item>H2736</item>
+		<item>H2737</item>
+		<item>H2738</item>
+		<item>H2739</item>
+		<item>H2740</item>
+		<item>H2741</item>
+		<item>H2742</item>
+		<item>H2743</item>
+		<item>H2744</item>
+		<item>H2745</item>
+	</string-array>
+
+</resources>

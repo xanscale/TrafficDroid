@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Per Pinerolo -->
+<resources>
+
+	<string-array name="z189Name">
+		<item>Torino - Corso Orbassano</item>
+		<item>Mirafiori</item>
+		<item>Drosso - Allacciamento Tangenziale Sud Di Torino</item>
+		<item>Barriera Beinasco</item>
+		<item>Beinasco Nord</item>
+		<item>Beinasco Sud</item>
+		<item>Orbassano</item>
+		<item>Candiolo</item>
+		<item>Gerbole</item>
+		<item>Volvera</item>
+		<item>None</item>
+		<item>Piscina</item>
+		<item>Riva</item>
+		<item>Innesto S.R. 23</item>
+	</string-array>
+
+	<integer-array name="z189Id">
+		<item>2138</item>
+		<item>14176</item>
+		<item>2139</item>
+		<item>2140</item>
+		<item>14177</item>
+		<item>14213</item>
+		<item>2141</item>
+		<item>2142</item>
+		<item>2143</item>
+		<item>2144</item>
+		<item>2145</item>
+		<item>14178</item>
+		<item>14179</item>
+		<item>14180</item>
+	</integer-array>
+
+	<string-array name="z189Webcam">
+		<item>H2138</item>
+		<item>H14176</item>
+		<item>H2139</item>
+		<item>H2140</item>
+		<item>H14177</item>
+		<item>H14213</item>
+		<item>H2141</item>
+		<item>H2142</item>
+		<item>H2143</item>
+		<item>H2144</item>
+		<item>H2145</item>
+		<item>H14178</item>
+		<item>H14179</item>
+		<item>H14180</item>
+	</string-array>
+
+</resources>

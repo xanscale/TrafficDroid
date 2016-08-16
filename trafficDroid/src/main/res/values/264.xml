@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bis Via Cassia Veientana -->
+<resources>
+
+	<string-array name="z264Name">
+		<item>Innesto Grande Raccordo Anulare</item>
+		<item>Bivio Per Formello</item>
+		<item>Le Rughe/Innesto SS2 Cassia</item>
+	</string-array>
+
+	<integer-array name="z264Id">
+		<item>3074</item>
+		<item>3075</item>
+		<item>3076</item>
+	</integer-array>
+
+	<string-array name="z264Webcam">
+		<item>H3074</item>
+		<item>H3075</item>
+		<item>H3076</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Messina - Palermo -->
+<resources>
+
+	<string-array name="z160Name">
+		<item>Allacciamento A18 Messina-Catania</item>
+		<item>Messina Sud Tremestieri</item>
+		<item>Tremestrieri</item>
+		<item>Tremestieri Ovest</item>
+		<item>S. Filippo</item>
+		<item>Messina-Gazzi</item>
+		<item>Messina C./Allacciamento Raccordo A20 P.To Messina</item>
+		<item>Messina-Boccetta</item>
+		<item>Villafranca Tirrena</item>
+		<item>Barriera Di Messina Nord</item>
+		<item>Divieto</item>
+		<item>Rometta</item>
+		<item>Milazzo-Isole Eolie</item>
+		<item>Olivarella Sud</item>
+		<item>Barcellona</item>
+		<item>Falcone</item>
+		<item>Tindari</item>
+		<item>Patti</item>
+		<item>Brolo</item>
+		<item>Rocca Di Capri Leone</item>
+		<item>S.Agata Di Militello</item>
+		<item>Acquedolci Sud</item>
+		<item>Furiano-Allacciamento SS113</item>
+		<item>S.Stefano Di Camastra</item>
+		<item>Tusa</item>
+		<item>Castelbuono</item>
+		<item>Cefalu\'</item>
+		<item>Buonfornello</item>
+		<item>Allacciamento A19 Palermo-Catania</item>
+	</string-array>
+
+	<integer-array name="z160Id">
+		<item>1782</item>
+		<item>14363</item>
+		<item>14364</item>
+		<item>14365</item>
+		<item>14366</item>
+		<item>1784</item>
+		<item>1785</item>
+		<item>1786</item>
+		<item>14367</item>
+		<item>1787</item>
+		<item>1789</item>
+		<item>1790</item>
+		<item>1791</item>
+		<item>1792</item>
+		<item>1793</item>
+		<item>1794</item>
+		<item>1795</item>
+		<item>1796</item>
+		<item>1797</item>
+		<item>1798</item>
+		<item>1799</item>
+		<item>1800</item>
+		<item>1801</item>
+		<item>14368</item>
+		<item>14369</item>
+		<item>14370</item>
+		<item>14371</item>
+		<item>14372</item>
+		<item>14373</item>
+	</integer-array>
+
+	<string-array name="z160Webcam">
+		<item>H1782</item>
+		<item>H14363</item>
+		<item>H14364</item>
+		<item>H14365</item>
+		<item>H14366</item>
+		<item>H1784</item>
+		<item>H1785</item>
+		<item>H1786</item>
+		<item>H14367</item>
+		<item>H1787</item>
+		<item>H1789</item>
+		<item>H1790</item>
+		<item>H1791</item>
+		<item>H1792</item>
+		<item>H1793</item>
+		<item>H1794</item>
+		<item>H1795</item>
+		<item>H1796</item>
+		<item>H1797</item>
+		<item>H1798</item>
+		<item>H1799</item>
+		<item>H1800</item>
+		<item>H1801</item>
+		<item>H14368</item>
+		<item>H14369</item>
+		<item>H14370</item>
+		<item>H14371</item>
+		<item>H14372</item>
+		<item>H14373</item>
+	</string-array>
+
+</resources>

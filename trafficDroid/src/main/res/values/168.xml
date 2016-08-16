@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Genova - Gravellona Toce -->
+<resources>
+
+	<string-array name="z168Name">
+		<item>Allacciamento A10 Genova-Ventimiglia</item>
+		<item>Turchino</item>
+		<item>Masone</item>
+		<item>Stura</item>
+		<item>Ovada</item>
+		<item>Allacciamento Diram. Predosa-Bettole</item>
+		<item>Bormida</item>
+		<item>Alessandria Sud</item>
+		<item>Allacciamento A21 Torino-Piacenza-Brescia</item>
+		<item>Monferrato</item>
+		<item>Casale Monferrato Sud</item>
+		<item>Casale Monferrato Nord</item>
+		<item>Allacciamento Diramazione Stroppiana-Santhia\'</item>
+		<item>Sesia</item>
+		<item>Vercelli Est</item>
+		<item>Allacciamento A4 Torino-Trieste</item>
+		<item>Romagnano Sesia-Ghemme</item>
+		<item>Borgomanero</item>
+		<item>Agogna</item>
+		<item>Allacciamento Diramazione Gallarate-Gattico</item>
+		<item>Arona</item>
+		<item>Barriera Lago Maggiore</item>
+		<item>Meina</item>
+		<item>Carpugnino</item>
+		<item>Baveno</item>
+		<item>Gravellona Toce-SS34 Lago Maggiore</item>
+		<item>SS33 Del Sempione</item>
+	</string-array>
+
+	<integer-array name="z168Id">
+		<item>1935</item>
+		<item>1936</item>
+		<item>1937</item>
+		<item>1938</item>
+		<item>1939</item>
+		<item>1940</item>
+		<item>1941</item>
+		<item>1942</item>
+		<item>1943</item>
+		<item>1944</item>
+		<item>1945</item>
+		<item>1946</item>
+		<item>1947</item>
+		<item>1948</item>
+		<item>1949</item>
+		<item>1950</item>
+		<item>1951</item>
+		<item>1952</item>
+		<item>1953</item>
+		<item>1954</item>
+		<item>1955</item>
+		<item>1956</item>
+		<item>13989</item>
+		<item>1957</item>
+		<item>1958</item>
+		<item>1959</item>
+		<item>1960</item>
+	</integer-array>
+
+	<string-array name="z168Webcam">
+<item>A6</item> <!-- A26 km. 0,250 Bivio A26S/A10E itinere est NEW -->
+<item>A475</item> <!-- A26 km. 6,0 Turchino itinere sud NEW -->
+<item>A497</item> <!-- A26 km. 7,3 Turchino Itinere nord -->
+<item>A740</item> <!-- A26 km. 25,0 Stura itinere sud NEW -->
+<item>A738</item> <!-- A26 km. 29,8 Ovada itinere sud NEW -->
+<item>A499</item> <!-- A26 km. 44,5 All.A26/D26 itinere nord NEW -->
+<item>A477</item> <!-- A26 km. 47,0 All.A26/D26 itinere sud NEW -->
+<item>A502</item> <!-- A26 km. 57,1 Alessandria Sud itinere nord NEW -->
+<item>A501</item> <!-- A26 km. 68,0 A26/A21 itinere sud NEW -->
+<item>A1775</item> <!-- A26 km. 73,8 Gall.Olimpia itinere sud NEW -->
+		<item>H1945</item>
+		<item>H1946</item>
+<item>A1224</item> <!-- A26 km. 101,2 Allacc. A26-D36 itinere nord NEW -->
+		<item>H1948</item>
+<item>A507</item> <!-- A26 km. 127,7 A26/A4 itinere nord NEW -->
+<item>A506</item> <!-- A26 km. 130,6 A26/A4 itinere sud NEW -->
+<item>A1773</item> <!-- A26 km. 143,0 Romagnano itinere nord NEW -->
+		<item>A19370</item> <!-- A26 km. 151,1 Borgomanero itinere nord -->
+		<item>H1953</item>
+		<item>A11421</item> <!-- A26 km. 157,9 A26/D8 itinere nord -->
+		<item>A19359</item> <!-- A26 km. 166,4 Arona itinere sud -->
+		<item>H1956</item>
+		<item>H13989</item>
+		<item>A14693</item> <!-- A26 km. 181,4 Carpugnino itinere nord -->
+		<item>H1958</item>
+		<item>H1959</item>
+		<item>H1960</item>
+	</string-array>
+
+</resources>

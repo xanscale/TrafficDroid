@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Napoli - Canosa -->
+<resources>
+
+	<string-array name="z157Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Vesuvio</item>
+		<item>Pomigliano D\'Arco</item>
+		<item>Barriera Di Napoli Est</item>
+		<item>Allacciamento A30 Caserta-Salerno</item>
+		<item>Baiano</item>
+		<item>Avellino Ovest</item>
+		<item>Irpinia</item>
+		<item>Avellino Est</item>
+		<item>Benevento - Raccordo Di Benevento</item>
+		<item>Mirabella</item>
+		<item>Grottaminarda</item>
+		<item>Vallata</item>
+		<item>Calaggio</item>
+		<item>Lacedonia</item>
+		<item>Candela</item>
+		<item>Torre Alemanna</item>
+		<item>Ofanto</item>
+		<item>Cerignola</item>
+		<item>Allacciamento A14 Bologna-Taranto</item>
+	</string-array>
+
+	<integer-array name="z157Id">
+		<item>1723</item>
+		<item>1724</item>
+		<item>1725</item>
+		<item>1726</item>
+		<item>1727</item>
+		<item>1728</item>
+		<item>1729</item>
+		<item>1730</item>
+		<item>1731</item>
+		<item>1732</item>
+		<item>1733</item>
+		<item>1734</item>
+		<item>1735</item>
+		<item>1736</item>
+		<item>1737</item>
+		<item>1738</item>
+		<item>1739</item>
+		<item>1740</item>
+		<item>1741</item>
+		<item>1742</item>
+	</integer-array>
+
+	<string-array name="z157Webcam">
+		<item>H1723</item>
+		<item>H1724</item>
+		<item>A5222</item> <!-- A16 km. 9,55 Pomigliano itinere ovest -->
+		<item>H1726</item>
+<item>A524</item> <!-- A16 km. 14,7 All. A16-A30 itinere est NEW -->
+<item>A526</item> <!-- A16 km. 25,6 Baiano itinere est -->
+<item>A2140</item> <!-- A16 km. 33,6 itinere ovest NEW -->
+<item>A130</item> <!-- A16 km. 36,4 Monteforte itinere ovest NEW -->
+<item>A2498</item> <!-- A16 km. 40,0 Avellino itinere est NEW -->
+<item>A527</item> <!-- A16 km. 69,9 Benevento itinere ovest NEW -->
+<item>A2149</item> <!-- A16 km. 77,3 Mirabella itinere ovest NEW -->
+<item>A1310</item> <!-- A16 km. 80,6 Grottaminarda itinere est NEW -->
+<item>A129</item> <!-- A16 km. 102,2 itinere est NEW -->
+		<item>H1736</item>
+		<item>H1737</item>
+		<item>H1738</item>
+		<item>H1739</item>
+		<item>H1740</item>
+		<item>H1741</item>
+		<item>H1742</item>
+	</string-array>
+
+</resources>

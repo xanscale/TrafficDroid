@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Torino - Trieste -->
+<resources>
+
+	<string-array name="z134Name">
+		<item>Torino - Corso Giulio Cesare</item>
+		<item>SS11 - Abbadia Di Stura</item>
+		<item>Allacciamento Raccordo Falchera-A5/Tangenziale To</item>
+		<item>Settimo Torinese</item>
+		<item>Settimo Torinese</item>
+		<item>Volpiano Sud</item>
+		<item>Brandizzo</item>
+		<item>Chivasso Ovest</item>
+		<item>Chivasso</item>
+		<item>Chivasso Est</item>
+		<item>Rondissone</item>
+		<item>Barriera Di Rondissone</item>
+		<item>Rondissone Sud</item>
+		<item>Cigliano</item>
+		<item>Borgo D\'Ale</item>
+		<item>Allacciamento Raccordo A4-A5</item>
+		<item>Santhia\'</item>
+		<item>Carisio</item>
+		<item>Balocco</item>
+		<item>Villarboit</item>
+		<item>Greggio</item>
+		<item>Allacciamento A26 Ge Voltri-Gravellona T.</item>
+		<item>Biandrate Vicolungo</item>
+		<item>Novara Ovest</item>
+		<item>Novara</item>
+		<item>Novara Est</item>
+		<item>Marcallo - Mesero</item>
+		<item>Arluno</item>
+		<item>Rho</item>
+		<item>Ghisolfa Ovest - Tangenziale Ovest</item>
+		<item>Barriera Milano Ghisolfa</item>
+		<item>Allacciamento Tangenziale Ovest Di Milano</item>
+		<item>Nodo Di Pero</item>
+		<item>Pero Piazzale Sud-Est</item>
+		<item>Pero</item>
+		<item>Pero</item>
+		<item>Fiorenza-Allacciamento A8(Milano V.Le Certosa)</item>
+		<item>Viale Certosa</item>
+		<item>Cormano</item>
+		<item>Lambro</item>
+		<item>Sesto San Giovanni-Viale Zara</item>
+		<item>Allacciamento Tangenziale Nord Di Milano</item>
+		<item>Barriera Di Milano Est</item>
+		<item>Monza</item>
+		<item>Allacciamento Tangenziale Est Di Milano</item>
+		<item>Agrate</item>
+		<item>Brianza</item>
+		<item>Cavenago</item>
+		<item>Trezzo</item>
+		<item>Capriate</item>
+		<item>Brembo</item>
+		<item>Dalmine</item>
+		<item>Bergamo</item>
+		<item>Seriate</item>
+		<item>Grumello</item>
+		<item>Ponte Oglio</item>
+		<item>Palazzolo</item>
+		<item>Sebino</item>
+		<item>Rovato</item>
+		<item>Ospitaletto</item>
+		<item>Val Trompia</item>
+		<item>Brescia Ovest</item>
+		<item>Interconnessione A21</item>
+		<item>Brescia Centro</item>
+		<item>San Giacomo</item>
+		<item>Brescia Est</item>
+		<item>Campagnola</item>
+		<item>Desenzano</item>
+		<item>Monte Alto</item>
+		<item>Sirmione</item>
+		<item>Frassino</item>
+		<item>Peschiera</item>
+		<item>Val Di Sona</item>
+		<item>Sommacampagna</item>
+		<item>Monte Baldo Sud</item>
+		<item>Monte Baldo Nord</item>
+		<item>Allacciamento A22 Modena-Brennero</item>
+		<item>Verona Sud</item>
+		<item>Verona Est</item>
+		<item>Scaligera</item>
+		<item>Soave</item>
+		<item>San Lorenzo Est</item>
+		<item>San Lorenzo Ovest</item>
+		<item>Montebello</item>
+		<item>Montecchio</item>
+		<item>Villa Morosini Nord</item>
+		<item>Vicenza Ovest</item>
+		<item>Vicenza Est</item>
+		<item>Allacciamento A31 Vicenza-Piovene R.</item>
+		<item>Tesina Sud</item>
+		<item>Grisignano</item>
+		<item>Limenella</item>
+		<item>Padova Ovest</item>
+		<item>Padova Est</item>
+		<item>Allacciamento A13 Bologna-Padova</item>
+		<item>Arino</item>
+		<item>Allacciamento A4/A57 Ovest Tang. Di Mestre</item>
+		<item>Spinea</item>
+		<item>Preganziol</item>
+		<item>Allacciamento A27 Mestre-Belluno</item>
+		<item>Allacciamento A4/A57 Est Tang. Di Mestre</item>
+		<item>S. Dona\' Di Piave</item>
+		<item>Calstorta</item>
+		<item>Cessalto</item>
+		<item>S. Stino Di Livenza</item>
+		<item>Allacciamento A28 Portogruaro-Pordenone</item>
+		<item>Fratta</item>
+		<item>Latisana</item>
+		<item>S. Giorgio Di Nogaro</item>
+		<item>Gonars</item>
+		<item>Allacciamento A23 Palmanova-Tarvisio</item>
+		<item>Palmanova</item>
+		<item>Villesse-Allacciamento Raccordo Villesse-Gorizia</item>
+		<item>Redipuglia - Monfalcone Ovest</item>
+		<item>Barriera Di Trieste Lisert - Monfalcone Est</item>
+		<item>Monfalcone-Raccordo SS14-SS55</item>
+		<item>Duino</item>
+		<item>Duino</item>
+		<item>Sistiana</item>
+		<item>Inizio SS202 Triestina</item>
+	</string-array>
+
+	<integer-array name="z134Id">
+		<item>1282</item>
+		<item>14126</item>
+		<item>1283</item>
+		<item>13984</item>
+		<item>1284</item>
+		<item>14384</item>
+		<item>1285</item>
+		<item>1286</item>
+		<item>1287</item>
+		<item>1288</item>
+		<item>1289</item>
+		<item>1290</item>
+		<item>14127</item>
+		<item>13985</item>
+		<item>1292</item>
+		<item>1293</item>
+		<item>1295</item>
+		<item>1296</item>
+		<item>1297</item>
+		<item>1298</item>
+		<item>1299</item>
+		<item>1300</item>
+		<item>1301</item>
+		<item>1302</item>
+		<item>13485</item>
+		<item>13486</item>
+		<item>1305</item>
+		<item>1306</item>
+		<item>1307</item>
+		<item>1308</item>
+		<item>1309</item>
+		<item>1310</item>
+		<item>14225</item>
+		<item>14226</item>
+		<item>14265</item>
+		<item>14266</item>
+		<item>1313</item>
+		<item>14267</item>
+		<item>1314</item>
+		<item>1315</item>
+		<item>1316</item>
+		<item>1317</item>
+		<item>1318</item>
+		<item>1319</item>
+		<item>1320</item>
+		<item>1321</item>
+		<item>1322</item>
+		<item>1323</item>
+		<item>1324</item>
+		<item>1325</item>
+		<item>1326</item>
+		<item>1327</item>
+		<item>1328</item>
+		<item>1329</item>
+		<item>1330</item>
+		<item>1331</item>
+		<item>1332</item>
+		<item>1333</item>
+		<item>1334</item>
+		<item>1335</item>
+		<item>1336</item>
+		<item>1337</item>
+		<item>1338</item>
+		<item>14203</item>
+		<item>1339</item>
+		<item>1340</item>
+		<item>14156</item>
+		<item>1341</item>
+		<item>1342</item>
+		<item>1343</item>
+		<item>14157</item>
+		<item>1344</item>
+		<item>14158</item>
+		<item>1345</item>
+		<item>1346</item>
+		<item>1347</item>
+		<item>1348</item>
+		<item>1349</item>
+		<item>1350</item>
+		<item>1351</item>
+		<item>1352</item>
+		<item>14159</item>
+		<item>14160</item>
+		<item>1353</item>
+		<item>1354</item>
+		<item>1355</item>
+		<item>1356</item>
+		<item>1357</item>
+		<item>1358</item>
+		<item>1359</item>
+		<item>1360</item>
+		<item>1361</item>
+		<item>1362</item>
+		<item>1363</item>
+		<item>1364</item>
+		<item>1365</item>
+		<item>14231</item>
+		<item>14268</item>
+		<item>14232</item>
+		<item>14251</item>
+		<item>14233</item>
+		<item>1378</item>
+		<item>1379</item>
+		<item>1380</item>
+		<item>1381</item>
+		<item>1382</item>
+		<item>1383</item>
+		<item>1384</item>
+		<item>1385</item>
+		<item>1386</item>
+		<item>1387</item>
+		<item>1388</item>
+		<item>1389</item>
+		<item>1390</item>
+		<item>1391</item>
+		<item>1392</item>
+		<item>1393</item>
+		<item>1394</item>
+		<item>1395</item>
+		<item>1396</item>
+	</integer-array>
+
+	<string-array name="z134Webcam">
+		<item>H1282</item>
+		<item>H14126</item>
+		<item>H1283</item>
+		<item>H13984</item>
+		<item>H1284</item>
+		<item>H14384</item>
+		<item>H1285</item>
+		<item>H1286</item>
+		<item>H1287</item>
+		<item>H1288</item>
+		<item>H1289</item>
+		<item>H1290</item>
+		<item>H14127</item>
+		<item>H13985</item>
+		<item>H1292</item>
+		<item>H1293</item>
+		<item>H1295</item>
+		<item>H1296</item>
+		<item>H1297</item>
+		<item>H1298</item>
+		<item>H1299</item>
+		<item>H1300</item>
+		<item>H1301</item>
+		<item>H1302</item>
+		<item>H13485</item>
+		<item>H13486</item>
+		<item>H1305</item>
+		<item>H1306</item>
+		<item>H1307</item>
+		<item>H1308</item>
+		<item>H1309</item>
+		<item>H1310</item>
+		<item>H14225</item>
+		<item>H14226</item>
+<item>A268</item> <!-- A04 km. 125,0 Bivio Fiorenza -->
+<item>A582</item> <!-- A04 km. 125,0 V.le Certosa Itinere Nord -->
+<item>A171</item> <!-- A04 km. 126,0 Fiorenza itinere ovest NEW -->
+<item>A434</item> <!-- A04 km. 128,5 PMV DT Dir. Ovest -->
+<item>A435</item> <!-- A04 km. 131,0 Cormano itinere ovest NEW -->
+<item>A172</item> <!-- A04 km. 133,8 Lambro itinere Ovest -->
+<item>A33</item> <!-- A04 km. 136,5 svincolo Sesto S. Giovanni itinere ovest NEW -->
+<item>A436</item> <!-- A04 km. 137,1 Sesto S.Giovanni itinere ovest NEW -->
+<item>A37</item> <!-- A04 km. 138,3 Barr. Milano est NEW -->
+<item>A437</item> <!-- A04 km. 140,0 Monza itinere ovest NEW -->
+<item>A421</item> <!-- A04 km. 142,1 Tangenziale Milano Est itinere est NEW -->
+<item>A173</item> <!-- A04 km. 147 Agrate itinere ovest NEW -->
+<item>A422</item> <!-- A04 km. 149,3 Cavenago itinere est NEW -->
+<item>A174</item> <!-- A04 km. 151,6 Cavenago itinere ovest NEW -->
+<item>A438</item> <!-- A04 km. 158,1 Trezzo itinere ovest NEW -->
+<item>A439</item> <!-- A04 km. 161,6 Capriate itinere ovest NEW -->
+<item>A45</item> <!-- A04 km. 162,2 Ponte Brembo itinere ovest NEW -->
+<item>A440</item> <!-- A04 km. 168,8 Dalmine itinere ovest NEW -->
+<item>A40</item> <!-- A04 km. 172,6 Bergamo itinere ovest NEW -->
+<item>A175</item> <!-- A04 km. 180,2 Seriate itinere ovest NEW -->
+<item>A428</item> <!-- A04 km. 187,2 Grumello itinere est NEW -->
+		<item>A19868</item> <!-- A04 km. 190,5 Ponte Oglio itinere est -->
+		<item>A19861</item> <!-- A04 km. 192,4 Palazzolo itinere est -->
+		<item>H1333</item>
+		<item>A21450</item> <!-- A04 km. 202,3 Rovato itinere ovest -->
+		<item>A21444</item> <!-- A04 km. 207,0 Ospitaletto itinere ovest -->
+		<item>A19841</item> <!-- A04 km. 214,5 Val Trompia itinere est -->
+		<item>A19772</item> <!-- A04 km. 217,0 Brescia Ovest itinere ovest -->
+		<item>BAXIS01-01</item> <!-- A21/A04 km. 217,73 Dir. Venezia inizio tratta di competenza -->
+		<item>BAXIS03-01</item> <!-- A04 km. 221,56 Dir. Milano Brescia Centro -->
+		<item>BAXIS04-01</item>
+		<item>BAXIS05-01</item> <!-- A04 km. 231,95 Dir. Venezia Brescia est -->
+		<item>BAXIS07-01</item>
+		<item>BAXIS10-01</item> <!-- A04 km. 244,35 Dir. Milano Desenzano -->
+		<item>BAXIS11-01</item> <!-- A04 km. 245,20 Dir. Venezia Area di servizio Monte Alto -->
+		<item>BAXIS14-01</item> <!-- A04 km. 251 Dir. Venezia Sirmione -->
+		<item>BAXIS16-01</item> <!-- A04 km. 256,1 Dir. Venezia Area parcheggio Frassino est -->
+		<item>BAXIS12-01</item> <!-- A04 km. 259 Dir. Milano Peschiera del Garda -->
+		<item>BAXIS02-02</item> <!-- A04 km. 268,75 Dir. Venezia Area parcheggio Val di Sona -->
+		<item>BAXIS03-02</item> <!-- A04 km. 270,78 Dir. Milano Sommacampagna -->
+		<item>H1346</item>
+		<item>BAXIS04-02</item> <!-- A04 km. 275,12 Dir. Milano Area di servizio Monte Baldo -->
+		<item>BAXIS05-02</item> <!-- A04 km. 276,15 Dir. Venezia Svincolo A22 -->
+		<item>BAXIS08-02</item> <!-- A04 km. 281 Dir. Milano Verona Sud -->
+		<item>BAXIS11-02</item> <!-- A04 km. 290,10 Dir. Venezia Verona Est -->
+		<item>H1351</item>
+		<item>H1352</item>
+		<item>H14159</item>
+		<item>H14160</item>
+		<item>H1353</item>
+		<item>H1354</item>
+		<item>H1355</item>
+		<item>H1356</item>
+		<item>H1357</item>
+		<item>H1358</item>
+		<item>H1359</item>
+		<item>H1360</item>
+		<item>H1361</item>
+		<item>H1362</item>
+		<item>H1363</item>
+		<item>H1364</item>
+		<item>H1365</item>
+		<item>H14231</item>
+		<item>C201-220</item>
+		<item>C101-145</item>
+		<item>C201-215</item>
+		<item>C201-218</item>
+		<item>H1378</item>
+		<item>H1379</item>
+		<item>H1380</item>
+		<item>H1381</item>
+		<item>H1382</item>
+		<item>H1383</item>
+		<item>H1384</item>
+		<item>H1385</item>
+		<item>H1386</item>
+		<item>H1387</item>
+		<item>H1388</item>
+		<item>H1389</item>
+		<item>H1390</item>
+		<item>H1391</item>
+		<item>H1392</item>
+		<item>H1393</item>
+		<item>H1394</item>
+		<item>H1395</item>
+		<item>H1396</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Tiburtina Valeria -->
+<resources>
+
+	<string-array name="z273Name">
+		<item>Roma</item>
+		<item>Grande Raccordo Anulare</item>
+		<item>Bagni Di Tivoli/Innesto SS5 Ter</item>
+		<item>Bagni Di Tivoli</item>
+		<item>Tivoli/Innesto SS636 Di Palombara</item>
+		<item>Tivoli</item>
+		<item>Vicovaro</item>
+		<item>S. Cosimato/Innesto SS314 Licinese</item>
+		<item>Casello Mandela A24 Roma-Teramo</item>
+		<item>Arsoli/Innesto SS411 Sublacense</item>
+		<item>Arsoli</item>
+		<item>Casello Carsoli A24 Roma-Teramo</item>
+		<item>Carsoli/Innesto SS5 Quater Tiburtina</item>
+		<item>Carsoli</item>
+		<item>Bivio Per Colli Di Monte Bove</item>
+		<item>Valico Di Monte Bove</item>
+		<item>Tagliacozzo</item>
+		<item>Tagliacozzo/Innesto SS5 Quater</item>
+		<item>Staz. Villa S.Sebastiano/Innesto SS579 Palentina</item>
+		<item>Scurcola Marsicana</item>
+		<item>Casello Magliano De\' Marsi A25 Torano-Pescara</item>
+		<item>Cappelle</item>
+		<item>Cappelle/Innesto SS578 Salto Cicolana</item>
+		<item>Avezzano</item>
+		<item>Avezzano/Innesto SS82 Della Valle Del Liri</item>
+		<item>S. Pelino</item>
+		<item>Variante Di Paterno\'</item>
+		<item>Paterno/Innesto SS5 Bis/Diramazione (Ramo Destro) Vestina</item>
+		<item>Paterno/Innesto SS5 Bis/Diramazione (Ramo Sinistro) Vestina</item>
+		<item>Celano/Innesto SS5 Bis Vestina-Sarentina</item>
+		<item>Casello Celano A25 Torano-Pescara</item>
+		<item>Cerchio/Innesto SS83 Marsicana</item>
+		<item>Collarmele</item>
+		<item>Valico Di Forca Caruso</item>
+		<item>Castelvecchio Subequo</item>
+		<item>Molina Aterno/Innesto SS261 Subequana</item>
+		<item>Raiano/Innesto SS5 Diramazione Tiburtina Valeria</item>
+		<item>Raiano</item>
+		<item>Corfino</item>
+		<item>Corfinio/Innesto SS17 App. Abruz. E Appulo Sann.</item>
+		<item>Capo D\'Acero Monte</item>
+		<item>Popoli/Innesto SS17 App.Abruz. E Appulo Sann.</item>
+		<item>Bussi Sul Tirino/Innesto SS153 Della Valle Del Tirino</item>
+		<item>Casello Bussi A25 Torano-Pescara</item>
+		<item>Casello Torre De\'Passeri A25 Torano-Pescara</item>
+		<item>Piano D\'Orta</item>
+		<item>Scafa S.Valentino/Innesto SS487 Di Caramanico Terme</item>
+		<item>Casello Scafa/Alanno A25 Torano-Pescara</item>
+		<item>Manoppello/Innesto SS539 Di Manoppello</item>
+		<item>Brecciarola Di Chieti/Innesto SS5 Racc</item>
+		<item>Villareia/Innesto Raccordo Chieti-Pescara</item>
+		<item>Chieti A25 Torano-Pescara</item>
+		<item>Villareia/Innesto SS656 Diramazione Val Pescara-Chieti</item>
+		<item>Chieti Scalo</item>
+		<item>Chieti/Incrocio SS81 Piceno Aprutina</item>
+		<item>Pescara Aeroporto/Innesto SS16 Var</item>
+		<item>Pescara/Innesto SS16 Adriatica</item>
+	</string-array>
+
+	<integer-array name="z273Id">
+		<item>3270</item>
+		<item>3271</item>
+		<item>3272</item>
+		<item>3273</item>
+		<item>3274</item>
+		<item>3275</item>
+		<item>3276</item>
+		<item>3277</item>
+		<item>3278</item>
+		<item>3279</item>
+		<item>3280</item>
+		<item>3281</item>
+		<item>3282</item>
+		<item>3283</item>
+		<item>3284</item>
+		<item>3285</item>
+		<item>3286</item>
+		<item>3287</item>
+		<item>3288</item>
+		<item>3289</item>
+		<item>3290</item>
+		<item>3291</item>
+		<item>3292</item>
+		<item>3293</item>
+		<item>3294</item>
+		<item>3295</item>
+		<item>3296</item>
+		<item>3297</item>
+		<item>3298</item>
+		<item>3299</item>
+		<item>3300</item>
+		<item>3301</item>
+		<item>3302</item>
+		<item>3303</item>
+		<item>3304</item>
+		<item>3305</item>
+		<item>3307</item>
+		<item>3306</item>
+		<item>3308</item>
+		<item>3309</item>
+		<item>3310</item>
+		<item>3311</item>
+		<item>3312</item>
+		<item>3313</item>
+		<item>3314</item>
+		<item>3315</item>
+		<item>3316</item>
+		<item>3317</item>
+		<item>3318</item>
+		<item>3319</item>
+		<item>3320</item>
+		<item>3321</item>
+		<item>3322</item>
+		<item>3323</item>
+		<item>3324</item>
+		<item>3325</item>
+		<item>3326</item>
+	</integer-array>
+
+	<string-array name="z273Webcam">
+		<item>H3270</item>
+		<item>H3271</item>
+		<item>H3272</item>
+		<item>H3273</item>
+		<item>H3274</item>
+		<item>H3275</item>
+		<item>H3276</item>
+		<item>H3277</item>
+		<item>H3278</item>
+		<item>H3279</item>
+		<item>H3280</item>
+		<item>H3281</item>
+		<item>H3282</item>
+		<item>H3283</item>
+		<item>H3284</item>
+		<item>H3285</item>
+		<item>H3286</item>
+		<item>H3287</item>
+		<item>H3288</item>
+		<item>H3289</item>
+		<item>H3290</item>
+		<item>H3291</item>
+		<item>H3292</item>
+		<item>H3293</item>
+		<item>H3294</item>
+		<item>H3295</item>
+		<item>H3296</item>
+		<item>H3297</item>
+		<item>H3298</item>
+		<item>H3299</item>
+		<item>H3300</item>
+		<item>H3301</item>
+		<item>H3302</item>
+		<item>H3303</item>
+		<item>H3304</item>
+		<item>H3305</item>
+		<item>H3307</item>
+		<item>H3306</item>
+		<item>H3308</item>
+		<item>H3309</item>
+		<item>H3310</item>
+		<item>H3311</item>
+		<item>H3312</item>
+		<item>H3313</item>
+		<item>H3314</item>
+		<item>H3315</item>
+		<item>H3316</item>
+		<item>H3317</item>
+		<item>H3318</item>
+		<item>H3319</item>
+		<item>H3320</item>
+		<item>H3321</item>
+		<item>H3322</item>
+		<item>H3323</item>
+		<item>H3324</item>
+		<item>H3325</item>
+		<item>H3326</item>
+	</string-array>
+
+</resources>

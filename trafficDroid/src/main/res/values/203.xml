@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Sicignano-Potenza -->
+<resources>
+
+	<string-array name="z203Name">
+		<item>Sicignano-Allacciamento A3 Sa-Rc</item>
+		<item>Sicignano Est</item>
+		<item>Buccino</item>
+		<item>Balvano</item>
+		<item>Picerno</item>
+		<item>Tito</item>
+		<item>Tito Scalo</item>
+		<item>Potenza</item>
+		<item>Potenza Centro</item>
+		<item>Potenza Est</item>
+	</string-array>
+
+	<integer-array name="z203Id">
+		<item>2227</item>
+		<item>2228</item>
+		<item>2229</item>
+		<item>2230</item>
+		<item>2231</item>
+		<item>2232</item>
+		<item>14397</item>
+		<item>2233</item>
+		<item>14398</item>
+		<item>14399</item>
+	</integer-array>
+
+	<string-array name="z203Webcam">
+		<item>H2227</item>
+		<item>H2228</item>
+		<item>H2229</item>
+		<item>H2230</item>
+		<item>H2231</item>
+		<item>H2232</item>
+		<item>H14397</item>
+		<item>H2233</item>
+		<item>H14398</item>
+		<item>H14399</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione per Catania -->
+<resources>
+
+	<string-array name="z193Name">
+		<item>Catania - Via V.Giuffrida</item>
+		<item>Canalicchio</item>
+		<item>S.Gregorio-Allacciamento A18 Messina-Catania</item>
+	</string-array>
+
+	<integer-array name="z193Id">
+		<item>2166</item>
+		<item>13508</item>
+		<item>2167</item>
+	</integer-array>
+
+	<string-array name="z193Webcam">
+		<item>H2166</item>
+		<item>H13508</item>
+		<item>H2167</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Autostrada Del Brennero -->
+<resources>
+	<string-array name="z164Name">
+		<item>Confine Di Stato</item>
+		<item>Brennero</item>
+		<item>Terme Di Brennero</item>
+		<item>Ponticolo</item>
+		<item>Sadobre</item>
+		<item>Barriera Autostradale Di Vipiteno</item>
+		<item>Vipiteno</item>
+		<item>Trens</item>
+		<item>Bressanone</item>
+		<item>Bressanone Zona Industriale</item>
+		<item>Plose</item>
+		<item>Chiusa-Valgardena</item>
+		<item>Isarco Est</item>
+		<item>Sciliar Ovest</item>
+		<item>Bolzano Nord</item>
+		<item>Bolzano Sud-Allacciamento Superstrada Merano-Bz</item>
+		<item>Castel Varco-Laimburg Est</item>
+		<item>Castel Varco-Laimburg Ovest</item>
+		<item>Egna Ora</item>
+		<item>San Michele All\'Adige-Mezzocorona</item>
+		<item>Paganella</item>
+		<item>Trento Nord</item>
+		<item>Trento Centro</item>
+		<item>Trento Centro(Entrata Direzione Sud)</item>
+		<item>Rovereto Nord</item>
+		<item>Nogaredo</item>
+		<item>Rovereto Sud-Lago Di Garda Nord</item>
+		<item>Ala Avio</item>
+		<item>Adige</item>
+		<item>Affi-Lago Di Garda Sud</item>
+		<item>Garda</item>
+		<item>Verona Nord</item>
+		<item>Allacciamento A4 Torino-Trieste</item>
+		<item>Povegliano</item>
+		<item>Nogarole Rocca</item>
+		<item>Mantova Nord</item>
+		<item>Mantova Sud</item>
+		<item>Po Est</item>
+		<item>Po Ovest</item>
+		<item>Pegognaga</item>
+		<item>Reggiolo-Rolo</item>
+		<item>Carpi</item>
+		<item>Campogalliano</item>
+		<item>Campogalliano</item>
+		<item>Allacciamento A1 Milano-Napoli</item>
+	</string-array>
+	<integer-array name="z164Id">
+		<item>1840</item>
+		<item>1841</item>
+		<item>1842</item>
+		<item>1843</item>
+		<item>13497</item>
+		<item>1844</item>
+		<item>1845</item>
+		<item>1847</item>
+		<item>1848</item>
+		<item>14170</item>
+		<item>1849</item>
+		<item>13498</item>
+		<item>1851</item>
+		<item>1852</item>
+		<item>1853</item>
+		<item>1854</item>
+		<item>1855</item>
+		<item>1856</item>
+		<item>1857</item>
+		<item>1858</item>
+		<item>1859</item>
+		<item>1860</item>
+		<item>1861</item>
+		<item>13502</item>
+		<item>1862</item>
+		<item>1863</item>
+		<item>1864</item>
+		<item>1865</item>
+		<item>1866</item>
+		<item>1867</item>
+		<item>1868</item>
+		<item>1869</item>
+		<item>1870</item>
+		<item>1871</item>
+		<item>1872</item>
+		<item>1873</item>
+		<item>1874</item>
+		<item>14383</item>
+		<item>1875</item>
+		<item>1876</item>
+		<item>1877</item>
+		<item>1878</item>
+		<item>13988</item>
+		<item>1879</item>
+		<item>1880</item>
+	</integer-array>
+	<string-array name="z164Webcam">
+		<item>R1</item>
+		<item>H1841</item>
+		<item>H1842</item>
+		<item>H1843</item>
+		<item>H13497</item>
+		<item>H1844</item>
+		<item>H1845</item>
+		<item>H1847</item>
+		<item>H1848</item>
+		<item>H14170</item>
+		<item>H1849</item>
+		<item>H13498</item>
+		<item>H1851</item>
+		<item>R68</item>
+		<item>R77</item>
+		<item>H1854</item>
+		<item>H1855</item>
+		<item>H1856</item>
+		<item>R100</item>
+		<item>H1858</item>
+		<item>R129</item>
+		<item>H1860</item>
+		<item>R138</item>
+		<item>H13502</item>
+		<item>H1862</item>
+		<item>R159</item>
+		<item>H1864</item>
+		<item>H1865</item>
+		<item>H1866</item>
+		<item>R205</item>
+		<item>H1868</item>
+		<item>R228</item>
+		<item>H1870</item>
+		<item>R240</item>
+		<item>H1872</item>
+		<item>H1873</item>
+		<item>H1874</item>
+		<item>H14383</item>
+		<item>H1875</item>
+		<item>R272</item>
+		<item>R285</item>
+		<item>H1878</item>
+		<item>H13988</item>
+		<item>H1879</item>
+		<item>R313</item>
+	</string-array>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tangenziale Nord Di Torino -->
+<resources>
+
+	<string-array name="z241Name">
+		<item>A32 Torino-Bardonecchia</item>
+		<item>SS25 Del Moncenisio</item>
+		<item>Alpi Graie</item>
+		<item>Rivoli Sud</item>
+		<item>Rivoli Nord</item>
+		<item>Barriera Di Bruere</item>
+		<item>Interconnesione Tangenziale Sud</item>
+		<item>Pianezza-Collegno - SS24 Del Monginevro</item>
+		<item>Savonera</item>
+		<item>Regina Margherita</item>
+		<item>Venaria-Stadio</item>
+		<item>Valli Di Lanzo-Borgaro</item>
+		<item>Stura Nord</item>
+		<item>Stura Sud</item>
+		<item>Caselle</item>
+		<item>Interconnesione Diramazione Pescarito</item>
+		<item>Settimo</item>
+		<item>Torino Nord - A5 To-Aosta</item>
+	</string-array>
+
+	<integer-array name="z241Id">
+		<item>2650</item>
+		<item>2651</item>
+		<item>2652</item>
+		<item>2653</item>
+		<item>2654</item>
+		<item>2655</item>
+		<item>2656</item>
+		<item>2657</item>
+		<item>14136</item>
+		<item>2658</item>
+		<item>2659</item>
+		<item>2660</item>
+		<item>2661</item>
+		<item>2662</item>
+		<item>2663</item>
+		<item>2664</item>
+		<item>2665</item>
+		<item>2666</item>
+	</integer-array>
+
+	<string-array name="z241Webcam">
+		<item>H2650</item>
+		<item>H2651</item>
+		<item>H2652</item>
+		<item>H2653</item>
+		<item>H2654</item>
+		<item>H2655</item>
+		<item>H2656</item>
+		<item>H2657</item>
+		<item>H14136</item>
+		<item>H2658</item>
+		<item>H2659</item>
+		<item>H2660</item>
+		<item>H2661</item>
+		<item>H2662</item>
+		<item>H2663</item>
+		<item>H2664</item>
+		<item>H2665</item>
+		<item>H2666</item>
+	</string-array>
+
+</resources>

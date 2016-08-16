@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Via Casilina -->
+<resources>
+
+	<string-array name="z281Name">
+		<item>Roma</item>
+		<item>Allacciamento Grande Raccordo Anulare</item>
+		<item>Finocchio</item>
+		<item>S.Cesareo/Innesto SS216 Maremmana Iii</item>
+		<item>Bivio Per S. Cesareo/Innesto SS155 Di Fiuggi</item>
+		<item>Labico</item>
+		<item>Valmontone</item>
+		<item>Valmontone/Innesto SS600 Ariana</item>
+		<item>Colleferro A1 Milano Napoli</item>
+		<item>Segni Scalo</item>
+		<item>Staz. Colleferro/Segni/Innesto SS609 Carpinetana</item>
+		<item>Anagni/Innesto SS155 Racc Di Fiuggi</item>
+		<item>Ferentino</item>
+		<item>Madonna Della Neve/Innesto SS155 E SS156</item>
+		<item>Frosinone</item>
+		<item>Frosinone/Innesto SS637 Di Frosinone E Di Gaeta</item>
+		<item>Ceprano - A1 Milano-Napoli - SS82 Della Valle Del Liri</item>
+		<item>Arce/Innesto SS82 Della Valle Del Liri</item>
+		<item>Melfa</item>
+		<item>Staz. D\'Aquino/Innesto SS628 Leuciana</item>
+		<item>Cassino/Innesto SS630 Ausonia</item>
+		<item>Cassino</item>
+		<item>Cassino/Innesto SS149 Di Montecassino</item>
+		<item>Cassino/Innesto SS509 Di Forca D\'Acero</item>
+		<item>Cervaro</item>
+		<item>Taverna/Innesto SS430 Valle Del Garigliano</item>
+		<item>S.Pietro Infine/Innesto SS6 Diramazione Via Casilina</item>
+		<item>Vairano Scalo</item>
+		<item>Staz. Di Vairano/Innesto SS85 Venafrana/Innesto SS608</item>
+		<item>Vairano Scalo - Innesto SS608 Di Teano</item>
+		<item>Caianello/Innesto SS372 Telesina</item>
+		<item>Casello Capua A1 Milano-Napoli</item>
+		<item>Taverna Spartimento/Innesto SS7 Via Appia</item>
+	</string-array>
+
+	<integer-array name="z281Id">
+		<item>3363</item>
+		<item>3364</item>
+		<item>3365</item>
+		<item>3366</item>
+		<item>3367</item>
+		<item>3368</item>
+		<item>3369</item>
+		<item>3370</item>
+		<item>3371</item>
+		<item>3372</item>
+		<item>3373</item>
+		<item>3374</item>
+		<item>3375</item>
+		<item>3376</item>
+		<item>3377</item>
+		<item>3378</item>
+		<item>3379</item>
+		<item>3381</item>
+		<item>3382</item>
+		<item>3383</item>
+		<item>3384</item>
+		<item>3385</item>
+		<item>3386</item>
+		<item>3387</item>
+		<item>3388</item>
+		<item>3389</item>
+		<item>3390</item>
+		<item>3391</item>
+		<item>3392</item>
+		<item>3393</item>
+		<item>3394</item>
+		<item>3395</item>
+		<item>3396</item>
+	</integer-array>
+
+	<string-array name="z281Webcam">
+		<item>H3363</item>
+		<item>H3364</item>
+		<item>H3365</item>
+		<item>H3366</item>
+		<item>H3367</item>
+		<item>H3368</item>
+		<item>H3369</item>
+		<item>H3370</item>
+		<item>H3371</item>
+		<item>H3372</item>
+		<item>H3373</item>
+		<item>H3374</item>
+		<item>H3375</item>
+		<item>H3376</item>
+		<item>H3377</item>
+		<item>H3378</item>
+		<item>H3379</item>
+		<item>H3381</item>
+		<item>H3382</item>
+		<item>H3383</item>
+		<item>H3384</item>
+		<item>H3385</item>
+		<item>H3386</item>
+		<item>H3387</item>
+		<item>H3388</item>
+		<item>H3389</item>
+		<item>H3390</item>
+		<item>H3391</item>
+		<item>H3392</item>
+		<item>H3393</item>
+		<item>H3394</item>
+		<item>H3395</item>
+		<item>H3396</item>
+	</string-array>
+
+</resources>

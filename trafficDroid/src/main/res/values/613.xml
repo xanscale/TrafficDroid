@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tuscolana -->
+<resources>
+
+	<string-array name="z613Name">
+		<item>Roma</item>
+		<item>Via Tor Di Mezza/Innesto SS511 Anagnina</item>
+		<item>Grande Raccordo Anulare</item>
+		<item>Frascati</item>
+		<item>Frascati/Innesto SS216 E SS218</item>
+		<item>Bivio Per Pedica/Innesto SS511 Anagnina/Innesto SS218</item>
+		<item>Bivio Per Rocca Priora</item>
+		<item>Bivio Per Carchitti</item>
+		<item>Macere/Innesto SS600 Ariana</item>
+	</string-array>
+
+	<integer-array name="z613Id">
+		<item>8745</item>
+		<item>8746</item>
+		<item>8747</item>
+		<item>8748</item>
+		<item>8749</item>
+		<item>8750</item>
+		<item>8751</item>
+		<item>8752</item>
+		<item>8753</item>
+	</integer-array>
+
+	<string-array name="z613Webcam">
+		<item>H8745</item>
+		<item>H8746</item>
+		<item>H8747</item>
+		<item>H8748</item>
+		<item>H8749</item>
+		<item>H8750</item>
+		<item>H8751</item>
+		<item>H8752</item>
+		<item>H8753</item>
+	</string-array>
+
+</resources>

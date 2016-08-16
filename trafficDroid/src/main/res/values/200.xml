@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Siena-Firenze -->
+<resources>
+
+	<string-array name="z200Name">
+		<item>Siena</item>
+		<item>Badesse (Direzione Firenze)</item>
+		<item>Badesse (Direzione Siena)</item>
+		<item>Monteriggioni (Direzione Firenze)</item>
+		<item>Monteriggioni (Direzione Siena)</item>
+		<item>Colle Val D\'Elsa Sud</item>
+		<item>Colle Val D\'Elsa Nord</item>
+		<item>Poggibonsi (Direzione Firenze)</item>
+		<item>Poggibonsi (Direzione Siena)</item>
+		<item>San Donato (Direzione Firenze)</item>
+		<item>San Donato (Direzione Siena)</item>
+		<item>Tavarnelle (Direzione Firenze)</item>
+		<item>Tavarnelle (Direzione Siena)</item>
+		<item>Bargino (Direzione Firenze)</item>
+		<item>Bargino (Direzione Siena)</item>
+		<item>S.Casciano Sud</item>
+		<item>S.Casciano Nord</item>
+		<item>Firenze Certosa-A1 Milano-Napoli</item>
+	</string-array>
+
+	<integer-array name="z200Id">
+		<item>2199</item>
+		<item>2200</item>
+		<item>2201</item>
+		<item>2202</item>
+		<item>2203</item>
+		<item>2204</item>
+		<item>2205</item>
+		<item>2206</item>
+		<item>2207</item>
+		<item>2208</item>
+		<item>2209</item>
+		<item>2210</item>
+		<item>2211</item>
+		<item>2212</item>
+		<item>2213</item>
+		<item>2214</item>
+		<item>2215</item>
+		<item>2216</item>
+	</integer-array>
+
+	<string-array name="z200Webcam">
+		<item>H2199</item>
+		<item>H2200</item>
+		<item>H2201</item>
+		<item>H2202</item>
+		<item>H2203</item>
+		<item>H2204</item>
+		<item>H2205</item>
+		<item>H2206</item>
+		<item>H2207</item>
+		<item>H2208</item>
+		<item>H2209</item>
+		<item>H2210</item>
+		<item>H2211</item>
+		<item>H2212</item>
+		<item>H2213</item>
+		<item>H2214</item>
+		<item>H2215</item>
+		<item>H2216</item>
+	</string-array>
+
+</resources>

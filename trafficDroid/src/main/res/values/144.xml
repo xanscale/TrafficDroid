@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Lainate - Chiasso -->
+<resources>
+
+	<string-array name="z144Name">
+		<item>Allacciamento A8 Milano-Varese</item>
+		<item>Origgio</item>
+		<item>Saronno</item>
+		<item>Turate</item>
+		<item>Lomazzo</item>
+		<item>Lario</item>
+		<item>Fino Mornasco</item>
+		<item>Barriera Di Como Grandate</item>
+		<item>Como Sud</item>
+		<item>Como Monte Olimpino</item>
+		<item>Chiasso-Dogana Di Brogeda</item>
+		<item>Pontechiasso</item>
+		<item>Chiasso Uscita Merci</item>
+		<item>Como Nord</item>
+	</string-array>
+
+	<integer-array name="z144Id">
+		<item>1489</item>
+		<item>1490</item>
+		<item>1491</item>
+		<item>1492</item>
+		<item>1493</item>
+		<item>1494</item>
+		<item>1496</item>
+		<item>1497</item>
+		<item>1498</item>
+		<item>1499</item>
+		<item>1501</item>
+		<item>14005</item>
+		<item>14006</item>
+		<item>1500</item>
+	</integer-array>
+
+	<string-array name="z144Webcam">
+		<item>H1489</item>
+<item>A588</item> <!-- A09 km. 11,7 Origgio itinere sud NEW -->
+<item>A599</item> <!-- A09 km. 12,050 Saronno itinere nord -->
+<item>A594</item> <!-- A09 km. 17,6 Saronno itinere sud -->
+<item>A595</item> <!-- A09 km. 22,7 Lomazzo itinere nord NEW -->
+<item>A592</item> <!-- A09 km. 26,8 Lomazzo Itinere Sud NEW -->
+<item>A20</item> <!-- A09 km. 30,0 Fino Mornasco itinere nord NEW -->
+<item>A25</item> <!-- A09 km. 33,0 Como Grandate itinere nord NEW -->
+<item>A23</item> <!-- A09 km. 34,0 Como Sud itinere nord NEW -->
+<item>A1257</item> <!-- A09 km. 39,6 Como M. Olimpino itinere sud NEW -->
+<item>A24</item> <!-- A09 km. 40,0 Galleria Quarcino itinere sud NEW -->
+		<item>H14005</item>
+<item>A34</item> <!-- A09 km. 42,0 Dogana itinere sud NEW -->
+<item>A24</item> <!-- A09 km. 40,0 Galleria Quarcino itinere sud NEW -->
+	</string-array>
+
+</resources>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bologna - Taranto -->
+<resources>
+
+	<string-array name="z151Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>La Pioppa</item>
+		<item>Bologna Borgo Panigale</item>
+		<item>Allacciamento Ramo Casalecchio</item>
+		<item>Allacciamento A13 Bologna-Padova</item>
+		<item>Bologna Fiera</item>
+		<item>Bologna San Lazzaro</item>
+		<item>Sillaro</item>
+		<item>Castel S.Pietro</item>
+		<item>Imola</item>
+		<item>Allacciamento Diramazione Per Ravenna</item>
+		<item>Santerno</item>
+		<item>Faenza</item>
+		<item>Forli\'</item>
+		<item>Bevano</item>
+		<item>Cesena Nord</item>
+		<item>Cesena</item>
+		<item>Rubicone</item>
+		<item>Rimini Nord</item>
+		<item>Rimini Sud</item>
+		<item>Montefeltro</item>
+		<item>Riccione</item>
+		<item>Cattolica</item>
+		<item>Pesaro-Urbino</item>
+		<item>Foglia</item>
+		<item>Fano - Raccordo Per Fossombrone</item>
+		<item>Metauro</item>
+		<item>Marotta-Mondolfo</item>
+		<item>Senigallia</item>
+		<item>Esino</item>
+		<item>Ancona Nord</item>
+		<item>Ancona Sud</item>
+		<item>Conero</item>
+		<item>Loreto-Porto Recanati</item>
+		<item>Macerata</item>
+		<item>Chienti</item>
+		<item>Fermo-Porto S.Giorgio</item>
+		<item>Pedaso</item>
+		<item>Piceno</item>
+		<item>Grottammare</item>
+		<item>San Benedetto Del Tronto</item>
+		<item>Val Vibrata</item>
+		<item>Tortoreto</item>
+		<item>Teramo-Giulianova-Mosciano</item>
+		<item>Vomano</item>
+		<item>Roseto Degli Abruzzi</item>
+		<item>Atri-Pineto</item>
+		<item>Torre Cerrano</item>
+		<item>Pescara N. Citta\' S.Angelo</item>
+		<item>Allacciamento A25 Torano-Pescara</item>
+		<item>Pescara Ovest-Chieti</item>
+		<item>Pescara Sud-Francavilla</item>
+		<item>Alento</item>
+		<item>Ortona</item>
+		<item>Lanciano</item>
+		<item>Val Di Sangro</item>
+		<item>Sangro</item>
+		<item>Vasto Nord-Casalbordino</item>
+		<item>Vasto Sud</item>
+		<item>Trigno</item>
+		<item>Riovivo</item>
+		<item>Termoli-Molise</item>
+		<item>Torre Fantine</item>
+		<item>Poggio Imperiale</item>
+		<item>S.Trifone</item>
+		<item>San Severo</item>
+		<item>Gargano Est</item>
+		<item>Foggia</item>
+		<item>Daunia</item>
+		<item>Le Saline</item>
+		<item>Cerignola Est</item>
+		<item>Allacciamento A16 Napoli-Canosa</item>
+		<item>Canosa</item>
+		<item>Canne Della Battaglia</item>
+		<item>Andria-Barletta</item>
+		<item>Trani</item>
+		<item>Dolmen Di Bisceglie</item>
+		<item>Molfetta</item>
+		<item>Bitonto</item>
+		<item>Murge</item>
+		<item>Bari Nord - Raccordo Per La Tangenziale</item>
+		<item>Bari Sud</item>
+		<item>Acquaviva Delle Fonti</item>
+		<item>Le Fonti Est</item>
+		<item>Gioia Del Colle</item>
+		<item>Mottola-Castellaneta</item>
+		<item>Barriera Di Taranto Nord</item>
+		<item>Taranto</item>
+	</string-array>
+
+	<integer-array name="z151Id">
+		<item>1620</item>
+		<item>1621</item>
+		<item>1622</item>
+		<item>1623</item>
+		<item>1624</item>
+		<item>14165</item>
+		<item>1625</item>
+		<item>1626</item>
+		<item>1627</item>
+		<item>1628</item>
+		<item>1629</item>
+		<item>1630</item>
+		<item>1631</item>
+		<item>1632</item>
+		<item>1633</item>
+		<item>1634</item>
+		<item>1635</item>
+		<item>1636</item>
+		<item>1637</item>
+		<item>1638</item>
+		<item>1639</item>
+		<item>1640</item>
+		<item>1641</item>
+		<item>1642</item>
+		<item>1643</item>
+		<item>1644</item>
+		<item>1645</item>
+		<item>1646</item>
+		<item>1647</item>
+		<item>1648</item>
+		<item>1649</item>
+		<item>1650</item>
+		<item>1651</item>
+		<item>1652</item>
+		<item>1653</item>
+		<item>1654</item>
+		<item>1655</item>
+		<item>1656</item>
+		<item>1657</item>
+		<item>13493</item>
+		<item>1658</item>
+		<item>13494</item>
+		<item>1659</item>
+		<item>1660</item>
+		<item>1661</item>
+		<item>1662</item>
+		<item>1663</item>
+		<item>1664</item>
+		<item>1665</item>
+		<item>1666</item>
+		<item>1667</item>
+		<item>1668</item>
+		<item>1669</item>
+		<item>1670</item>
+		<item>1671</item>
+		<item>1672</item>
+		<item>1673</item>
+		<item>1674</item>
+		<item>1675</item>
+		<item>1676</item>
+		<item>1677</item>
+		<item>1678</item>
+		<item>1679</item>
+		<item>1680</item>
+		<item>1681</item>
+		<item>1682</item>
+		<item>1683</item>
+		<item>1684</item>
+		<item>1685</item>
+		<item>1686</item>
+		<item>1687</item>
+		<item>1688</item>
+		<item>1689</item>
+		<item>1690</item>
+		<item>1691</item>
+		<item>1692</item>
+		<item>1693</item>
+		<item>1694</item>
+		<item>1695</item>
+		<item>1696</item>
+		<item>1697</item>
+		<item>1698</item>
+		<item>1699</item>
+		<item>1700</item>
+		<item>1701</item>
+		<item>1702</item>
+		<item>1703</item>
+		<item>1704</item>
+	</integer-array>
+
+	<string-array name="z151Webcam">
+<item>A53</item> <!-- A14 km. 1,0 Casalecchio itinere nord NEW -->
+<item>A336</item> <!-- A14 km. 3,0 Borgo Panigale itinere sud NEW -->
+<item>A59</item> <!-- A14 km. 4,8 Borgo Panigale itiner sud NEW -->
+<item>A57</item> <!-- A14 km. 9 HD Bivio A14-Racc. Casalecchio it.sud -->
+<item>A2035</item> <!-- A14 km. 012,6 Itinere Sud NEW -->
+<item>A621</item> <!-- A14 km. 16 Bologna Fiera itinere nord NEW -->
+<item>A2039</item> <!-- A14 km. 20,5 SH40 Sud NEW -->
+<item>A339</item> <!-- A14 km. 36,0 Castel S.Pietro itinere sud NEW -->
+<item>A913</item> <!-- A14 km. 39,4 Castel S. Pietro itinere nord NEW -->
+<item>A51</item> <!-- A14 km. 50,0 Imola itinere sud NEW -->
+<item>A552</item> <!-- A14 km. 59,0 All. Ravenna itinere nord NEW -->
+<item>A49</item> <!-- A14 km. 56,0 Solarolo-Imola iti. Sud -->
+<item>A919</item> <!-- A14 km. 63,0 Faenza itinere sud NEW -->
+<item>A342</item> <!-- A14 km. 80,0 Forli itinere sud NEW -->
+<item>A2124</item> <!-- A14 km. 89,5 Bevano Est itinere sud NEW -->
+<item>A344</item> <!-- A14 km. 92,6 Cesena Nord itinere sud NEW -->
+<item>A909</item> <!-- A14 km. 98,2 Cesena itinere sud NEW -->
+<item>A2123</item> <!-- A14 km. 111,3 Area di servizio Rubicone itinere nord -->
+<item>A54</item> <!-- A14 km. 117,0 Rimini Nord itinere sud NEW -->
+<item>A61</item> <!-- A14 km. 127,0 Rimini Sud itinere Sud -->
+<item>A914</item> <!-- A14 km. 129,0 Rimini Sud itinere nord NEW -->
+<item>A911</item> <!-- A14 km. 134,2 Riccione itinere sud -->
+<item>A349</item> <!-- A14 km. 143,0 Cattolica itinere sud NEW -->
+<item>A295</item> <!-- A14 km. 155,0 Pesaro itinere sud NEW -->
+<item>A138</item> <!-- A14 km. 162,0 Colombaraccia itinere sud NEW -->
+<item>A297</item> <!-- A14 km. 169,2 Fano itinere sud NEW -->
+<item>A1233</item> <!-- A14 km. 176,2 Fano itinere nord NEW -->
+<item>A1245</item> <!-- A14 km. 182,7 Marotta itinere sud NEW -->
+<item>A298</item> <!-- A14 km. 189,0 Senigallia itinere sud -->
+<item>A141</item> <!-- A14 km. 223,0 Galleria Sappanico itinere nord NEW -->
+<item>A301</item> <!-- A14 km. 224,6 Ancona Nord itinere nord NEW -->
+<item>A901</item> <!-- A14 km. 227,8 Ancona Sud itinere sud NEW -->
+<item>A1268</item> <!-- A14 km. 240,2 Loreto itinere sud NEW -->
+<item>A303</item> <!-- A14 km. 248,4 Loreto itinere nord -->
+<item>A2059</item> <!-- A14 km. 259,0 itinere nord NEW -->
+<item>A905</item> <!-- A14 km. 263,8 Civitanova itinere nord NEW -->
+<item>A142</item> <!-- A14 km. 278,0 Gall. Porto S. Giorgio itinere sud NEW -->
+<item>A143</item> <!-- A14 km. 288,0 Galleria Pedaso itinere sud NEW -->
+<item>A144</item> <!-- A14 km. 296,0 Galleria S.Basso itinere nord NEW -->
+<item>A278</item> <!-- A14 km. 301,0 Grottamare itinere nord NEW -->
+<item>A903</item> <!-- A14 km. 309,9 San Benedetto T. itinere sud NEW -->
+<item>A309</item> <!-- A14 km. 316,2 Val Vibrata itinere sud NEW -->
+<item>A904</item> <!-- A14 km. 327,0 Teramo itinere sud NEW -->
+<item>A310</item> <!-- A14 km. 336 Teramo itinere nord NEW -->
+<item>A1247</item> <!-- A14 km. 340,6 Roseto itinere sud NEW -->
+<item>A1288</item> <!-- A14 km. 345,6 Roseto itinere nord NEW -->
+<item>A311</item> <!-- A14 km. 349,0 Atri itinere sud NEW -->
+<item>A149</item> <!-- A14 km. 361,0 Cerrano itinere sud NEW -->
+<item>A1235</item> <!-- A14 km. 362,5 Pescara Nord itinere sud NEW -->
+<item>A1254</item> <!-- A14 km. 370,0 GALL. Cappelle itinere nord NEW -->
+<item>A1277</item> <!-- A14 km. 383,7 Pescara Ovest itinere nord NEW -->
+<item>A1278</item> <!-- A14 km. 390,1 Pescara Sud itinere sud NEW -->
+<item>A1269</item> <!-- A14 km. 402,3 itinere sud NEW -->
+<item>A1270</item> <!-- A14 km. 405,4 Ortona itinere nord NEW -->
+<item>A554</item> <!-- A14 km. 411,7 Lanciano itinere sud NEW -->
+<item>A1280</item> <!-- A14 km. 425,1 Val di Sangro itinere nord NEW -->
+<item>A2018</item> <!-- A14 km. 428,0 Sangro itinere sud NEW -->
+<item>A1279</item> <!-- A14 km. 434,4 Vasto Nord itinere sud NEW -->
+<item>A557</item> <!-- A14 km. 440,0 Vasto Sud itinere sud NEW -->
+<item>A2019</item> <!-- A14 km. 458,0 Trigno itinere nord NEW -->
+<item>A559</item> <!-- A14 km. 468,0 Termoli itinere sud NEW -->
+<item>A1251</item> <!-- A14 km. 481,6 Termoli itinere nord NEW -->
+<item>A2020</item> <!-- A14 km. 493,5 Torre Fantine itinere nord NEW -->
+<item>A1843</item> <!-- A14 km. 508,0 Poggio Imperiale itinere nord NEW -->
+<item>A1532</item> <!-- A14 km. 525,0 San Severo itinere sud NEW -->
+<item>A1532</item> <!-- A14 km. 525,0 San Severo itinere sud -->
+<item>A560</item> <!-- A14 km. 542,1 PMV Gargano itinere sud NEW -->
+<item>A1549</item> <!-- A14 km. 580,0 Saline itinere sud NEW -->
+<item>A2555</item> <!-- A14 km. 592,4 itinere nord NEW -->
+<item>A2372</item> <!-- A14 km. 599,5 San Ferdinando itinere sud NEW -->
+		<item>H1690</item>
+<item>A2446</item> <!-- A14 km. 608,810 itinere sud NEW -->
+<item>A563</item> <!-- A14 km. 611,1 Canosa itinere nord NEW -->
+		<item>H1690</item>
+<item>A1885</item> <!-- A14 km. 628,8 Andria-Barletta itinere nord NEW -->
+<item>A1882</item> <!-- A14 km. 637,1 Trani itinere sud NEW -->
+<item>A566</item> <!-- A14 km. 648,2 Trani itinere nord NEW -->
+<item>A1883</item> <!-- A14 km. 654,0 Molfetta itinere nord NEW -->
+<item>A567</item> <!-- A14 km. 664,0 Bitonto itinere nord NEW -->
+		<item>H1696</item>
+<item>A567</item> <!-- A14 km. 664,0 Bitonto itinere nord -->
+<item>A2164</item> <!-- A14 km. 676,7 itinere sud NEW -->
+		<item>A18995</item> <!-- A14 km. 701,5 Acquaviva itinere nord -->
+		<item>A6535</item> <!-- A14 km. 703,5 Benzo itinere nord -->
+		<item>A12576</item> <!-- A14 km. 707,7 Gioia del Colle itinere sud -->
+		<item>A8193</item> <!-- A14 km. 725,9 Mottola itinere nord -->
+		<item>H1703</item>
+		<item>H1704</item>
+	</string-array>
+
+</resources>

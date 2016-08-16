@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Messina - Catania -->
+<resources>
+
+	<string-array name="z158Name">
+		<item>Allacciamento A20 Messina - Palermo</item>
+		<item>Barriera Di Messina Sud</item>
+		<item>Roccalumera</item>
+		<item>S.Teresa Di Riva</item>
+		<item>Taormina</item>
+		<item>Giardini Naxos</item>
+		<item>Calatabiano</item>
+		<item>Fiumefreddo</item>
+		<item>Giarre</item>
+		<item>Acireale</item>
+		<item>Aci S.Antonio</item>
+		<item>Barriera Di Catania</item>
+	</string-array>
+
+	<integer-array name="z158Id">
+		<item>1743</item>
+		<item>1744</item>
+		<item>1745</item>
+		<item>1746</item>
+		<item>1747</item>
+		<item>1748</item>
+		<item>1749</item>
+		<item>1750</item>
+		<item>1751</item>
+		<item>1752</item>
+		<item>1753</item>
+		<item>1754</item>
+	</integer-array>
+
+	<string-array name="z158Webcam">
+		<item>H1743</item>
+		<item>H1744</item>
+		<item>H1745</item>
+		<item>H1746</item>
+		<item>H1747</item>
+		<item>H1748</item>
+		<item>H1749</item>
+		<item>H1750</item>
+		<item>H1751</item>
+		<item>H1752</item>
+		<item>H1753</item>
+		<item>H1754</item>
+	</string-array>
+
+</resources>

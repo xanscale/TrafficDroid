@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Napoli - Reggio Calabria -->
+<resources>
+	<string-array name="z131Name">
+		<item>Napoli Centro-Via G.Ferraris</item>
+		<item>Porto</item>
+		<item>Napoli Centro-Via Marina</item>
+		<item>S.Giovanni-Zona Industriale</item>
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Barriera Di Napoli Sud-Barra</item>
+		<item>Ponticelli</item>
+		<item>San Giorgio A Cremano</item>
+		<item>Portici-Bellavista</item>
+		<item>Ercolano-Portici</item>
+		<item>Torre Del Greco</item>
+		<item>Torre Annunziata Nord</item>
+		<item>Torre Annunziata</item>
+		<item>Torre Annunziata</item>
+		<item>Pompei</item>
+		<item>Castellammare Di Stabia</item>
+		<item>Scafati</item>
+		<item>Angri</item>
+		<item>Nocera</item>
+		<item>Barriera Di Nocera Inferiore</item>
+		<item>Alfaterna</item>
+		<item>Cava De\' Tirreni</item>
+		<item>Vietri Sul Mare</item>
+		<item>Salerno Centro</item>
+		<item>Salerno Fratte</item>
+		<item>Allacciamento Raccordo Salerno-Avellino</item>
+		<item>Salerno</item>
+		<item>Pontecagnano</item>
+		<item>Battipaglia</item>
+		<item>Eboli</item>
+		<item>Campagna</item>
+		<item>Campagna</item>
+		<item>Contursi</item>
+		<item>Allacciamento Raccordo Sicignano-Potenza</item>
+		<item>Petina</item>
+		<item>Polla</item>
+		<item>Atena Lucana</item>
+		<item>Sala Consilina</item>
+		<item>Sala Consilina</item>
+		<item>Buonabitacolo-Padula</item>
+		<item>Lagonegro Nord-Maratea</item>
+		<item>Lagonegro Sud</item>
+		<item>Lauria Nord</item>
+		<item>Lauria Sud</item>
+		<item>Galdo</item>
+		<item>Laino Borgo</item>
+		<item>Mormanno-Scalea</item>
+		<item>Campotenese</item>
+		<item>Morano-Castrovillari</item>
+		<item>Frascineto</item>
+		<item>Frascineto-Castrovillari</item>
+		<item>Sibari</item>
+		<item>Altomonte</item>
+		<item>Spezzano Terme</item>
+		<item>Tarsia</item>
+		<item>Tarsia</item>
+		<item>Torano</item>
+		<item>Rose-Montalto Uffugo</item>
+		<item>Cosenza Nord</item>
+		<item>Cosenza</item>
+		<item>Cosenza</item>
+		<item>Rogliano-Grimaldi</item>
+		<item>Rogliano</item>
+		<item>Altilia-Grimaldi</item>
+		<item>S.Mango D\'Aquino</item>
+		<item>Falerna-Lamezia Terme</item>
+		<item>Lamezia</item>
+		<item>Catanzaro-Lamezia T.</item>
+		<item>Pizzo Calabro</item>
+		<item>Pizzo Est</item>
+		<item>Vibo Valentia-Sant\'Onofrio</item>
+		<item>Serre</item>
+		<item>Mileto</item>
+		<item>Rosarno</item>
+		<item>Rosarno</item>
+		<item>Gioia Tauro</item>
+		<item>Palmi</item>
+		<item>S.Elia</item>
+		<item>Bagnara Calabra</item>
+		<item>Scilla</item>
+		<item>S.Trada</item>
+		<item>Villa S.Giovanni</item>
+		<item>Villa S.Giovanni</item>
+		<item>Campo Calabro</item>
+		<item>Gallico</item>
+		<item>Porto Di Reggio Calabria</item>
+		<item>Reggio Di Calabria</item>
+		<item>Circ. SS106</item>
+		<item>Portale Di R.Calabria Centro</item>
+	</string-array>
+	<integer-array name="z131Id">
+		<item>1202</item>
+		<item>14182</item>
+		<item>1203</item>
+		<item>1205</item>
+		<item>1206</item>
+		<item>1207</item>
+		<item>13477</item>
+		<item>1208</item>
+		<item>1209</item>
+		<item>1210</item>
+		<item>13980</item>
+		<item>13478</item>
+		<item>1212</item>
+		<item>13479</item>
+		<item>1213</item>
+		<item>1214</item>
+		<item>1215</item>
+		<item>1216</item>
+		<item>1217</item>
+		<item>13480</item>
+		<item>1218</item>
+		<item>1219</item>
+		<item>1220</item>
+		<item>1222</item>
+		<item>1223</item>
+		<item>1224</item>
+		<item>1225</item>
+		<item>1226</item>
+		<item>1227</item>
+		<item>1228</item>
+		<item>1229</item>
+		<item>13481</item>
+		<item>1230</item>
+		<item>1231</item>
+		<item>1232</item>
+		<item>1233</item>
+		<item>1234</item>
+		<item>1235</item>
+		<item>13482</item>
+		<item>1236</item>
+		<item>1237</item>
+		<item>1238</item>
+		<item>1239</item>
+		<item>1240</item>
+		<item>1241</item>
+		<item>1242</item>
+		<item>1243</item>
+		<item>1244</item>
+		<item>1245</item>
+		<item>1246</item>
+		<item>1247</item>
+		<item>1248</item>
+		<item>1249</item>
+		<item>1250</item>
+		<item>1251</item>
+		<item>1252</item>
+		<item>1253</item>
+		<item>1254</item>
+		<item>1255</item>
+		<item>13982</item>
+		<item>1256</item>
+		<item>1257</item>
+		<item>1258</item>
+		<item>1259</item>
+		<item>1260</item>
+		<item>1261</item>
+		<item>1262</item>
+		<item>1263</item>
+		<item>1264</item>
+		<item>1265</item>
+		<item>1266</item>
+		<item>1267</item>
+		<item>1268</item>
+		<item>1269</item>
+		<item>13483</item>
+		<item>1270</item>
+		<item>1271</item>
+		<item>1272</item>
+		<item>1273</item>
+		<item>1274</item>
+		<item>1275</item>
+		<item>13983</item>
+		<item>1276</item>
+		<item>13484</item>
+		<item>1277</item>
+		<item>1278</item>
+		<item>1279</item>
+		<item>1280</item>
+		<item>1281</item>
+	</integer-array>
+	<string-array name="z131Webcam">
+		<item>H1202</item>
+		<item>H14182</item>
+		<item>A2441</item> <!-- A3 km. 01.80 Via Marina -->
+		<item>A1574</item> <!-- A3 km. 03.00 S. Giovanni dir. nord -->
+		<item>A1593</item> <!-- A3 km. 03.00 A3-A1 dir. sud -->
+		<item>H1207</item>
+		<item>H13477</item>
+		<item>H1208</item>
+		<item>H1209</item>
+		<item>H1210</item>
+		<item>H13980</item>
+		<item>H13478</item>
+		<item>A2995</item> <!-- A3 km. 19.70 Torre Annunziata Sud -->
+		<item>H13479</item>
+		<item>A1584</item> <!-- A3 km. 22.00 Pompei Ovest -->
+		<item>A1581</item> <!-- A3 km. 22.60 Castellammare -->
+		<item>A1293</item> <!-- A3 km. 26.00 Scafati dir. nord -->
+		<item>A1583</item> <!-- A3 km. 29.80 Angri dir. nord -->
+		<item>A1533</item> <!-- A3 km. 36.80 Nocera Montagna -->
+		<item>A165</item> <!-- A3 km. 36.80 Barriera Nocera -->
+		<item>A1580</item> <!-- A3 km. 40.00 Alfaterna dir. nord -->
+		<item>A1290</item> <!-- A3 km. 40.00 Alfaterna dir. sud -->
+		<item>A2517</item> <!-- A3 km. 49.00 Vietri -->
+		<item>H1222</item>
+		<item>H1223</item>
+		<item>H1224</item>
+		<item>A169</item> <!-- A3 km. 51.60 Salerno -->
+		<item>H1226</item>
+		<item>H1227</item>
+		<item>H1228</item>
+		<item>H1229</item>
+		<item>H13481</item>
+		<item>H1230</item>
+		<item>H1231</item>
+		<item>H1232</item>
+		<item>H1233</item>
+		<item>H1234</item>
+		<item>H1235</item>
+		<item>H13482</item>
+		<item>H1236</item>
+		<item>H1237</item>
+		<item>H1238</item>
+		<item>H1239</item>
+		<item>H1240</item>
+		<item>H1241</item>
+		<item>H1242</item>
+		<item>H1243</item>
+		<item>H1244</item>
+		<item>H1245</item>
+		<item>H1246</item>
+		<item>H1247</item>
+		<item>H1248</item>
+		<item>H1249</item>
+		<item>H1250</item>
+		<item>H1251</item>
+		<item>H1252</item>
+		<item>H1253</item>
+		<item>H1254</item>
+		<item>H1255</item>
+		<item>H13982</item>
+		<item>H1256</item>
+		<item>H1257</item>
+		<item>H1258</item>
+		<item>H1259</item>
+		<item>H1260</item>
+		<item>H1261</item>
+		<item>H1262</item>
+		<item>H1263</item>
+		<item>H1264</item>
+		<item>H1265</item>
+		<item>H1266</item>
+		<item>H1267</item>
+		<item>H1268</item>
+		<item>H1269</item>
+		<item>H13483</item>
+		<item>H1270</item>
+		<item>H1271</item>
+		<item>H1272</item>
+		<item>H1273</item>
+		<item>H1274</item>
+		<item>H1275</item>
+		<item>H13983</item>
+		<item>H1276</item>
+		<item>H13484</item>
+		<item>H1277</item>
+		<item>H1278</item>
+		<item>H1279</item>
+		<item>H1280</item>
+		<item>H1281</item>
+	</string-array>
+</resources>

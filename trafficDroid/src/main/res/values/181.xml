@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Diramazione Per Gallarate-Gattico -->
+<resources>
+
+	<string-array name="z181Name">
+		<item>Allacciamento A8 Milano-Varese</item>
+		<item>Barriera Di Gallarate Ovest</item>
+		<item>Besnate</item>
+		<item>Verbano</item>
+		<item>Sesto Calende-Vergiate</item>
+		<item>Castelletto Ticino</item>
+		<item>Allacciamento A26 Ge Voltri-Gravellona T.</item>
+	</string-array>
+
+	<integer-array name="z181Id">
+		<item>2105</item>
+		<item>2106</item>
+		<item>2107</item>
+		<item>2108</item>
+		<item>2109</item>
+		<item>2110</item>
+		<item>2111</item>
+	</integer-array>
+
+	<string-array name="z181Webcam">
+<item>A2768</item> <!-- D08 km. 1,1 D08/A08 itinere sud NEW -->
+<item>A791</item> <!-- D08 km. 2,5 Gallarate Ovest entrata NEW -->
+<item>A598</item> <!-- D08 km. 8,1 Besnate itinere sud NEW -->
+<item>A597</item> <!-- D08 km. 8,1 Vergiate itinere nord NEW -->
+<item>A1255</item> <!-- D08 km. 12,1 Diram. Gallarate Gattico Vergiate (Va) -->
+<item>A509</item> <!-- D08 km. 16,9 Castelletto T. itinere ovest NEW -->
+<item>A2554</item> <!-- D08 km. 20,3 D 08 Km.20,3 itinere Ovest -->
+	</string-array>
+
+</resources>

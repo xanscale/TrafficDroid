@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Raccordo Bereguardo-Pavia -->
+<resources>
+
+	<string-array name="z222Name">
+		<item>Allacciamento A7 Milano-Genova</item>
+		<item>Barriera Di Bereguardo</item>
+		<item>Bereguardo</item>
+		<item>Barchette</item>
+		<item>Casottole</item>
+		<item>Torre D\'Isola</item>
+		<item>Cascina Campagna</item>
+		<item>Cascina Gaggiola</item>
+		<item>Pavia Lanfranco</item>
+		<item>Allacciamento Tangenziale Di Pavia</item>
+	</string-array>
+
+	<integer-array name="z222Id">
+		<item>2365</item>
+		<item>2366</item>
+		<item>2367</item>
+		<item>14016</item>
+		<item>2368</item>
+		<item>2369</item>
+		<item>2370</item>
+		<item>2371</item>
+		<item>2372</item>
+		<item>2373</item>
+	</integer-array>
+
+	<string-array name="z222Webcam">
+		<item>H2365</item>
+		<item>H2366</item>
+		<item>H2367</item>
+		<item>H14016</item>
+		<item>H2368</item>
+		<item>H2369</item>
+		<item>H2370</item>
+		<item>H2371</item>
+		<item>H2372</item>
+		<item>H2373</item>
+	</string-array>
+
+</resources>

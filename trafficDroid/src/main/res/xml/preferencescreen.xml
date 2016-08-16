@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<PreferenceCategory
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:title="@string/providerCategory" >
+
+		<EditTextPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/providerTrafficDefault"
+			android:key="@string/providerTrafficKey"
+			android:summary="@string/providerSummary"
+			android:title="@string/providerTrafficTitle" />
+	</PreferenceCategory>
+
+	<PreferenceCategory
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:title="@string/updateCategory" >
+
+		<CheckBoxPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/badnewsEnablerDefault"
+			android:key="@string/badnewsEnablerKey"
+			android:summary="@string/badnewsEnablerSummary"
+			android:title="@string/badnewsEnablerTitle" />
+
+		<CheckBoxPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/berserkDefault"
+			android:key="@string/berserkKey"
+			android:summary="@string/berserkSummary"
+			android:title="@string/berserkTitle" />
+
+		<CheckBoxPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/chiaroveggenzaEnablerDefault"
+			android:key="@string/chiaroveggenzaEnablerKey"
+			android:summary="@string/chiaroveggenzaEnablerSummary"
+			android:title="@string/chiaroveggenzaEnablerTitle" />
+
+		<ListPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/chiaroveggenzaTimeDefault"
+			android:entries="@array/chiaroveggenzaTimeLabel"
+			android:entryValues="@array/chiaroveggenzaTimeValue"
+			android:key="@string/chiaroveggenzaTimeKey"
+			android:summary="@string/chiaroveggenzaTimeSummary"
+			android:title="@string/chiaroveggenzaTimeTitle" />
+
+		<ListPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/notificationSpeedDefault"
+			android:entries="@array/notificationSpeedLabel"
+			android:entryValues="@array/notificationSpeedValue"
+			android:key="@string/notificationSpeedKey"
+			android:summary="@string/notificationSpeedSummary"
+			android:title="@string/notificationSpeedTitle" />
+
+		<ListPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/trendSpeedDefault"
+			android:entries="@array/trendSpeedLabel"
+			android:entryValues="@array/trendSpeedValue"
+			android:key="@string/trendSpeedKey"
+			android:summary="@string/trendSpeedSummary"
+			android:title="@string/trendSpeedTitle" />
+
+		<CheckBoxPreference
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:defaultValue="@string/allStreetsDefault"
+			android:key="@string/allStreetsKey"
+			android:summary="@string/allStreetsSummary"
+			android:title="@string/allStreetsTitle" />
+	</PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Diramazione Per Ravenna -->
+<resources>
+	<string-array name="z187Name">
+		<item>Allacciamento A14 Bologna-Taranto</item>
+		<item>Ravenna</item>
+		<item>Cotignola</item>
+		<item>Lugo</item>
+		<item>Bagnacavallo</item>
+		<item>Sant\'Eufemia</item>
+		<item>Ravenna - S.Vitale</item>
+		<item>SS16 Adriatica</item>
+		<item>SS309 Diramazione Ravenna</item>
+	</string-array>
+	<integer-array name="z187Id">
+		<item>2129</item>
+		<item>14074</item>
+		<item>2130</item>
+		<item>14361</item>
+		<item>14166</item>
+		<item>2131</item>
+		<item>2133</item>
+		<item>2134</item>
+		<item>2135</item>
+	</integer-array>
+	<string-array name="z187Webcam">
+		<item>A948</item> <!-- D14 km. 008,6 Barriera Ravenna itinere NEW -->
+		<item>H14074</item>
+		<item>A332</item> <!-- D14 km. 011,0 Lugo Cotignola Itinere Nord NEW -->
+		<item>H14361</item>
+		<item>A50</item> <!-- D14 km. 024,0 Ravenna ex barriera NEW -->
+		<item>H2131</item>
+		<item>A2637</item> <!-- D14 km 27,0 Ravenna Itinere Nord -->
+		<item>H2134</item>
+		<item>H2135</item>
+	</string-array>
+</resources>

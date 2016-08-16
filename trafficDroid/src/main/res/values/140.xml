@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Torino - Courmayeur -->
+<resources>
+
+	<string-array name="z140Name">
+		<item>Torino Corso Giulio Cesare</item>
+		<item>Settimo Est</item>
+		<item>Allacciamento A05 - Tangenziale Di Torino</item>
+		<item>Barriera Di Torino Nord</item>
+		<item>Settimo Nord</item>
+		<item>Volpiano</item>
+		<item>S. Giorgio Canavese</item>
+		<item>Scarmagno</item>
+		<item>Scarmagno</item>
+		<item>Allacciamento Raccordo A4-A5</item>
+		<item>Ivrea</item>
+		<item>Quincinetto</item>
+		<item>Pont Saint Martin</item>
+		<item>Verres</item>
+		<item>Chatillon-Saint Vincent</item>
+		<item>Saint Vincent-Chatillon</item>
+		<item>Nus</item>
+		<item>Les Iles De Brissogne Nord</item>
+		<item>Aosta Gran S. Bernardo</item>
+		<item>Barriera Di Aosta Monte Bianco</item>
+		<item>Aosta Est</item>
+		<item>Allacciamento A5/Controllo Merci Aosta</item>
+		<item>Allacciamento Controllo Merci Ao / A5</item>
+		<item>Autoporto Aosta Sud</item>
+		<item>Aosta Est-Autoporto</item>
+		<item>Libero Aosta Ovest</item>
+		<item>Aosta Ovest-Aymavilles</item>
+		<item>Morgex (Entrata Direzione Sud)</item>
+		<item>Entrata Courmayeur Sud</item>
+		<item>Uscita Courmayeur Sud</item>
+		<item>Allacciamento A05-SS26Dir</item>
+	</string-array>
+
+	<integer-array name="z140Id">
+		<item>1397</item>
+		<item>13994</item>
+		<item>14007</item>
+		<item>1398</item>
+		<item>14024</item>
+		<item>1399</item>
+		<item>1400</item>
+		<item>1401</item>
+		<item>13488</item>
+		<item>1402</item>
+		<item>1403</item>
+		<item>1404</item>
+		<item>1405</item>
+		<item>1406</item>
+		<item>1407</item>
+		<item>1408</item>
+		<item>1409</item>
+		<item>13995</item>
+		<item>14009</item>
+		<item>1410</item>
+		<item>13997</item>
+		<item>14011</item>
+		<item>14012</item>
+		<item>1411</item>
+		<item>14013</item>
+		<item>14014</item>
+		<item>1413</item>
+		<item>1414</item>
+		<item>14015</item>
+		<item>13998</item>
+		<item>14169</item>
+	</integer-array>
+
+	<string-array name="z140Webcam">
+		<item>H1397</item>
+		<item>H13994</item>
+		<item>H14007</item>
+		<item>H1398</item>
+		<item>H14024</item>
+		<item>H1399</item>
+		<item>H1400</item>
+		<item>H1401</item>
+		<item>H13488</item>
+		<item>H1402</item>
+		<item>H1403</item>
+		<item>H1404</item>
+		<item>H1405</item>
+		<item>H1406</item>
+		<item>H1407</item>
+		<item>H1408</item>
+<item>A1494</item> <!-- A5 km. 110,9 LES CRETES N 001 NEW -->
+		<item>H13995</item>
+<item>A1493</item> <!-- A5 km. 113,1 SV. AOSTA W 000 NEW -->
+		<item>H1410</item>
+		<item>H13997</item>
+		<item>H14011</item>
+		<item>H14012</item>
+		<item>H1411</item>
+		<item>H14013</item>
+		<item>H14014</item>
+		<item>H1413</item>
+<item>A1380</item> <!-- A5 km. 130,6 SV. MORGEX 600 NEW -->
+		<item>H14015</item>
+		<item>H13998</item>
+		<item>H14169</item>
+	</string-array>
+
+</resources>

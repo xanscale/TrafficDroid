@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bis tiberina (e45) -->
+<resources>
+
+	<string-array name="z236Name">
+		<item>Raccordo Viterbo-Terni</item>
+		<item>San Gemini Sud</item>
+		<item>San Gemini Nord</item>
+		<item>Montecastrilli</item>
+		<item>Acquasparta</item>
+		<item>Massa Martana</item>
+		<item>Collevalenza</item>
+		<item>S.Damiano</item>
+		<item>Ponte Rio Di Todi</item>
+		<item>Montemolino</item>
+		<item>Pantalla</item>
+		<item>Collazzone</item>
+		<item>Marsciano</item>
+		<item>Ripabianca</item>
+		<item>Casalina</item>
+		<item>Deruta Sud</item>
+		<item>Deruta Centro</item>
+		<item>Deruta Nord</item>
+		<item>Ponte Nuovo</item>
+		<item>S.Nicolo\' Di Celle</item>
+		<item>Torgiano</item>
+		<item>Bettona</item>
+		<item>Balanzano</item>
+		<item>Raccordo Bettolle-Perugia</item>
+		<item>Ponte S.Giovanni</item>
+		<item>Ospedalone-San Francesco</item>
+		<item>SS75 Centrale Umbra</item>
+		<item>SS318 Di Valfabbrica</item>
+		<item>Lidarno</item>
+		<item>Ponte Valleceppi</item>
+		<item>Ponte Felcino</item>
+		<item>Bosco</item>
+		<item>Ponte Pattoli</item>
+		<item>Resina</item>
+		<item>Pierantonio</item>
+		<item>SS219 Di Gubbio E Piandassino</item>
+		<item>Umbertide</item>
+		<item>Montone</item>
+		<item>Promano</item>
+		<item>S.Lucia</item>
+		<item>Citta\' Di Castello-SS221</item>
+		<item>Selci</item>
+		<item>S.Giustino</item>
+		<item>Sansepolcro Sud</item>
+		<item>Sansepolcro Nord</item>
+		<item>Madonnuccia Poggiolino</item>
+		<item>Pieve S.Stefano Sud</item>
+		<item>Pieve S.Stefano Nord</item>
+		<item>Valsavignone</item>
+		<item>Canili</item>
+		<item>Verghereto</item>
+		<item>Bagno Di Romagna</item>
+		<item>S.Piero In Bagno</item>
+		<item>Quarto</item>
+		<item>Sarsina Sud</item>
+		<item>Sarsina Nord</item>
+		<item>Monte Castello</item>
+		<item>S.Damiano</item>
+		<item>Monte Gelli</item>
+		<item>Borello (Per Ranchio)</item>
+		<item>Borello</item>
+		<item>S.Carlo</item>
+		<item>S.Vittore</item>
+		<item>Cesena Sud</item>
+		<item>Cesena SS9</item>
+		<item>Tangenziale Di Cesena</item>
+		<item>A14 / Cesena Nord</item>
+		<item>Casemurate</item>
+		<item>Cervia-Rimini-Mirabilandia</item>
+		<item>Ravenna</item>
+	</string-array>
+
+	<integer-array name="z236Id">
+		<item>2500</item>
+		<item>2501</item>
+		<item>2502</item>
+		<item>2504</item>
+		<item>2505</item>
+		<item>2506</item>
+		<item>2507</item>
+		<item>2508</item>
+		<item>2509</item>
+		<item>2510</item>
+		<item>2511</item>
+		<item>2512</item>
+		<item>2513</item>
+		<item>2516</item>
+		<item>2517</item>
+		<item>2518</item>
+		<item>2519</item>
+		<item>2520</item>
+		<item>2522</item>
+		<item>2523</item>
+		<item>2524</item>
+		<item>2521</item>
+		<item>2527</item>
+		<item>2528</item>
+		<item>2529</item>
+		<item>14403</item>
+		<item>2530</item>
+		<item>2532</item>
+		<item>14402</item>
+		<item>14404</item>
+		<item>2533</item>
+		<item>2534</item>
+		<item>2535</item>
+		<item>2536</item>
+		<item>2537</item>
+		<item>2538</item>
+		<item>2539</item>
+		<item>2540</item>
+		<item>2541</item>
+		<item>2542</item>
+		<item>2543</item>
+		<item>2544</item>
+		<item>2545</item>
+		<item>2546</item>
+		<item>2547</item>
+		<item>2548</item>
+		<item>2549</item>
+		<item>2550</item>
+		<item>2551</item>
+		<item>2552</item>
+		<item>2553</item>
+		<item>2554</item>
+		<item>2555</item>
+		<item>2556</item>
+		<item>13559</item>
+		<item>2557</item>
+		<item>2558</item>
+		<item>14405</item>
+		<item>2560</item>
+		<item>2561</item>
+		<item>2562</item>
+		<item>2563</item>
+		<item>2564</item>
+		<item>2565</item>
+		<item>2566</item>
+		<item>13560</item>
+		<item>2568</item>
+		<item>2569</item>
+		<item>13561</item>
+		<item>2570</item>
+	</integer-array>
+
+	<string-array name="z236Webcam">
+		<item>H2500</item>
+		<item>H2501</item>
+		<item>H2502</item>
+		<item>H2504</item>
+		<item>H2505</item>
+		<item>H2506</item>
+		<item>H2507</item>
+		<item>H2508</item>
+		<item>H2509</item>
+		<item>H2510</item>
+		<item>H2511</item>
+		<item>H2512</item>
+		<item>H2513</item>
+		<item>H2516</item>
+		<item>H2517</item>
+		<item>H2518</item>
+		<item>H2519</item>
+		<item>H2520</item>
+		<item>H2522</item>
+		<item>H2523</item>
+		<item>H2524</item>
+		<item>H2521</item>
+		<item>H2527</item>
+		<item>H2528</item>
+		<item>H2529</item>
+		<item>H14403</item>
+		<item>H2530</item>
+		<item>H2532</item>
+		<item>H14402</item>
+		<item>H14404</item>
+		<item>H2533</item>
+		<item>H2534</item>
+		<item>H2535</item>
+		<item>H2536</item>
+		<item>H2537</item>
+		<item>H2538</item>
+		<item>H2539</item>
+		<item>H2540</item>
+		<item>H2541</item>
+		<item>H2542</item>
+		<item>H2543</item>
+		<item>H2544</item>
+		<item>H2545</item>
+		<item>H2546</item>
+		<item>H2547</item>
+		<item>H2548</item>
+		<item>H2549</item>
+		<item>H2550</item>
+		<item>H2551</item>
+		<item>H2552</item>
+		<item>H2553</item>
+		<item>H2554</item>
+		<item>H2555</item>
+		<item>H2556</item>
+		<item>H13559</item>
+		<item>H2557</item>
+		<item>H2558</item>
+		<item>H14405</item>
+		<item>H2560</item>
+		<item>H2561</item>
+		<item>H2562</item>
+		<item>H2563</item>
+		<item>H2564</item>
+		<item>H2565</item>
+		<item>H2566</item>
+		<item>H13560</item>
+		<item>H2568</item>
+		<item>H2569</item>
+		<item>H13561</item>
+		<item>H2570</item>
+	</string-array>
+
+</resources>

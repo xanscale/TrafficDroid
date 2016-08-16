@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Parma - La Spezia -->
+<resources>
+
+	<string-array name="z156Name">
+		<item>Allacciamento A1 Milano-Napoli</item>
+		<item>Parma Ovest</item>
+		<item>Medesano</item>
+		<item>Fornovo</item>
+		<item>Grontone</item>
+		<item>Case Pesci</item>
+		<item>Borgotaro</item>
+		<item>Casacca</item>
+		<item>Berceto</item>
+		<item>Tugo</item>
+		<item>Gravagna</item>
+		<item>Montaio</item>
+		<item>Pontremoli</item>
+		<item>San Benedetto</item>
+		<item>Lusuolo</item>
+		<item>Aulla</item>
+		<item>S.Stefano</item>
+		<item>Allacciamento A12 Genova-Rosignano</item>
+		<item>Barriera Di La Spezia</item>
+		<item>Allacciamento Diramazione Per S.Stefano Di Magra</item>
+		<item>Vezzano</item>
+		<item>Melara Est</item>
+		<item>La Spezia Porto Est /Via Valdilocchi</item>
+		<item>La Spezia-V.Le Carducci</item>
+	</string-array>
+
+	<integer-array name="z156Id">
+		<item>1705</item>
+		<item>1706</item>
+		<item>1707</item>
+		<item>1708</item>
+		<item>14120</item>
+		<item>14121</item>
+		<item>1709</item>
+		<item>14122</item>
+		<item>1710</item>
+		<item>1711</item>
+		<item>14123</item>
+		<item>1712</item>
+		<item>1713</item>
+		<item>1714</item>
+		<item>14124</item>
+		<item>1715</item>
+		<item>14125</item>
+		<item>1716</item>
+		<item>1717</item>
+		<item>1718</item>
+		<item>1719</item>
+		<item>1720</item>
+		<item>1721</item>
+		<item>1722</item>
+	</integer-array>
+
+	<string-array name="z156Webcam">
+<item>A418</item> <!-- A15 km. 1,0 A15/A1 itinere nord NEW -->
+		<item>H1706</item>
+		<item>H1707</item>
+		<item>H1708</item>
+		<item>H14120</item>
+		<item>H14121</item>
+		<item>H1709</item>
+		<item>H14122</item>
+		<item>H1710</item>
+		<item>H1711</item>
+		<item>H14123</item>
+		<item>H1712</item>
+		<item>H1713</item>
+		<item>H1714</item>
+		<item>H14124</item>
+		<item>H1715</item>
+		<item>H14125</item>
+		<item>H1716</item>
+		<item>H1717</item>
+		<item>H1718</item>
+		<item>H1719</item>
+		<item>H1720</item>
+		<item>H1721</item>
+		<item>H1722</item>
+	</string-array>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Tangenziale Sud Di Torino -->
+<resources>
+
+	<string-array name="z243Name">
+		<item>Santena - A21 Torino-Brescia</item>
+		<item>Santena</item>
+		<item>Barriera Di Trofarello</item>
+		<item>Vado\'</item>
+		<item>Vado\'</item>
+		<item>Interscambio Diramazione Per Moncalieri</item>
+		<item>La Loggia-SS20 Del Colle Di Tenda</item>
+		<item>Nichelino Nord</item>
+		<item>Nichelino Sud</item>
+		<item>Debouche\'</item>
+		<item>Stupinigi</item>
+		<item>Interscambio Drosso</item>
+		<item>Autoporto S.I.T.O.</item>
+		<item>Corso Allamano</item>
+		<item>Corso Iv Novembre</item>
+		<item>Corso Francia-Cascine Vica</item>
+		<item>Interconnessione Tangenziale Nord</item>
+	</string-array>
+
+	<integer-array name="z243Id">
+		<item>2686</item>
+		<item>2687</item>
+		<item>2688</item>
+		<item>13617</item>
+		<item>14271</item>
+		<item>2690</item>
+		<item>2691</item>
+		<item>2692</item>
+		<item>2693</item>
+		<item>2694</item>
+		<item>2695</item>
+		<item>2696</item>
+		<item>2698</item>
+		<item>2699</item>
+		<item>2700</item>
+		<item>2701</item>
+		<item>2702</item>
+	</integer-array>
+
+	<string-array name="z243Webcam">
+		<item>H2686</item>
+		<item>H2687</item>
+		<item>H2688</item>
+		<item>H13617</item>
+		<item>H14271</item>
+		<item>H2690</item>
+		<item>H2691</item>
+		<item>H2692</item>
+		<item>H2693</item>
+		<item>H2694</item>
+		<item>H2695</item>
+		<item>H2696</item>
+		<item>H2698</item>
+		<item>H2699</item>
+		<item>H2700</item>
+		<item>H2701</item>
+		<item>H2702</item>
+	</string-array>
+
+</resources>
