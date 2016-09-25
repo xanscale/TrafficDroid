@@ -1,8 +1,5 @@
 package it.localhost.trafficdroid.common;
 
-import java.util.Random;
-
-import it.localhost.trafficdroid.R;
 import android.content.Context;
 import android.view.View;
 
@@ -11,7 +8,13 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 
-public class AdManager {
+import java.util.Random;
+
+import it.localhost.trafficdroid.R;
+
+public class AdManager extends AdListener {
+	private InterstitialAd interstitial;
+
 	public void load(Context context, AdView adView, boolean interstitialAd) {
 		if (adView != null) {
 			if (!Utility.isAdFree(context))
@@ -20,25 +23,16 @@ public class AdManager {
 				adView.setVisibility(View.GONE);
 		}
 		if (interstitialAd && !Utility.isInterstitialFree(context) && new Random().nextInt(5) == 0) {
-			InterstitialAd interstitial = new InterstitialAd(context);
+			interstitial = new InterstitialAd(context);
 			interstitial.setAdUnitId(context.getString(R.string.adUnitId));
-			interstitial.setAdListener(new MyAdListener(interstitial));
+			interstitial.setAdListener(this);
 			interstitial.loadAd(new AdRequest.Builder().build());
 		}
 	}
 
-	private class MyAdListener extends AdListener {
-		InterstitialAd interstitial;
-
-		public MyAdListener(InterstitialAd interstitial) {
-			this.interstitial = interstitial;
-		}
-
-		@Override
-		public void onAdLoaded() {
-			super.onAdLoaded();
-			if (interstitial.isLoaded())
-				interstitial.show();
-		}
+	public void onAdLoaded() {
+		super.onAdLoaded();
+		if (interstitial.isLoaded())
+			interstitial.show();
 	}
 }

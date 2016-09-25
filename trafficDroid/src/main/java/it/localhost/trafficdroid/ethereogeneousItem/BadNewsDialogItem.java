@@ -12,7 +12,7 @@ import it.localhost.trafficdroid.R;
 import it.localhost.trafficdroid.dto.BadNewsDTO;
 import localhost.toolkit.widget.HeterogeneousItem;
 
-public class BadNewsDialogItem extends HeterogeneousItem {
+public class BadNewsDialogItem extends HeterogeneousItem<BadNewsDTO> {
 	private static final String bn_acc = "incidente";
 	private static final String bn_anh = "animali";
 	private static final String bn_bkd = "veicolo fermo";
@@ -61,65 +61,64 @@ public class BadNewsDialogItem extends HeterogeneousItem {
 
 	@Override
 	public void onResume(View view) {
-		BadNewsDTO badNews = (BadNewsDTO) extra;
-		((TextView) view.getTag(R.id.text1)).setText(badNews.getTitle());
-		((TextView) view.getTag(R.id.text2)).setText(badNews.getDescription());
+		((TextView) view.getTag(R.id.text1)).setText(extra.getTitle());
+		((TextView) view.getTag(R.id.text2)).setText(extra.getDescription());
 		TextView badNewsDate = (TextView) view.getTag(R.id.badNewsDate);
-		badNewsDate.setText(sdfBnFormat.format(badNews.getDate()));
+		badNewsDate.setText(sdfBnFormat.format(extra.getDate()));
 		int drawable;
-		if (badNews.getTitle().contains(bn_los1) || badNews.getTitle().contains(bn_los2))
+		if (extra.getTitle().contains(bn_los1) || extra.getTitle().contains(bn_los2))
 			drawable = R.drawable.bn_los;
-		else if (badNews.getTitle().contains(bn_acc))
+		else if (extra.getTitle().contains(bn_acc))
 			drawable = R.drawable.bn_acc;
-		else if (badNews.getTitle().contains(bn_anh))
+		else if (extra.getTitle().contains(bn_anh))
 			drawable = R.drawable.bn_anh;
-		else if (badNews.getTitle().contains(bn_pss))
+		else if (extra.getTitle().contains(bn_pss))
 			drawable = R.drawable.bn_pss;
-		else if (badNews.getTitle().contains(bn_bkd))
+		else if (extra.getTitle().contains(bn_bkd))
 			drawable = R.drawable.bn_bkd;
-		else if (badNews.getTitle().contains(bn_fop))
+		else if (extra.getTitle().contains(bn_fop))
 			drawable = R.drawable.bn_fop;
-		else if (badNews.getTitle().contains(bn_ibu))
+		else if (extra.getTitle().contains(bn_ibu))
 			drawable = R.drawable.bn_ibu;
-		else if (badNews.getTitle().contains(bn_fig))
+		else if (extra.getTitle().contains(bn_fig))
 			drawable = R.drawable.bn_fig;
-		else if (badNews.getTitle().contains(bn_emv))
+		else if (extra.getTitle().contains(bn_emv))
 			drawable = R.drawable.bn_emv;
-		else if (badNews.getTitle().contains(bn_fld))
+		else if (extra.getTitle().contains(bn_fld))
 			drawable = R.drawable.bn_fld;
-		else if (badNews.getTitle().contains(bn_fod))
+		else if (extra.getTitle().contains(bn_fod))
 			drawable = R.drawable.bn_fod;
-		else if (badNews.getTitle().contains(bn_ocm))
+		else if (extra.getTitle().contains(bn_ocm))
 			drawable = R.drawable.bn_ocm;
-		else if (badNews.getTitle().contains(bn_peo))
+		else if (extra.getTitle().contains(bn_peo))
 			drawable = R.drawable.bn_peo;
-		else if (badNews.getTitle().contains(bn_pra1) || badNews.getTitle().contains(bn_pra2))
+		else if (extra.getTitle().contains(bn_pra1) || extra.getTitle().contains(bn_pra2))
 			drawable = R.drawable.bn_pra;
-		else if (badNews.getTitle().contains(bn_sn))
+		else if (extra.getTitle().contains(bn_sn))
 			drawable = R.drawable.bn_sn;
-		else if (badNews.getTitle().contains(bn_sne1) || badNews.getTitle().contains(bn_sne2))
+		else if (extra.getTitle().contains(bn_sne1) || extra.getTitle().contains(bn_sne2))
 			drawable = R.drawable.bn_sne;
-		else if (badNews.getTitle().contains(bn_sm))
+		else if (extra.getTitle().contains(bn_sm))
 			drawable = R.drawable.bn_sm;
-		else if (badNews.getTitle().contains(bn_rsr))
+		else if (extra.getTitle().contains(bn_rsr))
 			drawable = R.drawable.bn_rsr;
-		else if (badNews.getTitle().contains(bn_sab))
+		else if (extra.getTitle().contains(bn_sab))
 			drawable = R.drawable.bn_sab;
-		else if (badNews.getTitle().contains(bn_sat))
+		else if (extra.getTitle().contains(bn_sat))
 			drawable = R.drawable.bn_sat;
-		else if (badNews.getTitle().contains(bn_sdc))
+		else if (extra.getTitle().contains(bn_sdc))
 			drawable = R.drawable.bn_sdc;
-		else if (badNews.getTitle().contains(bn_spc))
+		else if (extra.getTitle().contains(bn_spc))
 			drawable = R.drawable.bn_spc;
-		else if (badNews.getTitle().contains(bn_win))
+		else if (extra.getTitle().contains(bn_win))
 			drawable = R.drawable.bn_win;
-		else if (badNews.getTitle().contains(bn_vfr))
+		else if (extra.getTitle().contains(bn_vfr))
 			drawable = R.drawable.bn_vfr;
-		else if (badNews.getTitle().contains(bn_cls))
+		else if (extra.getTitle().contains(bn_cls))
 			drawable = R.drawable.bn_cls;
-		else if (badNews.getTitle().contains(bn_res))
+		else if (extra.getTitle().contains(bn_res))
 			drawable = R.drawable.bn_res;
-		else if (badNews.getTitle().contains(bn_ecr))
+		else if (extra.getTitle().contains(bn_ecr))
 			drawable = R.drawable.bn_ecr;
 		else
 			drawable = android.R.drawable.ic_dialog_alert;

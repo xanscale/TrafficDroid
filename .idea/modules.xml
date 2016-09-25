@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/TrafficDroid.iml" filepath="$PROJECT_DIR$/TrafficDroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/trafficDroid/trafficDroid.iml" filepath="$PROJECT_DIR$/trafficDroid/trafficDroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/trafficdroid.iml" filepath="$PROJECT_DIR$/trafficdroid.iml" />
     </modules>
   </component>
 </project>

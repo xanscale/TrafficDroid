@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
 	compileSdkVersion 23
-	buildToolsVersion "24.0.1"
+	buildToolsVersion "24.0.2"
 
 	defaultConfig {
 		applicationId "it.localhost.trafficdroid"
@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-	compile 'com.github.xanscale:LocalhostToolkit:-SNAPSHOT'
-	compile 'com.google.android.gms:play-services-analytics:9.4.0'
-	compile 'com.google.android.gms:play-services-ads:9.4.0'
+	compile 'com.github.xanscale:LocalhostToolkit:6ed50fd4b2'
+	compile 'com.google.android.gms:play-services-analytics:9.6.0'
+	compile 'com.google.android.gms:play-services-ads:9.6.0'
 }

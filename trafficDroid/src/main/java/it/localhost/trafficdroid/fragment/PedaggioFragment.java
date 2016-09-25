@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdView;
 
 import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.activity.MainActivity;
 import it.localhost.trafficdroid.common.AdManager;
 import it.localhost.trafficdroid.common.ListExit;
 import it.localhost.trafficdroid.dto.BaseDTO;
@@ -47,7 +46,6 @@ public class PedaggioFragment extends Fragment {
 					new MessageDialogFragment().show(getFragmentManager(), getString(R.string.error), getString(R.string.wrongData), false);
 			}
 		});
-		((MainActivity) getActivity()).setScreenName(2);
 		new AdManager().load(getActivity(), ((AdView) v.findViewById(R.id.adView)), true);
 		return v;
 	}

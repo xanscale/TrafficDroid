@@ -8,7 +8,6 @@ import android.preference.PreferenceManager;
 import android.preference.PreferenceScreen;
 
 import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.activity.MainActivity;
 import it.localhost.trafficdroid.common.ListZoneResId;
 import it.localhost.trafficdroid.common.ListZoneResName;
 
@@ -51,7 +50,6 @@ public class PreferencesFragment extends PreferenceFragment { // NO_UCD
 				setZonesCategory(streetScreen, streetId[i]);
 			}
 		}
-		((MainActivity) getActivity()).setScreenName(6);
 	}
 
 	private PreferenceScreen addStreetScreen(PreferenceCategory streetsCategory, int streetId, String streetName) {

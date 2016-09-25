@@ -10,7 +10,6 @@ import android.webkit.WebView;
 import com.google.android.gms.ads.AdView;
 
 import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.activity.MainActivity;
 import it.localhost.trafficdroid.common.AdManager;
 
 public class WebviewFragment extends Fragment {
@@ -27,11 +26,11 @@ public class WebviewFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-		WebView webView = (WebView) inflater.inflate(R.layout.webview, container, false);
+		View v = inflater.inflate(R.layout.webview, container, false);
+		WebView webView = (WebView) v.findViewById(R.id.webView);
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.loadUrl(getArguments().getString(URL_KEY));
-		((MainActivity) getActivity()).setScreenName(5);
-		new AdManager().load(getActivity(), ((AdView) webView.findViewById(R.id.adView)), true);
-		return webView;
+		new AdManager().load(getActivity(), ((AdView) v.findViewById(R.id.adView)), true);
+		return v;
 	}
 }

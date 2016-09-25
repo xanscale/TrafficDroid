@@ -12,7 +12,6 @@ import android.widget.Spinner;
 import com.google.android.gms.ads.AdView;
 
 import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.activity.MainActivity;
 import it.localhost.trafficdroid.common.AdManager;
 import it.localhost.trafficdroid.common.AutoFocusTextWatcher;
 import it.localhost.trafficdroid.fragment.dialog.WebviewDialogFragment;
@@ -43,7 +42,6 @@ public class BolloFragment extends Fragment {
 				new WebviewDialogFragment().show(getFragmentManager(), bolloUrl + tipo + param1 + regione + param2 + targa);
 			}
 		});
-		((MainActivity) getActivity()).setScreenName(3);
 		new AdManager().load(getActivity(), ((AdView) v.findViewById(R.id.adView)), true);
 		return v;
 	}

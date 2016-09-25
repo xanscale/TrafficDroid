@@ -27,7 +27,7 @@ public class BadnewsDialogFragment extends DialogFragment {
 		StreetDTO street = (StreetDTO) getArguments().getSerializable(STREET);
 		builder.setTitle(street.getName());
 		ListView listview = (ListView) ListView.inflate(getActivity(), R.layout.dialog_badnews, null);
-		ArrayList<HeterogeneousItem> items = new ArrayList<HeterogeneousItem>();
+		ArrayList<HeterogeneousItem> items = new ArrayList<>();
 		if (!Utility.isAdFree(getActivity()))
 			items.add(new AdViewItem(getActivity(), R.layout.adview_medium_rectangle));
 		for (BadNewsDTO badNews : street.getBadNews())

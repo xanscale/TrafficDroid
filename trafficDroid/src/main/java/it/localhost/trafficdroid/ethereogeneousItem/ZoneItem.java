@@ -1,9 +1,5 @@
 package it.localhost.trafficdroid.ethereogeneousItem;
 
-import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.dto.ZoneDTO;
-import localhost.toolkit.widget.HeterogeneousItem;
-
 import android.content.Context;
 import android.graphics.Typeface;
 import android.view.LayoutInflater;
@@ -12,7 +8,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class ZoneItem extends HeterogeneousItem {
+import it.localhost.trafficdroid.R;
+import it.localhost.trafficdroid.dto.ZoneDTO;
+import localhost.toolkit.widget.HeterogeneousItem;
+
+public class ZoneItem extends HeterogeneousItem<ZoneDTO> {
 	private static final int[] colorCat = new int[]{0xffffffff, 0xffff0000, 0xffff0000, 0xffff8000, 0xffffff00, 0xff47ffff, 0xff00ff00};
 	private static final String noDataSpeed = "-";
 	private static final char camNone = 'H';
@@ -37,9 +37,8 @@ public class ZoneItem extends HeterogeneousItem {
 
 	@Override
 	public void onResume(View view) {
-		ZoneDTO zoneDTO = (ZoneDTO) extra;
-		view.setTag(R.id.itemKey, zoneDTO.getId());
-		view.setTag(R.id.itemName, zoneDTO.getName());
+		view.setTag(R.id.itemKey, extra.getId());
+		view.setTag(R.id.itemName, extra.getName());
 		TextView zoneNameText = (TextView) view.getTag(R.id.zoneName);
 		TextView leftZoneSpeedText = (TextView) view.getTag(R.id.zoneSpeedLeft);
 		TextView rightZoneSpeedText = (TextView) view.getTag(R.id.zoneSpeedRight);
@@ -48,40 +47,40 @@ public class ZoneItem extends HeterogeneousItem {
 		ImageView cam = (ImageView) view.getTag(R.id.zoneCam);
 		ImageView autoveloxLeft = (ImageView) view.getTag(R.id.zoneAutoveloxLeft);
 		ImageView autoveloxRight = (ImageView) view.getTag(R.id.zoneAutoveloxRight);
-		zoneNameText.setText(zoneDTO.getName());
-		leftZoneSpeedText.setTextColor(colorCat[zoneDTO.getCatLeft()]);
-		rightZoneSpeedText.setTextColor(colorCat[zoneDTO.getCatRight()]);
-		leftZoneSpeedText.setTypeface(zoneDTO.getCatLeft() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
-		rightZoneSpeedText.setTypeface(zoneDTO.getCatRight() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
-		if (zoneDTO.getCatLeft() != 0)
-			leftZoneSpeedText.setText(Short.toString(zoneDTO.getSpeedLeft()));
+		zoneNameText.setText(extra.getName());
+		leftZoneSpeedText.setTextColor(colorCat[extra.getCatLeft()]);
+		rightZoneSpeedText.setTextColor(colorCat[extra.getCatRight()]);
+		leftZoneSpeedText.setTypeface(extra.getCatLeft() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
+		rightZoneSpeedText.setTypeface(extra.getCatRight() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
+		if (extra.getCatLeft() != 0)
+			leftZoneSpeedText.setText(Short.toString(extra.getSpeedLeft()));
 		else
 			leftZoneSpeedText.setText(noDataSpeed);
-		if (zoneDTO.getCatRight() != 0)
-			rightZoneSpeedText.setText(Short.toString(zoneDTO.getSpeedRight()));
+		if (extra.getCatRight() != 0)
+			rightZoneSpeedText.setText(Short.toString(extra.getSpeedRight()));
 		else
 			rightZoneSpeedText.setText(noDataSpeed);
-		if (zoneDTO.getTrendLeft() != 0) {
-			trendLeftText.setImageResource(zoneDTO.getTrendLeft());
+		if (extra.getTrendLeft() != 0) {
+			trendLeftText.setImageResource(extra.getTrendLeft());
 			trendLeftText.setVisibility(View.VISIBLE);
 		} else
 			trendLeftText.setVisibility(View.INVISIBLE);
-		if (zoneDTO.getTrendRight() != 0) {
-			trendRightText.setImageResource(zoneDTO.getTrendRight());
+		if (extra.getTrendRight() != 0) {
+			trendRightText.setImageResource(extra.getTrendRight());
 			trendRightText.setVisibility(View.VISIBLE);
 		} else
 			trendRightText.setVisibility(View.INVISIBLE);
-		if (zoneDTO.getWebcam().charAt(0) == camNone)
+		if (extra.getWebcam().charAt(0) == camNone)
 			cam.setImageResource(android.R.drawable.ic_menu_close_clear_cancel);
-		else if (Character.isLetter(zoneDTO.getWebcam().charAt(0)))
+		else if (Character.isLetter(extra.getWebcam().charAt(0)))
 			cam.setImageResource(android.R.drawable.ic_menu_camera);
 		else
 			cam.setImageResource(android.R.drawable.ic_menu_add);
-		if (zoneDTO.isAutoveloxLeft())
+		if (extra.isAutoveloxLeft())
 			autoveloxLeft.setVisibility(View.VISIBLE);
 		else
 			autoveloxLeft.setVisibility(View.INVISIBLE);
-		if (zoneDTO.isAutoveloxRight())
+		if (extra.isAutoveloxRight())
 			autoveloxRight.setVisibility(View.VISIBLE);
 		else
 			autoveloxRight.setVisibility(View.INVISIBLE);

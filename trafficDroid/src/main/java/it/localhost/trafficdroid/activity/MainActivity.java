@@ -1,6 +1,6 @@
 package it.localhost.trafficdroid.activity;
 
-import android.app.FragmentTransaction;
+import android.app.Fragment;
 import android.app.PendingIntent;
 import android.content.BroadcastReceiver;
 import android.content.ComponentName;
@@ -8,16 +8,12 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.ServiceConnection;
-import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.os.RemoteException;
+import android.support.annotation.Nullable;
 import android.support.design.widget.NavigationView;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Base64;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -43,10 +39,9 @@ import it.localhost.trafficdroid.fragment.PreferencesFragment;
 import it.localhost.trafficdroid.fragment.WebviewFragment;
 import it.localhost.trafficdroid.fragment.dialog.QuizDialogFragment;
 import it.localhost.trafficdroid.fragment.dialog.SetupDialogFragment;
+import localhost.toolkit.app.DrawerActivity;
 
-public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener { // NO_UCD
-	private static final String INAPPB_PKG = "com.android.vending";
-	private static final String INAPPB_ACT = INAPPB_PKG + ".billing.InAppBillingService.BIND";
+public class MainActivity extends DrawerActivity implements NavigationView.OnNavigationItemSelectedListener { // NO_UCD
 	public static final String EVENT_CAT_WEBCAM = "Webcam";
 	public static final String EVENT_CAT_BADNEWS = "BadNews";
 	public static final String EVENT_CAT_IAB = "InAppBilling";
@@ -54,10 +49,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 	public static final String EVENT_ACTION_OPEN = "Open";
 	public static final String EVENT_ACTION_NONE = "None";
 	public static final String EVENT_ACTION_LAUNCHPURCHASEFLOW = "LaunchPurchaseFlow";
-	private static final String ITEM_TYPE_INAPP = "inapp";
 	public static final String SKU_AD_FREE = "ad_free";
 	public static final String SKU_QUIZ_FREE = "quiz_free";
 	public static final String SKU_INTERSTITIAL_FREE = "interstitial_free";
+	private static final String INAPPB_PKG = "com.android.vending";
+	private static final String INAPPB_ACT = INAPPB_PKG + ".billing.InAppBillingService.BIND";
+	private static final String ITEM_TYPE_INAPP = "inapp";
 	private static final String RESPONSE_CODE = "RESPONSE_CODE";
 	private static final String RESPONSE_BUY_INTENT = "BUY_INTENT";
 	private static final String RESPONSE_INAPP_PURCHASE_ITEM_LIST = "INAPP_PURCHASE_ITEM_LIST";
@@ -73,23 +70,12 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 	private IntentFilter intentFilter;
 	private Tracker tracker;
 	private boolean progress;
-	private DrawerLayout mDrawerLayout;
-	private ActionBarDrawerToggle mDrawerToggle;
-	private boolean addToBackStack;
-	private NavigationView nv;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		// android.os.StrictMode.setThreadPolicy(new android.os.StrictMode.ThreadPolicy.Builder().detectAll().penaltyLog().build());
 		// android.os.StrictMode.setVmPolicy(new android.os.StrictMode.VmPolicy.Builder().detectAll().penaltyLog().build());
-		setContentView(R.layout.drawer);
-		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-		mDrawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
-		mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.open_menu, R.string.close_menu);
-		mDrawerLayout.setDrawerListener(mDrawerToggle);
-		nv = (NavigationView) findViewById(R.id.navigationView);
-		nv.setNavigationItemSelectedListener(this);
 		serviceConnection = new TdServiceConnection();
 		bindService(new Intent(INAPPB_ACT).setPackage(INAPPB_PKG), serviceConnection, Context.BIND_AUTO_CREATE);
 		intentFilter = new IntentFilter();
@@ -100,19 +86,32 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 		receiver = new UpdateReceiver();
 		if (Utility.getProviderTraffic(this).equals(getString(R.string.providerTrafficDefault)))
 			new SetupDialogFragment().show(getFragmentManager(), SetupDialogFragment.class.getSimpleName());
-		selectNavigationItemId(R.id.menuMain);
 	}
 
 	@Override
-	protected void onPostCreate(Bundle savedInstanceState) {
-		super.onPostCreate(savedInstanceState);
-		mDrawerToggle.syncState();
+	protected int getNavigationViewLayoutRes() {
+		return R.layout.navigation_view;
 	}
 
+	@Nullable
 	@Override
-	public void onConfigurationChanged(Configuration newConfig) {
-		super.onConfigurationChanged(newConfig);
-		mDrawerToggle.onConfigurationChanged(newConfig);
+	protected Fragment getContentFragment(int i) {
+		switch (i) {
+			case R.id.menuMain:
+				return new MainFragment();
+			case R.id.menuPedaggio:
+				return new PedaggioFragment();
+			case R.id.menuBollo:
+				return new BolloFragment();
+			case R.id.menuPatente:
+				return new PatenteFragment();
+			case R.id.menuAlcol:
+				return WebviewFragment.newInstance(WebviewFragment.ALCOL_URL);
+			case R.id.menuSettings:
+				return new PreferencesFragment();
+			default:
+				return null;
+		}
 	}
 
 	@Override
@@ -151,23 +150,19 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		if (mDrawerToggle.onOptionsItemSelected(item)) {
-			return true;
-		} else {
-			switch (item.getItemId()) {
-				case R.id.menuRefresh:
-					if (!Utility.getProviderTraffic(this).equals(getString(R.string.providerTrafficDefault)))
-						sendBroadcast(new Intent(getString(R.string.RUN_UPDATE)));
-					return true;
-				case R.id.menuAdFree:
-					launchPurchaseFlow(SKU_AD_FREE);
-					return true;
-				case R.id.menuInterstitialFree:
-					launchPurchaseFlow(SKU_INTERSTITIAL_FREE);
-					return true;
-				default:
-					return super.onOptionsItemSelected(item);
-			}
+		switch (item.getItemId()) {
+			case R.id.menuRefresh:
+				if (!Utility.getProviderTraffic(this).equals(getString(R.string.providerTrafficDefault)))
+					sendBroadcast(new Intent(getString(R.string.RUN_UPDATE)));
+				return true;
+			case R.id.menuAdFree:
+				launchPurchaseFlow(SKU_AD_FREE);
+				return true;
+			case R.id.menuInterstitialFree:
+				launchPurchaseFlow(SKU_INTERSTITIAL_FREE);
+				return true;
+			default:
+				return super.onOptionsItemSelected(item);
 		}
 	}
 
@@ -175,51 +170,17 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 		tracker.send(new HitBuilders.EventBuilder(category, action).setLabel(label).build());
 	}
 
-	@Override
-	public void onBackPressed() {
-		if (mDrawerLayout.isDrawerOpen(GravityCompat.START))
-			mDrawerLayout.closeDrawer(GravityCompat.START);
-		else
-			super.onBackPressed();
-	}
 
-	public void selectNavigationItemId(int id) {
-		onNavigationItemSelected(nv.getMenu().findItem(id));
-	}
 
-	@Override
-	public boolean onNavigationItemSelected(MenuItem item) {
-		mDrawerLayout.closeDrawer(GravityCompat.START);
-		item.setChecked(true);
-		FragmentTransaction ft = getFragmentManager().beginTransaction();
-		switch (item.getItemId()) {
-			case R.id.menuMain:
-				ft.replace(R.id.content_frame, new MainFragment());
-				break;
-			case R.id.menuPedaggio:
-				ft.replace(R.id.content_frame, new PedaggioFragment());
-				break;
-			case R.id.menuBollo:
-				ft.replace(R.id.content_frame, new BolloFragment());
-				break;
-			case R.id.menuPatente:
-				ft.replace(R.id.content_frame, new PatenteFragment());
-				break;
-			case R.id.menuAlcol:
-				ft.replace(R.id.content_frame, WebviewFragment.newInstance(WebviewFragment.ALCOL_URL));
-				break;
-			case R.id.menuSettings:
-				ft.replace(R.id.content_frame, new PreferencesFragment());
-				break;
+	public void launchPurchaseFlow(String sku) {
+		sendEvent(EVENT_CAT_IAB, EVENT_ACTION_LAUNCHPURCHASEFLOW, sku);
+		try {
+			Bundle buyIntentBundle = inAppBillingService.getBuyIntent(3, getPackageName(), sku, ITEM_TYPE_INAPP, "");
+			if (buyIntentBundle.getInt(RESPONSE_CODE) == 0)
+				startIntentSenderForResult(((PendingIntent) buyIntentBundle.getParcelable(RESPONSE_BUY_INTENT)).getIntentSender(), 0, new Intent(), 0, 0, 0);
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
-		if (addToBackStack)
-			ft.addToBackStack("");
-		ft.commit();
-		addToBackStack = true;
-		return false;
-	}
-
-	public void setScreenName(int screenName) {
 	}
 
 	private final class UpdateReceiver extends BroadcastReceiver {
@@ -233,17 +194,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 				getSupportActionBar().setSubtitle(null);
 			}
 			invalidateOptionsMenu();
-		}
-	}
-
-	public void launchPurchaseFlow(String sku) {
-		sendEvent(EVENT_CAT_IAB, EVENT_ACTION_LAUNCHPURCHASEFLOW, sku);
-		try {
-			Bundle buyIntentBundle = inAppBillingService.getBuyIntent(3, getPackageName(), sku, ITEM_TYPE_INAPP, "");
-			if (buyIntentBundle.getInt(RESPONSE_CODE) == 0)
-				startIntentSenderForResult(((PendingIntent) buyIntentBundle.getParcelable(RESPONSE_BUY_INTENT)).getIntentSender(), 0, new Intent(), Integer.valueOf(0), Integer.valueOf(0), Integer.valueOf(0));
-		} catch (Exception e) {
-			e.printStackTrace();
 		}
 	}
 
@@ -295,8 +245,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 		@Override
 		protected void onPostExecute(ArrayList<String> result) {
 			super.onPostExecute(result);
-			Utility.setAdFree(MainActivity.this, result.contains(SKU_AD_FREE) ? true : false);
-			Utility.setInterstitialFree(MainActivity.this, result.contains(SKU_INTERSTITIAL_FREE) ? true : false);
+			Utility.setAdFree(MainActivity.this, result.contains(SKU_AD_FREE));
+			Utility.setInterstitialFree(MainActivity.this, result.contains(SKU_INTERSTITIAL_FREE));
 			View ad = findViewById(R.id.adView);
 			if (ad != null)
 				ad.setVisibility(result.contains(SKU_AD_FREE) ? View.GONE : View.VISIBLE);

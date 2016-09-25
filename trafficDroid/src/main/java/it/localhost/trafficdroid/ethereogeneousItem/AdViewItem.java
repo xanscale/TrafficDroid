@@ -1,8 +1,5 @@
 package it.localhost.trafficdroid.ethereogeneousItem;
 
-import it.localhost.trafficdroid.R;
-import localhost.toolkit.widget.HeterogeneousItem;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +8,10 @@ import android.view.ViewGroup;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
-public class AdViewItem extends HeterogeneousItem {
+import it.localhost.trafficdroid.R;
+import localhost.toolkit.widget.HeterogeneousItem;
+
+public class AdViewItem extends HeterogeneousItem<Integer> {
 	private AdRequest adRequest;
 
 	public AdViewItem(Context context, int extra) {
@@ -21,7 +21,7 @@ public class AdViewItem extends HeterogeneousItem {
 
 	@Override
 	public View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup) {
-		return layoutInflater.inflate((Integer) extra, viewGroup, false);
+		return layoutInflater.inflate(extra, viewGroup, false);
 	}
 
 	@Override

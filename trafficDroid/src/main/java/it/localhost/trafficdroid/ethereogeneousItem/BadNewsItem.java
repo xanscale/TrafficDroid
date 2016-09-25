@@ -1,9 +1,5 @@
 package it.localhost.trafficdroid.ethereogeneousItem;
 
-import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.dto.StreetDTO;
-import localhost.toolkit.widget.HeterogeneousItem;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -11,7 +7,11 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-public class BadNewsItem extends HeterogeneousItem {
+import it.localhost.trafficdroid.R;
+import it.localhost.trafficdroid.dto.StreetDTO;
+import localhost.toolkit.widget.HeterogeneousItem;
+
+public class BadNewsItem extends HeterogeneousItem<StreetDTO> {
 	static final String badNewsLabel = "Bad News: ";
 
 	public BadNewsItem(Context context, StreetDTO extra) {
@@ -29,12 +29,11 @@ public class BadNewsItem extends HeterogeneousItem {
 
 	@Override
 	public void onResume(View view) {
-		StreetDTO streetDTO = (StreetDTO) extra;
-		((ImageView) view.getTag(R.id.streetDirLeft)).setImageResource(streetDTO.getDirectionLeft());
-		((ImageView) view.getTag(R.id.streetDirRight)).setImageResource(streetDTO.getDirectionRight());
+		((ImageView) view.getTag(R.id.streetDirLeft)).setImageResource(extra.getDirectionLeft());
+		((ImageView) view.getTag(R.id.streetDirRight)).setImageResource(extra.getDirectionRight());
 		TextView badNews = (TextView) view.getTag(R.id.badNews);
-		if (streetDTO.getBadNews().size() != 0) {
-			badNews.setText(badNewsLabel + streetDTO.getBadNews().size());
+		if (extra.getBadNews().size() != 0) {
+			badNews.setText(badNewsLabel + extra.getBadNews().size());
 			badNews.setVisibility(View.VISIBLE);
 		} else
 			badNews.setVisibility(View.INVISIBLE);

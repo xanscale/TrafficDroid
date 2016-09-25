@@ -18,9 +18,9 @@ public class StreetDTO implements Serializable {
 
 	public StreetDTO(int id, int[] allZonesId) {
 		this.id = id;
-		this.allZonesId = new ArrayList<Integer>();
-		zones = new LinkedHashMap<Integer, ZoneDTO>();
-		badNews = new ArrayList<BadNewsDTO>();
+		this.allZonesId = new ArrayList<>();
+		zones = new LinkedHashMap<>();
+		badNews = new ArrayList<>();
 		directions = new int[2];
 		speed = new short[2];
 		trend = new int[2];
@@ -49,7 +49,7 @@ public class StreetDTO implements Serializable {
 	}
 
 	public ArrayList<ZoneDTO> getZones() {
-		return new ArrayList<ZoneDTO>(zones.values());
+		return new ArrayList<>(zones.values());
 	}
 
 	public ZoneDTO getZone(int key) {

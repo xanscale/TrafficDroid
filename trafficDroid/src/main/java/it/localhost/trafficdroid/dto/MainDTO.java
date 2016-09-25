@@ -14,8 +14,8 @@ public class MainDTO implements Serializable {
 	private int versionCode;
 
 	public MainDTO() {
-		streets = new LinkedHashMap<Integer, StreetDTO>();
-		congestedZones = new ArrayList<String>();
+		streets = new LinkedHashMap<>();
+		congestedZones = new ArrayList<>();
 	}
 
 	public Date getTrafficTime() {
@@ -31,7 +31,7 @@ public class MainDTO implements Serializable {
 	}
 
 	public ArrayList<StreetDTO> getStreets() {
-		return new ArrayList<StreetDTO>(streets.values());
+		return new ArrayList<>(streets.values());
 	}
 
 	public StreetDTO getStreet(int key) {

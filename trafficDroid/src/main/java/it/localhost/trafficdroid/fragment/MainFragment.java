@@ -65,7 +65,6 @@ public class MainFragment extends Fragment {
 		listView.setOnChildClickListener(HeterogeneousExpandableListAdapter.getOnChildClickListener());
 		if (Utility.isBerserkKey(getActivity()))
 			getActivity().sendBroadcast(new Intent(getString(R.string.RUN_UPDATE)));
-		((MainActivity) getActivity()).setScreenName(0);
 		new AdManager().load(getActivity(), ((AdView) v.findViewById(R.id.adView)), false);
 		return v;
 	}

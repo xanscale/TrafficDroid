@@ -1,16 +1,16 @@
 package it.localhost.trafficdroid.ethereogeneousItem;
 
-import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.dto.StreetDTO;
-import localhost.toolkit.widget.HeterogeneousItem;
-
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-public class StreetItem extends HeterogeneousItem {
+import it.localhost.trafficdroid.R;
+import it.localhost.trafficdroid.dto.StreetDTO;
+import localhost.toolkit.widget.HeterogeneousItem;
+
+public class StreetItem extends HeterogeneousItem<StreetDTO> {
 	public StreetItem(Context context, StreetDTO extra) {
 		super(context, extra);
 	}
@@ -25,13 +25,12 @@ public class StreetItem extends HeterogeneousItem {
 
 	@Override
 	public void onResume(View view) {
-		StreetDTO streetDTO = (StreetDTO) extra;
-		view.setTag(R.id.itemKey, streetDTO.getId());
-		view.setTag(R.id.itemName, streetDTO.getName());
-		((TextView) view.getTag(R.id.text1)).setText(streetDTO.getTag() + " " + streetDTO.getName());
+		view.setTag(R.id.itemKey, extra.getId());
+		view.setTag(R.id.itemName, extra.getName());
+		((TextView) view.getTag(R.id.text1)).setText(extra.getTag() + " " + extra.getName());
 		TextView streetText2 = (TextView) view.getTag(R.id.text2);
-		if (streetDTO.getBadNews().size() != 0) {
-			streetText2.setText(BadNewsItem.badNewsLabel + streetDTO.getBadNews().size());
+		if (extra.getBadNews().size() != 0) {
+			streetText2.setText(BadNewsItem.badNewsLabel + extra.getBadNews().size());
 			streetText2.setVisibility(View.VISIBLE);
 		} else {
 			streetText2.setVisibility(View.INVISIBLE);
