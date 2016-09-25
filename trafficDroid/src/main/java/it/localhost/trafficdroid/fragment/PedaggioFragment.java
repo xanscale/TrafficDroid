@@ -21,29 +21,38 @@ import it.localhost.trafficdroid.dto.BaseDTO;
 import it.localhost.trafficdroid.dto.PedaggioDTO;
 import it.localhost.trafficdroid.service.PedaggioService;
 import localhost.toolkit.app.MessageDialogFragment;
+import localhost.toolkit.text.ErrorListListener;
+import localhost.toolkit.text.ErrorListenerList;
 
 public class PedaggioFragment extends Fragment {
 	private TextView result;
 	private View progress;
+	private ErrorListenerList errorListenerList;
+	private AutoCompleteTextView moneyFrom, moneyTo;
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View v = inflater.inflate(R.layout.pedaggio, container, false);
 		result = (TextView) v.findViewById(R.id.result);
 		progress = v.findViewById(R.id.progress);
-		final AutoCompleteTextView moneyFrom = (AutoCompleteTextView) v.findViewById(R.id.moneyFrom);
-		final AutoCompleteTextView moneyTo = (AutoCompleteTextView) v.findViewById(R.id.moneyTo);
-		ArrayAdapter<String> adapter = new ArrayAdapter<String>(getActivity(), android.R.layout.simple_dropdown_item_1line, ListExit.getInstance().getKeys());
+		moneyFrom = (AutoCompleteTextView) v.findViewById(R.id.moneyFrom);
+		moneyTo = (AutoCompleteTextView) v.findViewById(R.id.moneyTo);
+		errorListenerList = new ErrorListenerList();
+		errorListenerList.add(new ErrorListListener(moneyFrom, ListExit.getInstance().keySet(), getString(R.string.pedaggioError)));
+		errorListenerList.add(new ErrorListListener(moneyTo, ListExit.getInstance().keySet(), getString(R.string.pedaggioError)));
+		ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_dropdown_item_1line, ListExit.getInstance().getKeys());
 		moneyFrom.setAdapter(adapter);
 		moneyTo.setAdapter(adapter);
 		v.findViewById(R.id.ok).setOnClickListener(new OnClickListener() {
 			public void onClick(View v) {
-				String from = ListExit.getInstance().get(moneyFrom.getText().toString()).toString();
-				String to = ListExit.getInstance().get(moneyTo.getText().toString()).toString();
-				if (from != null && to != null)
-					new PedaggioAsyncTask().execute(from, to);
-				else
-					new MessageDialogFragment().show(getFragmentManager(), getString(R.string.error), getString(R.string.wrongData), false);
+				if (errorListenerList.matches()) {
+					String from = ListExit.getInstance().get(moneyFrom.getText().toString()).toString();
+					String to = ListExit.getInstance().get(moneyTo.getText().toString()).toString();
+					if (from != null && to != null)
+						new PedaggioAsyncTask().execute(from, to);
+					else
+						new MessageDialogFragment().show(getFragmentManager(), getString(R.string.error), getString(R.string.wrongData), false);
+				}
 			}
 		});
 		new AdManager().load(getActivity(), ((AdView) v.findViewById(R.id.adView)), true);

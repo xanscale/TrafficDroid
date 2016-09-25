@@ -1,52 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+<ScrollView
+	xmlns:android="http://schemas.android.com/apk/res/android"
 	android:layout_width="match_parent"
-	android:layout_height="match_parent" >
+	android:layout_height="match_parent">
+
 	<LinearLayout
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		android:orientation="vertical" >
-		<AutoCompleteTextView
-			android:id="@+id/moneyFrom"
+		android:layout_margin="16dp"
+		android:orientation="vertical">
+
+		<android.support.design.widget.TextInputLayout
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_margin="16dp"
-			android:completionThreshold="1"
-			android:hint="@string/from"
-			android:imeOptions="actionNext"
-			android:inputType="text" />
-		<AutoCompleteTextView
-			android:id="@+id/moneyTo"
+			android:layout_height="wrap_content">
+
+			<AutoCompleteTextView
+				android:id="@+id/moneyFrom"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:completionThreshold="1"
+				android:hint="@string/from"
+				android:imeOptions="actionNext"
+				android:inputType="text"/>
+		</android.support.design.widget.TextInputLayout>
+
+		<android.support.design.widget.TextInputLayout
 			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:layout_marginBottom="16dp"
-			android:layout_marginLeft="16dp"
-			android:layout_marginRight="16dp"
-			android:completionThreshold="1"
-			android:hint="@string/to"
-			android:imeOptions="actionDone"
-			android:inputType="text" />
-		<include layout="@layout/adview_medium_rectangle" />
+			android:layout_height="wrap_content">
+
+			<AutoCompleteTextView
+				android:id="@+id/moneyTo"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:completionThreshold="1"
+				android:hint="@string/to"
+				android:imeOptions="actionDone"
+				android:inputType="text"/>
+		</android.support.design.widget.TextInputLayout>
+
+		<include layout="@layout/adview_medium_rectangle"/>
+
 		<LinearLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content"
-			android:layout_margin="16dp"
 			android:orientation="horizontal"
-			android:weightSum="3" >
+			android:weightSum="3">
+
 			<Button
 				android:id="@id/ok"
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:layout_weight="2"
-				android:text="@string/pedaggio" />
+				android:text="@string/pedaggio"/>
+
 			<ProgressBar
 				android:id="@+id/progress"
 				android:layout_width="0dp"
 				android:layout_height="wrap_content"
 				android:layout_weight="1"
 				android:indeterminate="true"
-				android:visibility="gone" />
+				android:visibility="gone"/>
+
 			<TextView
 				android:id="@+id/result"
 				android:layout_width="0dp"
@@ -54,7 +68,7 @@
 				android:layout_weight="1"
 				android:gravity="center"
 				android:textAppearance="?android:attr/textAppearanceLarge"
-				android:visibility="gone" />
+				android:visibility="gone"/>
 		</LinearLayout>
 	</LinearLayout>
 </ScrollView>

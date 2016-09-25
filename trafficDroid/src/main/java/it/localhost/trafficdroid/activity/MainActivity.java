@@ -31,7 +31,6 @@ import java.util.ArrayList;
 
 import it.localhost.trafficdroid.R;
 import it.localhost.trafficdroid.common.Utility;
-import it.localhost.trafficdroid.fragment.BolloFragment;
 import it.localhost.trafficdroid.fragment.MainFragment;
 import it.localhost.trafficdroid.fragment.PatenteFragment;
 import it.localhost.trafficdroid.fragment.PedaggioFragment;
@@ -102,7 +101,7 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 			case R.id.menuPedaggio:
 				return new PedaggioFragment();
 			case R.id.menuBollo:
-				return new BolloFragment();
+				return WebviewFragment.newInstance(WebviewFragment.BOLLO_URL);
 			case R.id.menuPatente:
 				return new PatenteFragment();
 			case R.id.menuAlcol:
@@ -169,8 +168,6 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 	public void sendEvent(String category, String action, String label) {
 		tracker.send(new HitBuilders.EventBuilder(category, action).setLabel(label).build());
 	}
-
-
 
 	public void launchPurchaseFlow(String sku) {
 		sendEvent(EVENT_CAT_IAB, EVENT_ACTION_LAUNCHPURCHASEFLOW, sku);
