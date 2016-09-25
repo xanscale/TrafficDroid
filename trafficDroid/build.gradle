@@ -1,3 +1,5 @@
+import java.text.SimpleDateFormat
+
 apply plugin: 'com.android.application'
 
 android {
@@ -8,8 +10,8 @@ android {
 		applicationId "it.localhost.trafficdroid"
 		minSdkVersion 17
 		targetSdkVersion 24
-		versionCode 20151126
-		versionName "3.2.0 Phoenix"
+		versionCode Integer.parseInt(new SimpleDateFormat("yyyyMMdd").format(new Date()))
+		versionName "3.3.0 Polished Phoenix"
 	}
 
 	buildTypes {

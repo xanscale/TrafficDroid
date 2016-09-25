@@ -12,8 +12,6 @@ import it.localhost.trafficdroid.dto.StreetDTO;
 import localhost.toolkit.widget.HeterogeneousItem;
 
 public class BadNewsItem extends HeterogeneousItem<StreetDTO> {
-	static final String badNewsLabel = "Bad News: ";
-
 	public BadNewsItem(Context context, StreetDTO extra) {
 		super(context, extra);
 	}
@@ -33,7 +31,7 @@ public class BadNewsItem extends HeterogeneousItem<StreetDTO> {
 		((ImageView) view.getTag(R.id.streetDirRight)).setImageResource(extra.getDirectionRight());
 		TextView badNews = (TextView) view.getTag(R.id.badNews);
 		if (extra.getBadNews().size() != 0) {
-			badNews.setText(badNewsLabel + extra.getBadNews().size());
+			badNews.setText(context.getString(R.string.badNews, extra.getBadNews().size()));
 			badNews.setVisibility(View.VISIBLE);
 		} else
 			badNews.setVisibility(View.INVISIBLE);

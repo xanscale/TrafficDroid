@@ -27,18 +27,18 @@ public class WidgetZoneActivity extends ExpandableListActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setResult(RESULT_CANCELED);
-		List<Map<String, String>> groupData = new ArrayList<Map<String, String>>();
-		List<List<Map<String, String>>> childData = new ArrayList<List<Map<String, String>>>();
+		List<Map<String, String>> groupData = new ArrayList<>();
+		List<List<Map<String, String>>> childData = new ArrayList<>();
 		try {
 			dto = PersistanceService.retrieve(this);
 			for (StreetDTO street : dto.getStreets()) {
-				Map<String, String> groupElem = new HashMap<String, String>();
-				List<Map<String, String>> brotherData = new ArrayList<Map<String, String>>();
+				Map<String, String> groupElem = new HashMap<>();
+				List<Map<String, String>> brotherData = new ArrayList<>();
 				groupData.add(groupElem);
 				childData.add(brotherData);
 				groupElem.put(NAME, street.getName());
 				for (ZoneDTO zone : street.getZones()) {
-					Map<String, String> childElem = new HashMap<String, String>();
+					Map<String, String> childElem = new HashMap<>();
 					childElem.put(NAME, zone.getName());
 					brotherData.add(childElem);
 				}

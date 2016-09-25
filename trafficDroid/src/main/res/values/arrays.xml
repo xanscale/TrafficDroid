@@ -45,39 +45,4 @@
 		<item>16</item>
 		<item>32</item>
 	</string-array>
-	<string-array name="tipoVeicoloKey">
-		<item>1</item>
-		<item>2</item>
-		<item>4</item>
-	</string-array>
-	<string-array name="tipoVeicoloValues">
-		<item>Autoveicoli</item>
-		<item>Rimorchi</item>
-		<item>Motoveicoli</item>
-	</string-array>
-	<string-array name="regioneResidenzaKey">
-		<item>1</item>
-		<item>2</item>
-		<item>5</item>
-		<item>6</item>
-		<item>12</item>
-		<item>13</item>
-		<item>14</item>
-		<item>16</item>
-		<item>19</item>
-		<item>20</item>
-	</string-array>
-	<string-array name="regioneResidenzaValues">
-		<item>Abruzzo</item>
-		<item>Basilicata</item>
-		<item>Emilia Romagna</item>
-		<item>Lazio</item>
-		<item>Puglia</item>
-		<item>Toscana</item>
-		<item>Umbria</item>
-		<item>Valle d\'Aosta</item>
-		<item>Bolzano</item>
-		<item>Trento</item>
-	</string-array>
-
 </resources>

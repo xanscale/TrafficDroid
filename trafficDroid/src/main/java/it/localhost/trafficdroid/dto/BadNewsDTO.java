@@ -5,9 +5,9 @@ import java.util.Date;
 
 public class BadNewsDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private String title;
-	private String description;
-	private Date date;
+	private final String title;
+	private final String description;
+	private final Date date;
 
 	public BadNewsDTO(String title, String description, Date date) {
 		this.title = title;

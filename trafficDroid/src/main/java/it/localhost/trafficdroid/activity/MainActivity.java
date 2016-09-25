@@ -43,14 +43,14 @@ import localhost.toolkit.app.DrawerActivity;
 public class MainActivity extends DrawerActivity implements NavigationView.OnNavigationItemSelectedListener { // NO_UCD
 	public static final String EVENT_CAT_WEBCAM = "Webcam";
 	public static final String EVENT_CAT_BADNEWS = "BadNews";
-	public static final String EVENT_CAT_IAB = "InAppBilling";
+	private static final String EVENT_CAT_IAB = "InAppBilling";
 	public static final String EVENT_ACTION_REQUEST = "Request";
 	public static final String EVENT_ACTION_OPEN = "Open";
 	public static final String EVENT_ACTION_NONE = "None";
-	public static final String EVENT_ACTION_LAUNCHPURCHASEFLOW = "LaunchPurchaseFlow";
-	public static final String SKU_AD_FREE = "ad_free";
+	private static final String EVENT_ACTION_LAUNCHPURCHASEFLOW = "LaunchPurchaseFlow";
+	private static final String SKU_AD_FREE = "ad_free";
 	public static final String SKU_QUIZ_FREE = "quiz_free";
-	public static final String SKU_INTERSTITIAL_FREE = "interstitial_free";
+	private static final String SKU_INTERSTITIAL_FREE = "interstitial_free";
 	private static final String INAPPB_PKG = "com.android.vending";
 	private static final String INAPPB_ACT = INAPPB_PKG + ".billing.InAppBillingService.BIND";
 	private static final String ITEM_TYPE_INAPP = "inapp";
@@ -211,10 +211,10 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 		}
 	}
 
-	public class RetrievePurchasesService extends AsyncTask<Void, Void, ArrayList<String>> {
+	private class RetrievePurchasesService extends AsyncTask<Void, Void, ArrayList<String>> {
 		@Override
 		protected ArrayList<String> doInBackground(Void... params) {
-			ArrayList<String> out = new ArrayList<String>();
+			ArrayList<String> out = new ArrayList<>();
 			String continueToken = null;
 			try {
 				Signature sig = Signature.getInstance(SIGNATURE_ALGORITHM);

@@ -8,13 +8,13 @@ public class StreetDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
 	private String name;
 	private String tag;
-	private int id;
-	private LinkedHashMap<Integer, ZoneDTO> zones;
-	private ArrayList<BadNewsDTO> badNews;
-	private int[] directions;
-	private ArrayList<Integer> allZonesId;
-	private short[] speed;
-	private int[] trend;
+	private final int id;
+	private final LinkedHashMap<Integer, ZoneDTO> zones;
+	private final ArrayList<BadNewsDTO> badNews;
+	private final int[] directions;
+	private final ArrayList<Integer> allZonesId;
+	private final short[] speed;
+	private final int[] trend;
 
 	public StreetDTO(int id, int[] allZonesId) {
 		this.id = id;

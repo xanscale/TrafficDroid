@@ -1,33 +1,28 @@
 package it.localhost.trafficdroid.service;
 
+import android.content.Context;
+
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+
 import it.localhost.trafficdroid.common.Utility;
 import it.localhost.trafficdroid.dto.MainDTO;
 import it.localhost.trafficdroid.exception.BadConfException;
 import it.localhost.trafficdroid.exception.GenericException;
 
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.StreamCorruptedException;
-
-import android.content.Context;
-
 public class PersistanceService {
-	public static final String tdData = "trafficData";
-	private static final String versionMismatch = "Version Mismatch";
+	static final String tdData = "trafficData";
 
-	public static void store(Context context, MainDTO dto) throws GenericException {
+	static void store(Context context, MainDTO dto) throws GenericException {
 		FileOutputStream fos = null;
 		ObjectOutputStream oos = null;
 		try {
 			fos = context.openFileOutput(tdData, Context.MODE_PRIVATE);
 			oos = new ObjectOutputStream(fos);
 			oos.writeObject(dto);
-		} catch (FileNotFoundException e) {
-			throw new GenericException(e);
 		} catch (IOException e) {
 			throw new GenericException(e);
 		} finally {
@@ -54,15 +49,9 @@ public class PersistanceService {
 			ois = new ObjectInputStream(fis);
 			MainDTO dlctask = (MainDTO) ois.readObject();
 			if (dlctask.getVersionCode() != Utility.getVersionCode(context))
-				throw new BadConfException(versionMismatch);
+				throw new BadConfException();
 			return dlctask;
-		} catch (FileNotFoundException e) {
-			throw new GenericException(e);
-		} catch (StreamCorruptedException e) {
-			throw new GenericException(e);
-		} catch (IOException e) {
-			throw new GenericException(e);
-		} catch (ClassNotFoundException e) {
+		} catch (ClassNotFoundException | IOException e) {
 			throw new GenericException(e);
 		} finally {
 			try {

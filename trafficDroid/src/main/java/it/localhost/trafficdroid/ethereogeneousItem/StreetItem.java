@@ -30,7 +30,7 @@ public class StreetItem extends HeterogeneousItem<StreetDTO> {
 		((TextView) view.getTag(R.id.text1)).setText(extra.getTag() + " " + extra.getName());
 		TextView streetText2 = (TextView) view.getTag(R.id.text2);
 		if (extra.getBadNews().size() != 0) {
-			streetText2.setText(BadNewsItem.badNewsLabel + extra.getBadNews().size());
+			streetText2.setText(context.getString(R.string.badNews, extra.getBadNews().size()));
 			streetText2.setVisibility(View.VISIBLE);
 		} else {
 			streetText2.setVisibility(View.INVISIBLE);

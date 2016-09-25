@@ -1,10 +1,11 @@
 package it.localhost.trafficdroid.common;
 
-import it.localhost.trafficdroid.R;
 import android.content.Context;
 import android.content.SharedPreferences.Editor;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.preference.PreferenceManager;
+
+import it.localhost.trafficdroid.R;
 
 public class Utility {
 	private static final String BLANK = "";
@@ -71,7 +72,7 @@ public class Utility {
 	}
 
 	public static int getWidgetStreetStreet(Context context, int mAppWidgetId) {
-		return getPrefInt(context, WIDGET_STREET_STREET + mAppWidgetId, 0);
+		return getPrefInt(context, WIDGET_STREET_STREET + mAppWidgetId);
 	}
 
 	public static void setWidgetStreetStreet(Context context, int mAppWidgetId, int value) {
@@ -79,7 +80,7 @@ public class Utility {
 	}
 
 	public static int getWidgetZoneStreet(Context context, int mAppWidgetId) {
-		return getPrefInt(context, WIDGET_ZONE_STREET + mAppWidgetId, 0);
+		return getPrefInt(context, WIDGET_ZONE_STREET + mAppWidgetId);
 	}
 
 	public static void setWidgetZoneStreet(Context context, int mAppWidgetId, int value) {
@@ -87,7 +88,7 @@ public class Utility {
 	}
 
 	public static int getWidgetZoneZone(Context context, int mAppWidgetId) {
-		return getPrefInt(context, WIDGET_ZONE_ZONE + mAppWidgetId, 0);
+		return getPrefInt(context, WIDGET_ZONE_ZONE + mAppWidgetId);
 	}
 
 	public static void setWidgetZoneZone(Context context, int mAppWidgetId, int value) {
@@ -146,8 +147,8 @@ public class Utility {
 		return getPrefBoolean(context, context.getString(key), Boolean.parseBoolean(context.getString(def)));
 	}
 
-	private static int getPrefInt(Context context, String key, int def) {
-		return PreferenceManager.getDefaultSharedPreferences(context).getInt(key, def);
+	private static int getPrefInt(Context context, String key) {
+		return PreferenceManager.getDefaultSharedPreferences(context).getInt(key, 0);
 	}
 
 	private static String getPrefString(Context context, String key, String def) {

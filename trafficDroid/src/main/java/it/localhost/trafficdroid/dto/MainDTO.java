@@ -7,9 +7,9 @@ import java.util.LinkedHashMap;
 
 public class MainDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private LinkedHashMap<Integer, StreetDTO> streets;
+	private final LinkedHashMap<Integer, StreetDTO> streets;
 	private Date trafficTime;
-	private ArrayList<String> congestedZones;
+	private final ArrayList<String> congestedZones;
 	private byte congestionThreshold;
 	private int versionCode;
 

@@ -14,6 +14,9 @@ import android.widget.TextView;
 
 import com.google.android.gms.ads.AdView;
 
+import java.text.NumberFormat;
+import java.util.Locale;
+
 import it.localhost.trafficdroid.R;
 import it.localhost.trafficdroid.common.AdManager;
 import it.localhost.trafficdroid.common.ListExit;
@@ -72,7 +75,7 @@ public class PedaggioFragment extends Fragment {
 			progress.setVisibility(View.GONE);
 			result.setVisibility(View.VISIBLE);
 			if (dto.isSuccess())
-				result.setText("€ " + ((PedaggioDTO) dto).getPedaggio());
+				result.setText(NumberFormat.getCurrencyInstance(Locale.ITALY).format(((PedaggioDTO) dto).getPedaggio()));
 			else
 				new MessageDialogFragment().show(getFragmentManager(), getString(R.string.error), dto.getMessage(), false);
 		}

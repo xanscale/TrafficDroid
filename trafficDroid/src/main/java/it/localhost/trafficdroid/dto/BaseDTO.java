@@ -1,15 +1,15 @@
 package it.localhost.trafficdroid.dto;
 
 public class BaseDTO {
-	private boolean success;
+	private final boolean success;
 	private String message;
 
-	protected BaseDTO(boolean success) {
-		this.success = success;
+	BaseDTO() {
+		this.success = true;
 	}
 
-	public BaseDTO(boolean success, String message) {
-		this.success = success;
+	public BaseDTO(String message) {
+		this.success = false;
 		this.message = message;
 	}
 

@@ -97,13 +97,13 @@ public class MainFragment extends Fragment {
 		protected void onPostExecute(MainDTO mainDTO) {
 			if (mainDTO != null && mainDTO.getTrafficTime() != null) {
 				((AppCompatActivity) getActivity()).getSupportActionBar().setSubtitle(DateFormat.getTimeFormat(getActivity()).format(mainDTO.getTrafficTime()));
-				ArrayList<HeterogeneousItem> groupItems = new ArrayList<HeterogeneousItem>();
-				ArrayList<ArrayList<HeterogeneousItem>> childItems = new ArrayList<ArrayList<HeterogeneousItem>>();
+				ArrayList<HeterogeneousItem> groupItems = new ArrayList<>();
+				ArrayList<ArrayList<HeterogeneousItem>> childItems = new ArrayList<>();
 				OnBadNewsItemClickListener onBadNewsItemClickListener = new OnBadNewsItemClickListener();
 				OnZoneItemClickListener onZoneItemClickListener = new OnZoneItemClickListener();
 				for (StreetDTO street : mainDTO.getStreets()) {
 					groupItems.add(new StreetItem(getActivity(), street));
-					ArrayList<HeterogeneousItem> childData = new ArrayList<HeterogeneousItem>();
+					ArrayList<HeterogeneousItem> childData = new ArrayList<>();
 					BadNewsItem badNewsItem = new BadNewsItem(getActivity(), street);
 					badNewsItem.setOnHeterogeneousItemClickListener(onBadNewsItemClickListener);
 					childData.add(badNewsItem);

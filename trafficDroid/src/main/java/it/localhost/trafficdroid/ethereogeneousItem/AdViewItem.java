@@ -12,7 +12,7 @@ import it.localhost.trafficdroid.R;
 import localhost.toolkit.widget.HeterogeneousItem;
 
 public class AdViewItem extends HeterogeneousItem<Integer> {
-	private AdRequest adRequest;
+	private final AdRequest adRequest;
 
 	public AdViewItem(Context context, int extra) {
 		super(context, extra);

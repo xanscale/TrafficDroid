@@ -3,10 +3,9 @@ package it.localhost.trafficdroid.service;
 import android.net.Uri;
 import android.os.AsyncTask;
 
-import java.io.IOException;
-import java.net.HttpURLConnection;
 import java.net.URL;
-import java.net.URLConnection;
+import java.text.NumberFormat;
+import java.util.Locale;
 import java.util.Scanner;
 
 import it.localhost.trafficdroid.dto.BaseDTO;
@@ -41,13 +40,13 @@ public class PedaggioService extends AsyncTask<String, Void, BaseDTO> {
 			int start = s.indexOf(SPAN_OPEN);
 			if (start != -1) {
 				start = start + SPAN_OPEN.length();
-				out = new PedaggioDTO(true, s.substring(start, s.indexOf(AND, start)).trim());
+				out = new PedaggioDTO(NumberFormat.getInstance(Locale.ITALY).parse(s.substring(start, s.indexOf(AND, start)).trim()).doubleValue());
 			} else
-				out = new BaseDTO(false, BAD_PARAMS);
+				out = new BaseDTO(BAD_PARAMS);
 			sc.close();
 			return out;
 		} catch (Exception e) {
-			return new BaseDTO(false, e.getMessage());
+			return new BaseDTO(e.getMessage());
 		}
 	}
 }

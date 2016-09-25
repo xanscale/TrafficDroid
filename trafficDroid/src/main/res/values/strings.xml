@@ -13,16 +13,12 @@
 	<string name="setup">Imposta</string>
 	<string name="info">Informazioni</string>
 	<string name="patenteProvider">www.ilportaledellautomobilista.it</string>
-	<string name="targaA">AB</string>
-	<string name="targaB">123</string>
-	<string name="targaC">CD</string>
 	<string name="pedaggio">Pedaggio</string>
 	<string name="bollo">Bollo</string>
 	<string name="error">Errore</string>
 	<string name="alcol">Etilometro</string>
 	<string name="usr">Username</string>
 	<string name="pwd">Password</string>
-	<string name="map">Mappa</string>
 	<string name="patente">Patente</string>
 	<string name="adFreeButton">Rimuovi i banner in page</string>
 	<string name="interstitialFreeButton">Rimuovi i banner in fullscreen</string>
@@ -58,7 +54,7 @@
 	<string name="chiaroveggenzaTimeKey">notificationTimeKey</string>
 	<string name="chiaroveggenzaTimeSummary">Ogni quanto tempo aggiornare i dati</string>
 	<string name="chiaroveggenzaTimeDefault">1800000</string>
-	<string name="notificationTitle">Traffico rilevato in %1$s tratta/e</string>
+	<string name="notificationTitle">Traffico rilevato in %d tratta/e</string>
 	<string name="notificationSpeedTitle">Notifica se …</string>
 	<string name="notificationSpeedKey">notificationSpeedKey</string>
 	<string name="notificationSpeedSummary">Velocità massima per creare la notifica</string>
@@ -86,4 +82,5 @@
 	<string name="BEGIN_UPDATE">it.localhost.trafficdroid.BEGIN_UPDATE</string>
 	<string name="END_UPDATE">it.localhost.trafficdroid.END_UPDATE</string>
 	<string name="pedaggioError">Scrivi parte del nome e poi selezionalo dalla lista</string>
+	<string name="badNews">Bad News: %d</string>
 </resources>

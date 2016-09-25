@@ -23,12 +23,12 @@ public class WidgetStreetActivity extends ListActivity {
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setResult(RESULT_CANCELED);
-		List<String> data = new ArrayList<String>();
+		List<String> data = new ArrayList<>();
 		try {
 			dto = PersistanceService.retrieve(this);
 			for (StreetDTO street : dto.getStreets())
 				data.add(street.getName());
-			setListAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, data));
+			setListAdapter(new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, data));
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

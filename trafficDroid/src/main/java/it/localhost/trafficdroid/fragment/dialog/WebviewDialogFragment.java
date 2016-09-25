@@ -16,7 +16,7 @@ import it.localhost.trafficdroid.common.AdManager;
 import it.localhost.trafficdroid.fragment.MainFragment;
 
 public class WebviewDialogFragment extends DialogFragment {
-	public static final String TAG_URL = "url";
+	private static final String TAG_URL = "url";
 
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {

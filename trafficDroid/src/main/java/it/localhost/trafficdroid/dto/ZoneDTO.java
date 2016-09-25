@@ -4,14 +4,13 @@ import java.io.Serializable;
 
 public class ZoneDTO implements Serializable {
 	private static final long serialVersionUID = 1L;
-	private int id;
-	private boolean[] autovelox = { false, false };
-	private String name;
-	private String km;
-	private String webcam;
-	private short[] speed;
-	private byte[] cat;
-	private int[] trend;
+	private final int id;
+	private final boolean[] autovelox = { false, false };
+	private final String name;
+	private final String webcam;
+	private final short[] speed;
+	private final byte[] cat;
+	private final int[] trend;
 
 	public ZoneDTO(int id, String name, String webcam) {
 		this.id = id;
@@ -92,14 +91,6 @@ public class ZoneDTO implements Serializable {
 
 	public void setTrendRight(int trendRight) {
 		this.trend[1] = trendRight;
-	}
-
-	public String getKm() {
-		return km;
-	}
-
-	public void setKm(String km) {
-		this.km = km;
 	}
 
 	public String getWebcam() {

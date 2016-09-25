@@ -1,11 +1,5 @@
 package it.localhost.trafficdroid.widget.provider;
 
-import it.localhost.trafficdroid.R;
-import it.localhost.trafficdroid.activity.MainActivity;
-import it.localhost.trafficdroid.common.Utility;
-import it.localhost.trafficdroid.dto.MainDTO;
-import it.localhost.trafficdroid.dto.StreetDTO;
-import it.localhost.trafficdroid.service.PersistanceService;
 import android.app.PendingIntent;
 import android.appwidget.AppWidgetManager;
 import android.appwidget.AppWidgetProvider;
@@ -14,11 +8,18 @@ import android.content.Intent;
 import android.text.format.DateFormat;
 import android.widget.RemoteViews;
 
+import it.localhost.trafficdroid.R;
+import it.localhost.trafficdroid.activity.MainActivity;
+import it.localhost.trafficdroid.common.Utility;
+import it.localhost.trafficdroid.dto.MainDTO;
+import it.localhost.trafficdroid.dto.StreetDTO;
+import it.localhost.trafficdroid.service.PersistanceService;
+
 public class WidgetStreetProvider extends AppWidgetProvider {
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-		for (int i = 0; i < appWidgetIds.length; i++)
-			updateAppWidget(context, appWidgetManager, appWidgetIds[i]);
+		for (int appWidgetId : appWidgetIds)
+			updateAppWidget(context, appWidgetManager, appWidgetId);
 	}
 
 	public static void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int mAppWidgetId) {

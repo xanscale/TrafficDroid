@@ -8,7 +8,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
-import android.net.Uri;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.WakefulBroadcastReceiver;
 
@@ -22,7 +21,6 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
-import java.util.zip.GZIPInputStream;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -40,18 +38,9 @@ import it.localhost.trafficdroid.dto.ZoneDTO;
 
 public class TdService extends IntentService { // NO_UCD
 	private static final String disconnectedMessage = "Connessione di rete inesistente";
-	public static final int notificationId = 1;
+	private static final int notificationId = 1;
 	private static final String path = "/engine/traffic_server.php";
 	private static final String traffic = "https://etraffic.";
-	private static final String userKey = "user";
-	private static final String pwdKey = "pwd";
-	private static final String sqKey = "sq";
-	private static final String typeKey = "type";
-	private static final String roaKey = "roa";
-	private static final String user = "robAnd_ev3nt5.appU";
-	private static final String pwd = "daP-2012_00005,android.ev";
-	private static final String sq = "1";
-	private static final String type = "4";
 	private static final String N = "N";
 	private static final String E = "E";
 	private static final String S = "S";
@@ -144,21 +133,27 @@ public class TdService extends IntentService { // NO_UCD
 			if (street.getZonesSize() > 0) {
 				street.setName(streetsName[i]);
 				street.setTag(streetsTag[i]);
-				if (streetsDir[i].equals(N)) {
-					street.setDirectionLeft(R.drawable.ic_north);
-					street.setDirectionRight(R.drawable.ic_south);
-				} else if (streetsDir[i].equals(E)) {
-					street.setDirectionLeft(R.drawable.ic_east);
-					street.setDirectionRight(R.drawable.ic_west);
-				} else if (streetsDir[i].equals(S)) {
-					street.setDirectionLeft(R.drawable.ic_south);
-					street.setDirectionRight(R.drawable.ic_north);
-				} else if (streetsDir[i].equals(O)) {
-					street.setDirectionLeft(R.drawable.ic_west);
-					street.setDirectionRight(R.drawable.ic_east);
-				} else if (streetsDir[i].equals(I)) {
-					street.setDirectionLeft(R.drawable.ic_rotate_right_white_48dp);
-					street.setDirectionRight(R.drawable.ic_rotate_left_white_48dp);
+				switch (streetsDir[i]) {
+					case N:
+						street.setDirectionLeft(R.drawable.ic_north);
+						street.setDirectionRight(R.drawable.ic_south);
+						break;
+					case E:
+						street.setDirectionLeft(R.drawable.ic_east);
+						street.setDirectionRight(R.drawable.ic_west);
+						break;
+					case S:
+						street.setDirectionLeft(R.drawable.ic_south);
+						street.setDirectionRight(R.drawable.ic_north);
+						break;
+					case O:
+						street.setDirectionLeft(R.drawable.ic_west);
+						street.setDirectionRight(R.drawable.ic_east);
+						break;
+					case I:
+						street.setDirectionLeft(R.drawable.ic_rotate_right_white_48dp);
+						street.setDirectionRight(R.drawable.ic_rotate_left_white_48dp);
+						break;
 				}
 				mainDto.putStreet(street);
 			}

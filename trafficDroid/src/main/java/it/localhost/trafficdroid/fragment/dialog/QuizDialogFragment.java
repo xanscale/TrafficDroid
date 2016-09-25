@@ -48,7 +48,8 @@ public class QuizDialogFragment extends DialogFragment {
 	}
 
 	private final class OnAnswerListener implements OnClickListener {
-		private boolean type, answer;
+		private final boolean type;
+		private final boolean answer;
 
 		private OnAnswerListener(boolean type, boolean answer) {
 			this.type = type;

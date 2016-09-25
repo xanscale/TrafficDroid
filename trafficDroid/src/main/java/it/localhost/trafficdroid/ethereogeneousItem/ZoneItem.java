@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.text.NumberFormat;
+
 import it.localhost.trafficdroid.R;
 import it.localhost.trafficdroid.dto.ZoneDTO;
 import localhost.toolkit.widget.HeterogeneousItem;
@@ -53,11 +55,11 @@ public class ZoneItem extends HeterogeneousItem<ZoneDTO> {
 		leftZoneSpeedText.setTypeface(extra.getCatLeft() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
 		rightZoneSpeedText.setTypeface(extra.getCatRight() == 1 ? Typeface.DEFAULT_BOLD : Typeface.DEFAULT);
 		if (extra.getCatLeft() != 0)
-			leftZoneSpeedText.setText(Short.toString(extra.getSpeedLeft()));
+			leftZoneSpeedText.setText(NumberFormat.getInstance().format(extra.getSpeedLeft()));
 		else
 			leftZoneSpeedText.setText(noDataSpeed);
 		if (extra.getCatRight() != 0)
-			rightZoneSpeedText.setText(Short.toString(extra.getSpeedRight()));
+			rightZoneSpeedText.setText(NumberFormat.getInstance().format(extra.getSpeedRight()));
 		else
 			rightZoneSpeedText.setText(noDataSpeed);
 		if (extra.getTrendLeft() != 0) {

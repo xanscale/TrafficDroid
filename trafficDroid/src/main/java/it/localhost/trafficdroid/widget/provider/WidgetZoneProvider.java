@@ -18,8 +18,8 @@ import android.widget.RemoteViews;
 public class WidgetZoneProvider extends AppWidgetProvider {
 	@Override
 	public void onUpdate(Context context, AppWidgetManager appWidgetManager, int[] appWidgetIds) {
-		for (int i = 0; i < appWidgetIds.length; i++)
-			updateAppWidget(context, appWidgetManager, appWidgetIds[i]);
+		for (int appWidgetId : appWidgetIds)
+			updateAppWidget(context, appWidgetManager, appWidgetId);
 	}
 
 	public static void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int mAppWidgetId) {
