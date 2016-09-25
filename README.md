@@ -48,9 +48,9 @@ venator (Alessio Bianchi)
 ##Mapper
 
 Pietro O.
-doc wave
-sognidoro bologna
-Gabriele G.
-Citazione
 
-"Solo due cose sono infinite, l'universo e la stupidità umana, e non sono sicuro della prima." (Albert Einstein)
+doc wave
+
+sognidoro bologna
+
+Gabriele G.
