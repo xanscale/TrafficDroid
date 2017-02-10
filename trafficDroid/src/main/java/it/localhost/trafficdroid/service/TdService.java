@@ -38,7 +38,7 @@ import it.localhost.trafficdroid.dto.ZoneDTO;
 
 public class TdService extends IntentService { // NO_UCD
 	private static final String disconnectedMessage = "Connessione di rete inesistente";
-	private static final int notificationId = 1;
+	private static final int NOTIFICATION_ID = 1;
 	private static final String path = "/engine/traffic_server.php";
 	private static final String traffic = "https://etraffic.";
 	private static final String N = "N";
@@ -334,8 +334,8 @@ public class TdService extends IntentService { // NO_UCD
 			bui.setDefaults(Notification.DEFAULT_ALL);
 			bui.setStyle(inboxStyle);
 			bui.setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, MainActivity.class).setFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP), PendingIntent.FLAG_UPDATE_CURRENT));
-			((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).notify(TdService.notificationId, bui.build());
+			((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).notify(NOTIFICATION_ID, bui.build());
 		} else
-			((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).cancel(TdService.notificationId);
+			((NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE)).cancel(NOTIFICATION_ID);
 	}
 }

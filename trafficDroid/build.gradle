@@ -3,15 +3,15 @@ import java.text.SimpleDateFormat
 apply plugin: 'com.android.application'
 
 android {
-	compileSdkVersion 24
-	buildToolsVersion "24.0.2"
+	compileSdkVersion 25
+	buildToolsVersion "25.0.2"
 
 	defaultConfig {
 		applicationId "it.localhost.trafficdroid"
 		minSdkVersion 17
-		targetSdkVersion 24
+		targetSdkVersion 25
 		versionCode Integer.parseInt(new SimpleDateFormat("yyyyMMdd").format(new Date()))
-		versionName "3.3.0 Polished Phoenix"
+		versionName "3.3.1 Polished Phoenix"
 	}
 
 	buildTypes {
@@ -23,7 +23,6 @@ android {
 }
 
 dependencies {
-	compile 'com.github.xanscale:LocalhostToolkit:555f754438'
-	compile 'com.google.android.gms:play-services-analytics:9.6.0'
-	compile 'com.google.android.gms:play-services-ads:9.6.0'
+	compile 'com.github.xanscale:localhostToolkit:-SNAPSHOT'
+	compile 'com.google.android.gms:play-services-ads:10.0.1'
 }

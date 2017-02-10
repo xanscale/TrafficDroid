@@ -144,31 +144,22 @@ public class MainFragment extends Fragment {
 		public boolean onHeterogeneousItemClick(View view, int position, Serializable extra) {
 			String webcam = ((ZoneDTO) extra).getWebcam();
 			if (webcam.charAt(0) == camNone) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_NONE, webcam);
 				new MessageDialogFragment().show(getFragmentManager(), getString(R.string.info), getString(R.string.webcamNone), false);
 			} else if (webcam.charAt(0) == camAutostrade) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), autostradeDESKURL + webcam.substring(1));
 			} else if (webcam.charAt(0) == camCavspa) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), cavspa + webcam.substring(1) + jpg);
 			} else if (webcam.charAt(0) == camEdidomus) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), edidomus + webcam.substring(1));
 			} else if (webcam.charAt(0) == camAutofiori) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), autofiori + webcam.substring(1));
 			} else if (webcam.charAt(0) == camAutobspd) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), autobspd + webcam.substring(1) + jpg);
 			} else if (webcam.charAt(0) == camBRENNERO) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), brennero + webcam.substring(1) + jpg);
 			} else if (webcam.charAt(0) == camSERRAVALLE) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_OPEN, webcam);
 				new WebviewDialogFragment().show(getFragmentManager(), SERRAVALLE + webcam.substring(1) + jpg);
 			} else {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_WEBCAM, MainActivity.EVENT_ACTION_REQUEST, webcam);
 				new MessageDialogFragment().show(getFragmentManager(), getString(R.string.info), getString(R.string.webcamAdd), false);
 			}
 			return true;
@@ -180,7 +171,6 @@ public class MainFragment extends Fragment {
 		public boolean onHeterogeneousItemClick(View view, int position, Serializable extra) {
 			StreetDTO street = (StreetDTO) extra;
 			if (street.getBadNews().size() != 0) {
-				((MainActivity) getActivity()).sendEvent(MainActivity.EVENT_CAT_BADNEWS, MainActivity.EVENT_ACTION_OPEN, street.getName());
 				new BadnewsDialogFragment().show(getFragmentManager(), street);
 			}
 			return true;

@@ -20,9 +20,6 @@ import android.view.MenuItem;
 import android.view.View;
 
 import com.android.vending.billing.IInAppBillingService;
-import com.google.android.gms.analytics.GoogleAnalytics;
-import com.google.android.gms.analytics.HitBuilders;
-import com.google.android.gms.analytics.Tracker;
 
 import java.security.KeyFactory;
 import java.security.Signature;
@@ -41,15 +38,8 @@ import it.localhost.trafficdroid.fragment.dialog.SetupDialogFragment;
 import localhost.toolkit.app.DrawerActivity;
 
 public class MainActivity extends DrawerActivity implements NavigationView.OnNavigationItemSelectedListener { // NO_UCD
-	public static final String EVENT_CAT_WEBCAM = "Webcam";
-	public static final String EVENT_CAT_BADNEWS = "BadNews";
-	private static final String EVENT_CAT_IAB = "InAppBilling";
-	public static final String EVENT_ACTION_REQUEST = "Request";
-	public static final String EVENT_ACTION_OPEN = "Open";
-	public static final String EVENT_ACTION_NONE = "None";
-	private static final String EVENT_ACTION_LAUNCHPURCHASEFLOW = "LaunchPurchaseFlow";
-	private static final String SKU_AD_FREE = "ad_free";
 	public static final String SKU_QUIZ_FREE = "quiz_free";
+	private static final String SKU_AD_FREE = "ad_free";
 	private static final String SKU_INTERSTITIAL_FREE = "interstitial_free";
 	private static final String INAPPB_PKG = "com.android.vending";
 	private static final String INAPPB_ACT = INAPPB_PKG + ".billing.InAppBillingService.BIND";
@@ -67,7 +57,6 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 	private ServiceConnection serviceConnection;
 	private BroadcastReceiver receiver;
 	private IntentFilter intentFilter;
-	private Tracker tracker;
 	private boolean progress;
 
 	@Override
@@ -80,8 +69,6 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 		intentFilter = new IntentFilter();
 		intentFilter.addAction(getString(R.string.BEGIN_UPDATE));
 		intentFilter.addAction(getString(R.string.END_UPDATE));
-		tracker = GoogleAnalytics.getInstance(this).newTracker(R.xml.analytics);
-		tracker.enableAdvertisingIdCollection(true);
 		receiver = new UpdateReceiver();
 		if (Utility.getProviderTraffic(this).equals(getString(R.string.providerTrafficDefault)))
 			new SetupDialogFragment().show(getFragmentManager(), SetupDialogFragment.class.getSimpleName());
@@ -165,12 +152,7 @@ public class MainActivity extends DrawerActivity implements NavigationView.OnNav
 		}
 	}
 
-	public void sendEvent(String category, String action, String label) {
-		tracker.send(new HitBuilders.EventBuilder(category, action).setLabel(label).build());
-	}
-
 	public void launchPurchaseFlow(String sku) {
-		sendEvent(EVENT_CAT_IAB, EVENT_ACTION_LAUNCHPURCHASEFLOW, sku);
 		try {
 			Bundle buyIntentBundle = inAppBillingService.getBuyIntent(3, getPackageName(), sku, ITEM_TYPE_INAPP, "");
 			if (buyIntentBundle.getInt(RESPONSE_CODE) == 0)

@@ -29,13 +29,7 @@ public class WebviewFragment extends Fragment {
 		WebView webView = (WebView) inflater.inflate(R.layout.webview, container, false);
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.loadUrl(getArguments().getString(URL_KEY));
-		webView.setWebViewClient(new WebViewClient() {
-			@Override
-			public boolean shouldOverrideUrlLoading(WebView view, String url) {
-				view.loadUrl(url);
-				return false;
-			}
-		});
+		webView.setWebViewClient(new WebViewClient());
 		new AdManager().load(getActivity(), null, true);
 		return webView;
 	}
